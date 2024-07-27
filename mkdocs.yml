@@ -1,0 +1,50 @@
+site_name: Duolingo
+
+repo_name: '2024.1-Duolingo'
+repo_url: 'https://github.com/EhOMiguel/Prov-req'
+
+docs_dir: gitpages/docs
+
+theme:
+  name: material
+  language: pt-BR
+  font: 
+    text: Roboto
+  logo: assets/images/favicon.svg
+  favicon: assets/images/favicon.svg
+  palette:
+
+    # Paleta para o modo claro
+    - scheme: default
+      primary: green
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: Modo Escuro
+
+    # Paleta para o modo escuro
+    - scheme: slate
+      primary: green
+      accent: light-blue
+      toggle:
+        icon: material/brightness-3
+        name: Modo Claro
+
+nav: 
+  - Início: index.md
+  - Apresentações: apresentacoes.md
+  - Pré-Rastreabilidade:
+    - Rich Pictures: pre_rastreabilidade/richPictures.md
+    - Argumentações: pre_rastreabilidade/argumentacoes.md
+    - Cenários:
+      - Cenario1: pre_rastreabilidade/cenarios/c1.md 
+      - Cenario2: pre_rastreabilidade/cenarios/c2.md 
+    - Léxicos: pre_rastreabilidade/lexicos.md
+  # - Pós-Rastreabilidade:
+  # - Elicitação:
+  # - Modelagem:
+  # - Análise:
+
+icons:
+  - name: custom-favicon
+    src: .icons/favicon.svg
