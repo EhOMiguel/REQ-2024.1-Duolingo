@@ -4,7 +4,7 @@
 
 #### Noção
 
-- Quantidade de tentativas que um usuário tem para completar uma lição.
+- Quantidade de tentativas que um usuário tem para completar uma [lição](#licao).
 
 #### Impacto
 
@@ -116,7 +116,7 @@
 
 #### Noção
 
-- Sistema de contagem que registra os pontos acumulados pelo usuário ao completar lições e outras atividades.
+- Sistema de contagem que registra os pontos acumulados pelo usuário ao completar [lições](#licao) e outras atividades.
 
 #### Impacto
 
@@ -132,7 +132,7 @@
 
 #### Noção
 
-- Pessoa que tem uma [conta](#conta-usuario) no Duolingo e utiliza o aplicativo para aprender idiomas.
+- Pessoa que tem uma [conta](#conta) no Duolingo e utiliza o aplicativo para aprender idiomas.
 
 #### Impacto
 
@@ -164,7 +164,7 @@
 
 #### Noção
 
-- Ação de acessar uma [conta](#conta-usuario) existente no Duolingo.
+- Ação de acessar uma [conta](#conta) existente no Duolingo.
 
 #### Impacto
 
@@ -404,7 +404,7 @@
 
 #### Noção
 
-- Feedback dado pelos [usuários](#usuario) sobre lições, funcionalidades ou outros aspectos do Duolingo.
+- Feedback dado pelos [usuários](#usuario) sobre [lições](#licao), funcionalidades ou outros aspectos do Duolingo.
 
 #### Impacto
 
@@ -640,7 +640,7 @@
 
 ---
 
-### Recompensa (da missão)
+### Recompensa da Missão
 
 #### Noção
 
@@ -720,7 +720,7 @@
 
 ---
 
-### Posições (da Divisão)
+### Posições da Divisão
 
 #### Noção
 
