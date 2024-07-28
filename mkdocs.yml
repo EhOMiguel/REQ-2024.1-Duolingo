@@ -34,16 +34,21 @@ nav:
   - Início: index.md
   - Apresentações: apresentacoes.md
   - Pré-Rastreabilidade:
+    - Sobre: pre_rastreabilidade/index.md
+    - Mapa mental: pre_rastreabilidade/mapaMental.md
     - Rich Pictures: pre_rastreabilidade/richPictures.md
     - Argumentações: pre_rastreabilidade/argumentacoes.md
+    - Referências: pre_rastreabilidade/referencias.md
+  - Elicitação:
+    - Sobre: elicitacao/index.md
+    - Introspecção: elicitacao/introspeccao.md
+    - Resultado das técnicas de elicitação: elicitacao/result.md
+  - Modelagem:
+    - Sobre: modelagem/index.md
     - Cenários:
-      - Cenario1: pre_rastreabilidade/cenarios/c1.md 
-      - Cenario2: pre_rastreabilidade/cenarios/c2.md 
-    - Léxicos: pre_rastreabilidade/lexicos.md
-  # - Pós-Rastreabilidade:
-  # - Elicitação:
-  # - Modelagem:
-  # - Análise:
+      - Cenario1: modelagem/cenarios/c1.md 
+      - Cenario2: modelagem/cenarios/c2.md
+    - Léxicos: modelagem/lexicos.md
 
 icons:
   - name: custom-favicon
