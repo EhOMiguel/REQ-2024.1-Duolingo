@@ -32,7 +32,7 @@ theme:
 
 nav: 
   - Início: index.md
-  - Apresentações: apresentacoes.md
+  - Visão Geral: visao_geral.md
   - Pré-Rastreabilidade:
     - Sobre: pre_rastreabilidade/index.md
     - Mapa mental: pre_rastreabilidade/mapaMental.md
