@@ -11,4 +11,4 @@ A elaboração do mapa mental neste projeto visa compreender as funcionalidades 
 # Mapa Mental
 - Geral
 
-<img src="../assets/images/mapa-mental-geral.jpg">
+![geral](../assets/images/mapa-mental-geral.jpg)
