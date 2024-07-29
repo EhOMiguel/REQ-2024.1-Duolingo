@@ -51,6 +51,9 @@ nav:
       - Cenario2: modelagem/cenarios/c2.md
     - Léxicos: modelagem/lexicos.md
     - Referências: modelagem/referencias.md
+  - Atas de reunião: ata_reuniao/atas.md
+  - Pages:
+    - Introspecção - Vinícius: pages/introspeccao_Vinicius.md
 
 icons:
   - name: custom-favicon
