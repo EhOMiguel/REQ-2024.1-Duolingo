@@ -43,12 +43,14 @@ nav:
     - Sobre: elicitacao/index.md
     - Introspecção: elicitacao/introspeccao.md
     - Resultado das técnicas de elicitação: elicitacao/result.md
+    - Referências: elicitacao/referencias.md
   - Modelagem:
     - Sobre: modelagem/index.md
     - Cenários:
       - Cenario1: modelagem/cenarios/c1.md 
       - Cenario2: modelagem/cenarios/c2.md
     - Léxicos: modelagem/lexicos.md
+    - Referências: modelagem/referencias.md
 
 icons:
   - name: custom-favicon
