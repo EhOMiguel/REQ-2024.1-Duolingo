@@ -47,8 +47,11 @@ nav:
   - Modelagem:
     - Sobre: modelagem/index.md
     - Cenários:
-      - Cenario1: modelagem/cenarios/c1.md 
-      - Cenario2: modelagem/cenarios/c2.md
+      - Cenário1: modelagem/cenarios/primeiro_acesso.md 
+      - Cenário2: modelagem/cenarios/compartilhar_exercicio.md
+      - Cenário3: modelagem/cenarios/trocar_curso.md
+      - Cenário4: modelagem/cenarios/compartilhar_conquista.md
+      - Cenário5: modelagem/cenarios/compartilhar_perfil.md
     - Léxicos: modelagem/lexicos.md
     - Referências: modelagem/referencias.md
   - Atas de reunião: ata_reuniao/atas.md
