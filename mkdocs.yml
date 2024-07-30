@@ -32,7 +32,7 @@ theme:
 
 nav: 
   - Início: index.md
-  - Apresentações: apresentacoes.md
+  - Visão Geral: visao_geral.md
   - Pré-Rastreabilidade:
     - Sobre: pre_rastreabilidade/index.md
     - Mapa mental: pre_rastreabilidade/mapaMental.md
@@ -43,12 +43,20 @@ nav:
     - Sobre: elicitacao/index.md
     - Introspecção: elicitacao/introspeccao.md
     - Resultado das técnicas de elicitação: elicitacao/result.md
+    - Referências: elicitacao/referencias.md
   - Modelagem:
     - Sobre: modelagem/index.md
     - Cenários:
-      - Cenario1: modelagem/cenarios/c1.md 
-      - Cenario2: modelagem/cenarios/c2.md
+      - Cenário1: modelagem/cenarios/primeiro_acesso.md 
+      - Cenário2: modelagem/cenarios/compartilhar_exercicio.md
+      - Cenário3: modelagem/cenarios/trocar_curso.md
+      - Cenário4: modelagem/cenarios/compartilhar_conquista.md
+      - Cenário5: modelagem/cenarios/compartilhar_perfil.md
     - Léxicos: modelagem/lexicos.md
+    - Referências: modelagem/referencias.md
+  - Atas de reunião: ata_reuniao/atas.md
+  - Pages:
+    - Introspecção - Vinícius: pages/introspeccao_Vinicius.md
 
 icons:
   - name: custom-favicon
