@@ -11,7 +11,7 @@ A realização da introspecção neste projeto visa compreender as funcionalidad
 
 # Introspecção
 <!-- - [Introspecção feita por Arthur Carneiro](./introspeccaoIndividual/introspeccao_arthur.md) -->
-<!-- - [Introspecção feita por Bruno Ricardo](./introspeccaoIndividual/introspeccao_bruno.md) -->
+- [Introspecção feita por Bruno Ricardo](./introspeccaoIndividual/introspeccao_bruno.md)
 <!-- - [Introspecção feita por Felipe de Oliveira](./introspeccaoIndividual/introspeccao_felipe.md) -->
 - [Introspecção feita por Gabriela Tiago](./introspeccaoIndividual/introspeccao_gabriela.md)
 - [Introspecção feita por Miguel Moreira](./introspeccaoIndividual/introspeccao_miguel.md)
