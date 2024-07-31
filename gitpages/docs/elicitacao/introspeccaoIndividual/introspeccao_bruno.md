@@ -1,6 +1,6 @@
 # Introspecção feita por Bruno Ricardo
 
-## Sem a aplicação
+## Antes de Usar a Aplicação
 
 - O usuário deve poder realizar cadastro.
 - O usuário deve poder fazer login.
@@ -14,7 +14,7 @@
 - O usuário deve poder verificar o número de acertos e erros dos exercícios.
 - O usuário deve poder redefinir os dados da sua conta.
 
-## Com a aplicação
+## Depois de Usar a Aplicação
 
 - O usuário pode acessar a plataforma sem um cadastro.
 - O usuário deve ser submetido a uma pesquisa de campo antes de iniciar a plataforma.
@@ -26,7 +26,7 @@
 - O usuário deve poder habilitar/desabilitar os efeitos sonoros, animações, mensagens motivacionais, exercícios de escuta, modo escuro, perfil público e anúncios personalizados.
 - O usuário deve ter acesso a um FAQ.
 
-## GAMIFICAÇÃO
+## Gamificação
 
 - O usuário deve participar de uma gamificação.
 - O usuário deve ganhar XP ao final de cada lição.

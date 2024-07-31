@@ -72,3 +72,6 @@ nav:
 
 extra_javascript:
   - js/custom.js
+
+extra_css:
+  - css/custom.css

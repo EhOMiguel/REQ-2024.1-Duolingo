@@ -1,0 +1,23 @@
+.container-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.membro-equipe {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    max-width: 200px;
+    margin: 20px;
+}
+
+.membro-equipe img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.membro-equipe .matricula {
+    font-size: 12px;
+}

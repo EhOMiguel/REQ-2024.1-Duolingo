@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Verifica se o botão de modo escuro está visível ou oculto
         if (darkModeButton && darkModeButton.offsetParent !== null) {
             // Se o botão de modo escuro está visível, o tema claro está ativo
-            logo.src = "/assets/icons/logo_dark.svg";
+            logo.src = "./assets/icons/logo_dark.svg";
         } else {
             // Se o botão de modo escuro está oculto, o tema escuro está ativo
-            logo.src = "/assets/icons/logo_light.svg";
+            logo.src = "./assets/icons/logo_light.svg";
         }
     }
     updateLogo();
