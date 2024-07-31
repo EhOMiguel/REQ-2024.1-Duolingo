@@ -13,7 +13,7 @@ A introspecção é uma técnica de elicitação que pode ser realizada por qual
 A realização da introspecção neste projeto visa compreender as funcionalidades e o funcionamento dos requisitos oferecidos pelo Duolingo ao usuário.
 
 # Introspecção
-<!-- - [Introspecção feita por Arthur Carneiro](./introspeccaoIndividual/introspeccao_arthur.md) -->
+- [Introspecção feita por Arthur Carneiro](./introspeccaoIndividual/introspeccao_arthur.md)
 - [Introspecção feita por Bruno Ricardo](./introspeccaoIndividual/introspeccao_bruno.md)
 <!-- - [Introspecção feita por Felipe de Oliveira](./introspeccaoIndividual/introspeccao_felipe.md) -->
 - [Introspecção feita por Gabriela Tiago](./introspeccaoIndividual/introspeccao_gabriela.md)
