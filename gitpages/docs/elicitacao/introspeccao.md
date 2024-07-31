@@ -9,6 +9,7 @@ A introspecção é uma técnica de elicitação que pode ser realizada por qual
 A realização da introspecção neste projeto visa compreender as funcionalidades e o funcionamento dos requisitos oferecidos pelo Duolingo ao usuário.
 
 ## Introspecções Individuais
+
 - [Introspecção feita por Arthur Carneiro](./introspeccaoIndividual/introspeccao_arthur.md)
 - [Introspecção feita por Bruno Ricardo](./introspeccaoIndividual/introspeccao_bruno.md)
 - [Introspecção feita por Felipe de Oliveira](./introspeccaoIndividual/instrospeccao_felipe.md)
@@ -17,13 +18,15 @@ A realização da introspecção neste projeto visa compreender as funcionalidad
 - [Introspecção feita por Vinícius de Oliveira](./introspeccaoIndividual/introspeccao_Vinicius.md)
   
 ## Introspecção - Resultado
+
 - [Resultado da introspecção](./introspeccaoIndividual/introspeccao_resultado.md)
 
 ## Histórico de Versão
+
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 29/07/2024 | 1.0 | Adicionando a introspecção individual (Vinícius) | Vinícius de Oliveira |
 | 30/07/2024 | 1.1 | Adicionando a introspecção individual (Miguel e Gabriela) | Miguel Moreira |
-| 30/07/2024 | 1.3 | Adicionando a introspecção individual (Arthur) | Arthur Trindade |
-| 30/07/2024 | 1.4 | Adicionando a introspecção individual (Bruno) | Bruno Ricardo |
-| 31/07/2024 | 1.5 | Adicionando o resultado da introspecção | Vinícius de Oliveira |
+| 30/07/2024 | 1.2 | Adicionando a introspecção individual (Arthur) | Arthur Trindade |
+| 30/07/2024 | 1.3 | Adicionando a introspecção individual (Bruno) | Bruno Ricardo |
+| 31/07/2024 | 1.4 | Adicionando o resultado da introspecção | Vinícius de Oliveira |

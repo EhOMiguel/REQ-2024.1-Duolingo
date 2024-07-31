@@ -84,6 +84,7 @@
 | 10 | Oferecer cosméticos e opções de personalização para destacar o perfil do usuário | Introspecção |
 
 ## Histórico de Versão
+
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 31/07/2024 | 1.0 | Adicionando requisitos funcionáis e não funcionáis | Vinícius de Oliveira |
