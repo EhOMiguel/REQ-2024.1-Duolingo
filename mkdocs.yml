@@ -1,7 +1,7 @@
-site_name: Duolingo
+site_name: REQ-2024.1-Duolingo
 
-repo_name: '2024.1-Duolingo'
-repo_url: 'https://github.com/EhOMiguel/Prov-req'
+repo_name: 'REQ-2024.1-Duolingo'
+repo_url: 'https://github.com/EhOMiguel/REQ-2024.1-Duolingo'
 
 docs_dir: gitpages/docs
 
@@ -41,22 +41,34 @@ nav:
     - Referências: pre_rastreabilidade/referencias.md
   - Elicitação:
     - Sobre: elicitacao/index.md
-    - Introspecção: elicitacao/introspeccao.md
+    - Introspecção:
+      - Geral: elicitacao/introspeccao.md
+      - Individual:
+        # - Arthur: elicitacao/introspeccaoIndividual/introspeccao_arthur.md
+        # - Bruno: elicitacao/introspeccaoIndividual/introspeccao_bruno.md
+        # - Felipe: elicitacao/introspeccaoIndividual/introspeccao_felipe.md
+        - Gabriela: elicitacao/introspeccaoIndividual/introspeccao_gabriela.md
+        - Miguel: elicitacao/introspeccaoIndividual/introspeccao_miguel.md
+        - Vinícius : elicitacao/introspeccaoIndividual/introspeccao_Vinicius.md
     - Resultado das técnicas de elicitação: elicitacao/result.md
     - Referências: elicitacao/referencias.md
   - Modelagem:
     - Sobre: modelagem/index.md
     - Cenários:
-      - Cenário1: modelagem/cenarios/primeiro_acesso.md 
-      - Cenário2: modelagem/cenarios/compartilhar_exercicio.md
-      - Cenário3: modelagem/cenarios/trocar_curso.md
-      - Cenário4: modelagem/cenarios/compartilhar_conquista.md
-      - Cenário5: modelagem/cenarios/compartilhar_perfil.md
+      - Compartilhar Conquista: modelagem/cenarios/compartilhar_conquista.md
+      - Compartilhar Exercício: modelagem/cenarios/compartilhar_exercicio.md
+      - Compartilhar Perfil: modelagem/cenarios/compartilhar_perfil.md
+      - Configuração Cursos: modelagem/cenarios/configuracao_cursos.md
+      - Configuração Notificações: modelagem/cenarios/configuracao_notificacoes.md
+      - Configuração Perfil: modelagem/cenarios/configuracao_perfil.md
+      - Configuração Preferências: modelagem/cenarios/configuracao_preferencias.md
+      - Configurações: modelagem/cenarios/configuracoes.md
+      - Primeiro Acesso: modelagem/cenarios/primeiro_acesso.md
+      - Progresso Semanal: modelagem/cenarios/progresso_semanal.md
+      - Trocar Curso: modelagem/cenarios/trocar_curso.md
     - Léxicos: modelagem/lexicos.md
     - Referências: modelagem/referencias.md
   - Atas de reunião: ata_reuniao/atas.md
-  - Pages:
-    - Introspecção - Vinícius: pages/introspeccao_Vinicius.md
 
 icons:
   - name: custom-favicon
