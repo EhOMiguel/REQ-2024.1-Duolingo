@@ -67,6 +67,10 @@ nav:
       - Primeiro Acesso: modelagem/cenarios/primeiro_acesso.md
       - Progresso Semanal: modelagem/cenarios/progresso_semanal.md
       - Trocar Curso: modelagem/cenarios/trocar_curso.md
+      - Configuração Duolingo for school: modelagem/cenarios/configiuracao_duoForSchools.md
+      - Configuração Central de ajuda: modelagem/cenarios/configuracao_CentralAjuda.md
+      - Configuração Privacidade: modelagem/cenarios/configuracao_privacidade.md
+      - Reportar Problema: modelagem/cenarios/reportar_problema.md
     - Léxicos: modelagem/lexicos.md
     - Referências: modelagem/referencias.md
   - Atas de reunião: ata_reuniao/atas.md
