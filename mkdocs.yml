@@ -1,7 +1,7 @@
-site_name: Duolingo
+site_name: REQ-2024.1-Duolingo
 
-repo_name: '2024.1-Duolingo'
-repo_url: 'https://github.com/EhOMiguel/Prov-req'
+repo_name: 'REQ-2024.1-Duolingo'
+repo_url: 'https://github.com/EhOMiguel/REQ-2024.1-Duolingo'
 
 docs_dir: gitpages/docs
 
