@@ -1,6 +1,6 @@
 # Introspecção feita por Gabriela Tiago
 
-## Sem a aplicação
+## Antes de Usar a Aplicação
 
 -   O usuário deve ser capaz de criar uma conta;
 -   O usuário deve ser capaz de criar uma conta com o Google;
@@ -19,7 +19,7 @@
 -   O usuário deve ser capaz de adicionar amigos;
 -   O usuário deve ser capaz de visualizar o perfil de outro usuário;
 
-## Com a aplicação
+## Depois de Usar a Aplicação
 
 -   O usuário deve ser capaz de criar uma conta com a Apple;
 -   O sistema deve mostrar um guia mostrando o que o usuário irá aprender na unidade;

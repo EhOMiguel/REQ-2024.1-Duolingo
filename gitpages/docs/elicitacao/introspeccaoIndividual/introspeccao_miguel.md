@@ -1,6 +1,6 @@
 # Introspecção feita por Miguel Moreira
 
-## Sem a aplicação
+## Antes de Usar a Aplicação
 
 - O usuário deve ser capaz de acessar o site do Duolingo;
 - O usuário deve ser capaz de visualizar informações sobre a plataforma;
@@ -16,7 +16,7 @@
 - O usuário deve ser capaz de acompanhar seu progresso manualmente;
 - O usuário deve ser capaz de manter uma rotina de estudo usando métodos tradicionais.
 
-## Com a aplicação
+## Depois de Usar a Aplicação
 
 - O sistema deve permitir que o usuário personalize seu perfil com uma foto e informações pessoais;
 - O sistema deve fornecer um teste de nivelamento para avaliar o conhecimento prévio do usuário no idioma escolhido;
