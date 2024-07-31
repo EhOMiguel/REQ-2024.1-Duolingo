@@ -44,12 +44,12 @@ nav:
     - Introspecção:
       - Geral: elicitacao/introspeccao.md
       - Individual:
-        # - Arthur: elicitacao/introspeccaoIndividual/introspeccao_arthur.md
+        - Arthur: elicitacao/introspeccaoIndividual/introspeccao_arthur.md
         # - Bruno: elicitacao/introspeccaoIndividual/introspeccao_bruno.md
         # - Felipe: elicitacao/introspeccaoIndividual/introspeccao_felipe.md
         - Gabriela: elicitacao/introspeccaoIndividual/introspeccao_gabriela.md
         - Miguel: elicitacao/introspeccaoIndividual/introspeccao_miguel.md
-        - Vinícius : elicitacao/introspeccaoIndividual/introspeccao_Vinicius.md
+        - Vinícius : elicitacao/introspeccaoIndividual/introspeccao_vinicius.md
     - Resultado das técnicas de elicitação: elicitacao/result.md
     - Referências: elicitacao/referencias.md
   - Modelagem:

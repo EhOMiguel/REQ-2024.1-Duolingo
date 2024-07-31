@@ -1,6 +1,7 @@
 # Introspecção feita por Vinícius de Oliveira
 
-## Sem a aplicação:
+## Antes de Usar a Aplicação
+
 - O usuário deve ser capaz de efetuar um login;
 - O usuário deve conseguir editar o seu perfil;
 - O usuário deve ser capaz de resolver exercícios;
@@ -21,7 +22,8 @@
 - O sistema deve oferecer diferentes métodos de pagamento para obtenção do super duolingo;
 - O sistema deve exibir a porcentagem e o tempo gasto nos exercícios;
 
-## Com a aplicação:
+## Depois de Usar a Aplicação
+
 - O sistema deve mostrar um guia da respectiva unidade;
 - O sistema deve dividir o curso em seções e unidades;
 - O sistema deve atualizar o streak do usuário;
