@@ -1,7 +1,7 @@
 # Argumentação
 
 ## Introdução
-A argumentação é uma técnica de pré-rastreabilidade amplamente utilizada em atividades em grupo. Seu objetivo é permitir que diferentes pontos de vista sejam ouvidos e debatidos, para que, ao final, se alcance um consenso e uma conclusão racional.
+A <strong>argumentação</strong> é uma técnica de pré-rastreabilidade amplamente utilizada em atividades em grupo. Seu objetivo é permitir que diferentes pontos de vista sejam ouvidos e debatidos, para que, ao final, se alcance um consenso e uma conclusão racional.
 
 ## Objetivo
 O uso da argumentação neste projeto busca promover a resolução de pontos de vista conflitantes, permitindo a rastreabilidade de todos os argumentos levantados.

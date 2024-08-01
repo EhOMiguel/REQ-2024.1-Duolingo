@@ -2,7 +2,7 @@
 
 <img style="width: 100%; max-width: 350px; margin: 20px auto; display: block;" src="assets/images/duolingo.svg" alt="Imagem ilustrativa do projeto">
 
-Este projeto tem como objetivo levantar os requisitos de software do aplicativo Duolingo, uma plataforma de aprendizado de idiomas amplamente utilizada. O projeto foi desenvolvido no contexto da disciplina de Requisitos de Software, da Universidade de Brasília e tem como foco aplicar os conceitos, métodos, técnicas e modelos da engenharia de requisitos no contexto do aplicativo.
+Este projeto tem como objetivo levantar os requisitos de software do aplicativo [Duolingo](./modelagem/lexicos.md#duolingo), uma plataforma de aprendizado de idiomas amplamente utilizada. O projeto foi desenvolvido no contexto da disciplina de Requisitos de Software, da Universidade de Brasília e tem como foco aplicar os conceitos, métodos, técnicas e modelos da engenharia de requisitos no contexto do aplicativo.
 
 ## Equipe
 

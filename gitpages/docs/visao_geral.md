@@ -1,7 +1,7 @@
 # Duolingo
 
 ## Visão Geral
-Duolingo é uma plataforma online e gratuita, disponível para web e dispositivos móveis, focada no aprendizado de idiomas. Utiliza exercícios rápidos e curtos para melhorar a compreensão do conteúdo transmitido. A aplicação adota metodologias baseadas na ciência para otimizar a forma como o conteúdo é disponibilizado, tornando os cursos eficazes para leitura, escrita, fala e escuta. Além disso, utiliza a gamificação para manter o usuário ativo na plataforma e usa inteligência artificial para fornecer o nível e ritmo corretos para cada usuário.
+[Duolingo](./modelagem/lexicos.md#duolingo) é uma plataforma online e gratuita, disponível para web e dispositivos móveis, focada no aprendizado de idiomas. Utiliza exercícios rápidos e curtos para melhorar a compreensão do conteúdo transmitido. A aplicação adota metodologias baseadas na ciência para otimizar a forma como o conteúdo é disponibilizado, tornando os [cursos](./modelagem/lexicos.md#cursos) eficazes para leitura, escrita, [fala](./modelagem/lexicos.md#falar) e escuta. Além disso, utiliza a gamificação para manter o [usuário](./modelagem/lexicos.md#usuario) ativo na plataforma e usa inteligência artificial para fornecer o nível e ritmo corretos para cada [usuário](./modelagem/lexicos.md#usuario).
 
 ## Pontos Fortes
 - Plataforma gratuita;
@@ -12,10 +12,10 @@ Duolingo é uma plataforma online e gratuita, disponível para web e dispositivo
 - Possibilidade de acesso em qualquer lugar que possua internet;
 
 ## Pontos Fracos
-- Vidas limitadas para a versão gratuita;
-- Exercícios repetitivos;
+- [Vidas](./modelagem/lexicos.md#vidas) limitadas para a versão gratuita;
+- [Lições](./modelagem/lexicos.md#lição) repetitivas;
 - Alguns idiomas só estão disponíveis para aprendizagem em um idioma específico;
-- Muitas notificações via email e push;
+- Muitas [notificações](./modelagem/lexicos.md#notificacoes) via email e push;
 
 ## Concorrentes
 - Escolas de idiomas física;
@@ -24,3 +24,4 @@ Duolingo é uma plataforma online e gratuita, disponível para web e dispositivo
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 29/07/2024 | 1.0 | Adição do documento de visão geral | Vinícius de Oliveira |
+| 01/08/2024 | 1.1 | Adição de links para léxicos | Arthur Trindade |

@@ -2,11 +2,11 @@
 
 ## Introdução
 
-Rich Picture é um artefato utilizado na fase de pré-rastreabilidade, podendo ser criado à mão ou com o auxílio de ferramentas digitais, de maneira semelhante ao mapa mental, para representar as ações internas e externas ao sistema, visando um melhor entendimento de cada situação. Esse artefato pode ser desenvolvido junto ao cliente, permitindo que ele compreenda o problema que está sendo representado.
+<strong>Rich Picture</strong> é um artefato utilizado na fase de pré-rastreabilidade, podendo ser criado à mão ou com o auxílio de ferramentas digitais, de maneira semelhante ao mapa mental, para representar as ações internas e externas ao sistema, visando um melhor entendimento de cada situação. Esse artefato pode ser desenvolvido junto ao cliente, permitindo que ele compreenda o problema que está sendo representado.
 
 ## Objetivo
 
-A elaboração do Rich Picture neste projeto visa compreender as ações internas e externas ao sistema oferecidos pelo Duolingo.
+A elaboração do Rich Picture neste projeto visa compreender as ações internas e externas ao sistema oferecidos pelo [Duolingo](../modelagem/lexicos.md#duolingo).
 
 ## Rich Pictures Desenvolvidos
 
@@ -14,13 +14,13 @@ A elaboração do Rich Picture neste projeto visa compreender as ações interna
 
 ![Rich_picture_geral](../assets/images/richpicture_geral.jpeg)
 
-### Perfil
+<!-- ### Perfil -->
 
 <!-- ![Rich_picture_perfil](../assets/images/) -->
 
 ### Gamificação
   
-![Rich_picture_gamificacao](../assets/images/richpicture_geral_gamificacao.jpeg)
+![Rich_picture_gamificacao](../assets/images/richpicture_geral_gamificacao.jpg)
 
 ---
 
@@ -29,3 +29,4 @@ A elaboração do Rich Picture neste projeto visa compreender as ações interna
 | ---- | ------ | --------- | --------- |
 | 29/07/2024 | 1.0 | Adicionando o RichPicture geral | Vinícius de Oliveira |
 | 31/07/2024 | 1.1 | Adicionando o RichPicture geral da gamificação | Bruno Ricardo |
+| 01/08/2024 | 1.2 | Adição de links para léxicos | Arthur Trindade |
