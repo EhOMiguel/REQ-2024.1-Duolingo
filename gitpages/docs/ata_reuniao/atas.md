@@ -4,7 +4,15 @@ Aqui você encontrará os registros das nossas discussões, decisões e tarefas 
 
 ## Atas de Reuniões
 
-- [Ata - 24/07/2024](atas/ata1.md)
-- [Ata - 25/07/2024](atas/ata2.md)
-- [Ata - 29/07/2024](atas/ata3.md)
+- [Ata 1 - 24/07/2024](atas/ata1.md)
+- [Ata 2 - 25/07/2024](atas/ata2.md)
+- [Ata 3 - 29/07/2024](atas/ata3.md)
 <!-- - [Ata - DD/MM/AAAA](atas/atax.md) -->
+
+## Histórico de Versão
+
+| Data | Versão | Descrição | Autor(es) |
+| ---- | ------ | --------- | --------- |
+| 01/08/2024 | 1.0 | Adição da ata 1  | Bruno Ricardo |
+| 01/08/2024 | 1.1 | Adição da ata 2 | Bruno Ricardo |
+| 01/08/2024 | 1.2 | Adição da ata 3 | Bruno Ricardo |
