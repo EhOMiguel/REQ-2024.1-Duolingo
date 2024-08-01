@@ -1,35 +1,45 @@
-# Introspecção feita por Vinícius de Oliveira
+# Introspecção feita por Bruno Ricardo
 
 ## Antes de Usar a Aplicação
 
-- O usuário deve ser capaz de efetuar um login;
-- O usuário deve conseguir editar o seu perfil;
-- O usuário deve ser capaz de resolver exercícios;
-- O usuário deve ser capaz de acessar a mesma conta em dispositivos diferentes;
-- O usuário deve ser capaz de alterar o idioma que deseja aprender;
-- O usuário deve conseguir revisar os exercícios errados;
-- O usuário deve visualizar o seu progresso no idioma selecionado;
-- O usuário deve conseguir compartilhar o seu progresso;
-- Deve ser possível visualizar o rank que o usuário está;
-- Deve ser possível visualizar a liga que o usuário está;
-- Deve ser possível compartilhar a liga ou o rank que o usuário está;
-- Deve ser possível visualizar o perfil de outro usuário;
-- Deve ser possível adicionar outro usuário como amigo no aplicativo;
-- Deve ser possível comprar mais vidas;
-- Deve ser possível visualizar o streak pessoal e de outra pessoa;
-- O sistema deve ser capaz de forcecer exercícios correspondente ao nível e ao idioma do usuário;
-- O sistema deve notificar o usuário por email ou push para que ele não perca o streak;
-- O sistema deve oferecer diferentes métodos de pagamento para obtenção do super duolingo;
-- O sistema deve exibir a porcentagem e o tempo gasto nos exercícios;
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder realizar [cadastro](../../modelagem/lexicos.md#inscricao).
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder fazer [login](../../modelagem/lexicos.md#login).
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder escolher uma língua para praticar.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder trocar a língua que irá praticar.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ser submetido a um [nivelamento](../../modelagem/lexicos.md#nivel) antes de começar a plataforma.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter a opção de um tutorial da plataforma.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder fazer exercícios.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter acesso aos gabaritos.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter conteúdos e dicas para visualizar.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder verificar o número de acertos e erros dos exercícios.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder redefinir os dados da sua [conta](../../modelagem/lexicos.md#conta).
 
 ## Depois de Usar a Aplicação
 
-- O sistema deve mostrar um guia da respectiva unidade;
-- O sistema deve dividir o curso em seções e unidades;
-- O sistema deve atualizar o streak do usuário;
-- O usuário deve ganhar cristais ao concluir uma atividade;
-- O usuário deve ser capaz de usar os cristais na loja;
-- O sistema deve forcer itens compráveis com cristais na loja;
-- O sistema deve dar a possibilidade do usuário poder pular uma unidade ou seção;
-- O sistema deve dar a possibilidade do usuário pular exercícios com aúdio ou fala;
-- O sistema deve exibir as conquistas de cada usuário
+- O [usuário](../../modelagem/lexicos.md#usuario) pode acessar a plataforma sem um [cadastro](../../modelagem/lexicos.md#inscricao).
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ser submetido a uma pesquisa de campo antes de iniciar a plataforma.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve participar de [lições](../../modelagem/lexicos.md#licao) que terão exercícios.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter a possibilidade de praticar exercícios variados, como listening, speaking e vocabulary.
+- O [usuário](../../modelagem/lexicos.md#usuario) não deve ser obrigado a praticar os exercícios de listening e speaking.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter a opção de revisar a [lição](../../modelagem/lexicos.md#licao) ao final de cada.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve entender as vantagens de criar um [perfil](../../modelagem/lexicos.md#conta).
+- O [usuário](../../modelagem/lexicos.md#usuario) deve poder habilitar/desabilitar os efeitos sonoros, animações, mensagens motivacionais, exercícios de escuta, modo escuro, [perfil](../../modelagem/lexicos.md#conta) público e anúncios personalizados.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter acesso a um [FAQ](../../modelagem/lexicos.md#ajuda).
+
+## Gamificação
+
+- O [usuário](../../modelagem/lexicos.md#usuario) deve participar de uma gamificação.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ganhar [XP](../../modelagem/lexicos.md#xp) ao final de cada [lição](../../modelagem/lexicos.md#licao).
+- Ao bater a meta diária, o [usuário](../../modelagem/lexicos.md#usuario) deve ganhar um prêmio. ([Cristais](../../modelagem/lexicos.md#cristais))
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ser incentivado a praticar todos os dias.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter um "tutorial" da gamificação.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter a opção de entender os termos da gamificação. ("O que é [ofensiva](../../modelagem/lexicos.md#ofensiva)?", "Para que serve os [cristais](../../modelagem/lexicos.md#cristais)?", "Para que ser os corações de [vida](../../modelagem/lexicos.md#vidas)?") meta [ofensiva](../../modelagem/lexicos.md#ofensiva) -> quantidade de vezes que o [usuário](../../modelagem/lexicos.md#usuario) praticou sem perder um dia
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter a opção de escolher sua meta [ofensiva](../../modelagem/lexicos.md#ofensiva).
+ A meta [ofensiva](../../modelagem/lexicos.md#ofensiva) deve ser dividida em 4 opções, sendo elas:
+  - 3 dias (Primeiros passos)
+  - 7 dias (No rumo certo)
+  - 14 dias (Firme e forte)
+  - 30 dias (Maratonista)
+- O [usuário](../../modelagem/lexicos.md#usuario) deve visualizar seus atributos, como [cristais](../../modelagem/lexicos.md#cristais), meta [ofensiva](../../modelagem/lexicos.md#ofensiva) e pontos de [vida](../../modelagem/lexicos.md#vidas).
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter a possibilidade de participar de uma [liga](../../modelagem/lexicos.md#divisao) após cumprir os requisitos de participação.
+- O [usuário](../../modelagem/lexicos.md#usuario) deve ter suas [missões](../../modelagem/lexicos.md#missao) a serem cumpridas que geram uma [recompensa](../../modelagem/lexicos.md#recompensa) ao concluí-las.
