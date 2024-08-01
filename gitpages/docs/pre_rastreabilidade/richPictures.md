@@ -25,6 +25,7 @@ A elaboração do Rich Picture neste projeto visa compreender as ações interna
 ---
 
 ## Histórico de Versão
+
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 29/07/2024 | 1.0 | Adicionando o RichPicture geral | Vinícius de Oliveira |
