@@ -1,6 +1,6 @@
 # Ata da Reunião
 
-**Data:** 24/08/2024  
+**Data:** 24/07/2024  
 **Horário de Início:** 19:00  
 **Horário de Término:** 20:00  
 **Local:** Remota através do Discord
@@ -38,4 +38,4 @@
 
 ## Encaminhamentos e Tarefas
 
-- **Encaminhamento 1:** Ficou decidido que, na próxima reunião, as equipes serão divididas para a produção dos artefatos.
+- **Encaminhamento 1:** Ficou decidido que, na próxima reunião, a equipe será dividida para a produção dos artefatos.
