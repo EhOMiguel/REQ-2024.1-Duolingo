@@ -4,17 +4,17 @@
 | ------ | --------- | ------- |
 | 01 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de efetuar um [login](../modelagem/lexicos.md#login) | Introspecção |
 | 02 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar o seu [perfil](../modelagem/lexicos.md#conta) | Introspecção |
-| 03 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de resolver [exercícios](../modelagem/lexicos.md#licao) do idioma escolhido | Introspecção |
+| 03 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de resolver [exercícios](../modelagem/lexicos.md#licao) do [idioma](../modelagem/lexicos.md#cursos) escolhido | Introspecção |
 | 04 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acessar a mesma [conta](../modelagem/lexicos.md#conta) em dispositivos diferentes | Introspecção |
 | 05 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de alterar o [idioma](../modelagem/lexicos.md#cursos) que deseja aprender | Introspecção |
-| 06 | O [usuário](../modelagem/lexicos.md#usuario) deve conseguir revisar os [exercícios](../modelagem/lexicos.md#licao) errados | Introspecção |
+| 06 | O [usuário](../modelagem/lexicos.md#usuario) deve conseguir [revisar](../modelagem/lexicos.md#revisar-licao) os [exercícios](../modelagem/lexicos.md#licao) errados | Introspecção |
 | 07 | O [usuário](../modelagem/lexicos.md#usuario) deve visualizar o seu progresso no [idioma](../modelagem/lexicos.md#cursos) selecionado | Introspecção |
 | 08 | O [usuário](../modelagem/lexicos.md#usuario) deve conseguir [compartilhar](../modelagem/lexicos.md#compartilhar) o seu progresso | Introspecção |
 | 09 | Deve ser possível visualizar o [rank](../modelagem/lexicos.md#ranking) do [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
 | 10 | Deve ser possível visualizar a [liga](../modelagem/lexicos.md#divisao) do [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
 | 11 | Deve ser possível [compartilhar](../modelagem/lexicos.md#compartilhar) a [liga](../modelagem/lexicos.md#divisao) ou o [rank](../modelagem/lexicos.md#ranking) do [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
 | 12 | Deve ser possível visualizar o [perfil](../modelagem/lexicos.md#conta) de outro [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
-| 13 | Deve ser possível adicionar outro [usuário](../modelagem/lexicos.md#usuario) como amigo no aplicativo | Introspecção |
+| 13 | Deve ser possível adicionar outro [usuário](../modelagem/lexicos.md#usuario) como [amigo](../modelagem/lexicos.md#seguidores) no aplicativo | Introspecção |
 | 14 | Deve ser possível comprar mais [vidas](../modelagem/lexicos.md#vidas) | Introspecção |
 | 15 | Deve ser possível visualizar o [streak](../modelagem/lexicos.md#ofensiva) pessoal e de outra pessoa | Introspecção |
 | 16 | O sistema deve ser capaz de fornecer [exercícios](../modelagem/lexicos.md#licao) correspondentes ao nível e ao [idioma](../modelagem/lexicos.md#cursos) do [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
@@ -29,13 +29,13 @@
 | 25 | O sistema deve exibir as [conquistas](../modelagem/lexicos.md#conquistas) de cada [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
 | 26 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de recuperar sua senha | Introspecção |
 | 27 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar as opções de [idiomas](../modelagem/lexicos.md#cursos) disponíveis | Introspecção |
-| 28 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acessar o site do Duolingo | Introspecção |
+| 28 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acessar o site do [Duolingo](../modelagem/lexicos.md#duolingo) | Introspecção |
 | 29 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar informações sobre a plataforma | Introspecção |
 | 30 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) | Introspecção |
 | 31 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar o conteúdo do [curso](../modelagem/lexicos.md#cursos) antes de iniciar | Introspecção |
 | 32 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acessar material didático e [exercícios](../modelagem/lexicos.md#licao) básicos | Introspecção |
 | 33 | O sistema deve apresentar [exercícios](../modelagem/lexicos.md#licao) interativos e dinâmicos | Introspecção |
-| 34 | O sistema deve incluir uma variedade de [exercícios](../modelagem/lexicos.md#licao), como traduções, preenchimento de lacunas, e [exercícios](../modelagem/lexicos.md#licao) de escuta | Introspecção |
+| 34 | O sistema deve incluir uma variedade de [exercícios](../modelagem/lexicos.md#licao), como [traduções](../modelagem/lexicos.md#traduzir-licao), preenchimento de lacunas, e [exercícios](../modelagem/lexicos.md#licao) de escuta | Introspecção |
 | 35 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) revise [lições](../modelagem/lexicos.md#licao) passadas e reforce o conhecimento adquirido | Introspecção |
 | 36 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acompanhar seu progresso manualmente | Introspecção |
 | 37 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de manter uma rotina de estudo usando métodos tradicionais | Introspecção |
@@ -48,7 +48,7 @@
 | 44 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar a quantidade de [vidas](../modelagem/lexicos.md#vidas) disponíveis | Introspecção |
 | 45 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) com a Apple | Introspecção |
 | 46 | O sistema deve mostrar um guia mostrando o que o [usuário](../modelagem/lexicos.md#usuario) irá aprender na [unidade](../modelagem/lexicos.md#unidade) | Introspecção |
-| 47 | O sistema deve mostrar a tradução de algumas palavras | Introspecção |
+| 47 | O sistema deve mostrar a [tradução](../modelagem/lexicos.md#traduzir-licao) de algumas palavras | Introspecção |
 | 48 | O sistema deve mostrar a pronúncia de algumas palavras | Introspecção |
 | 49 | Poder utilizar a plataforma sem pagar | Introspecção |
 | 50 | Poder saber o [nível](../modelagem/lexicos.md#nivel) atual de conhecimento | Introspecção |
@@ -56,12 +56,12 @@
 | 52 | Poder fazer uma [lição](../modelagem/lexicos.md#licao) com um nível mais difícil após completá-la | Introspecção |
 | 53 | Poder completar [missões](../modelagem/lexicos.md#missao) diárias | Introspecção |
 | 54 | Poder configurar algumas [acessibilidades](../modelagem/lexicos.md#preferencias) e opções | Introspecção |
-| 55 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de escolher sua meta [ofensiva](../modelagem/lexicos.md#ofensiva) | Introspecção |
+| 55 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de escolher sua [meta](../modelagem/lexicos.md#meta) de [ofensiva](../modelagem/lexicos.md#ofensiva)| Introspecção |
 | 56 | O sistema deve fornecer um teste de nivelamento para avaliar o conhecimento prévio do [usuário](../modelagem/lexicos.md#usuario) no [idioma](../modelagem/lexicos.md#cursos) escolhido | Introspecção |
 | 57 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de um tutorial da plataforma | Introspecção |
 | 58 | O [usuário](../modelagem/lexicos.md#usuario) deve poder verificar o número de acertos e erros dos [exercícios](../modelagem/lexicos.md#licao) | Introspecção |
 | 59 | O [usuário](../modelagem/lexicos.md#usuario) pode acessar a plataforma sem um cadastro | Introspecção |
-| 60 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a possibilidade de praticar [exercícios](../modelagem/lexicos.md#licao) variados, como listening, speaking e vocabulary | Introspecção |
+| 60 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a possibilidade de praticar [exercícios](../modelagem/lexicos.md#licao) variados, como de escuta, fala e vocabulário | Introspecção |
 | 61 | Incluir exemplos práticos e situações reais, como trechos de filmes ou séries, para contextualizar o aprendizado | Introspecção |
 | 62 | Permitir que os [usuários](../modelagem/lexicos.md#usuario) escolham tópicos específicos ou [lições](../modelagem/lexicos.md#licao) com base em seus interesses | Introspecção |
 | 63 | Permitir a criação de grupos de conversação para prática de [idiomas](../modelagem/lexicos.md#cursos) | Introspecção |
@@ -72,9 +72,9 @@
 
 | Número | Requisito | Técnica |
 | ------ | --------- | ------- |
-| 01 | O sistema deve notificar o [usuário](../modelagem/lexicos.md#usuario) por email ou push para que ele não perca o [streak](../modelagem/lexicos.md#ofensiva) | Introspecção |
+| 01 | O sistema deve [notificar](../modelagem/lexicos.md#notificacoes) o [usuário](../modelagem/lexicos.md#usuario) por email ou push para que ele não perca o [streak](../modelagem/lexicos.md#ofensiva) | Introspecção |
 | 02 | O sistema deve mostrar um guia da respectiva [unidade](../modelagem/lexicos.md#unidade) | Introspecção |
-| 03 | O sistema deve dividir o [curso](../modelagem/lexicos.md#cursos) em seções e [unidades](../modelagem/lexicos.md#unidade) | Introspecção |
+| 03 | O sistema deve dividir o [curso](../modelagem/lexicos.md#cursos) em [seções](../modelagem/lexicos.md#secao) e [unidades](../modelagem/lexicos.md#unidade) | Introspecção |
 | 04 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) personalize seu [perfil](../modelagem/lexicos.md#conta) com uma foto e informações pessoais | Introspecção |
 | 05 | O sistema deve incluir um modo offline para que o [usuário](../modelagem/lexicos.md#usuario) possa continuar estudando sem conexão à internet | Introspecção |
 | 06 | Poder tirar dúvidas por perguntas frequentes | Introspecção |

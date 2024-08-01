@@ -582,7 +582,7 @@
 
 #### Noção
 
-- [Usuários](#usuario) que acompanham as atividades de um [usuário](#usuario) no Duolingo.
+- [Usuários](#usuario) que acompanham as atividades de um outro [usuário](#usuario) no Duolingo.
 
 #### Impacto
 
@@ -590,7 +590,7 @@
 
 #### Sinônimos
 
-- Assinantes, seguidores
+- Amigos
 
 ---
 
