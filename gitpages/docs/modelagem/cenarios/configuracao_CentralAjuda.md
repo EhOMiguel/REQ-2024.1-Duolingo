@@ -2,10 +2,10 @@
 
 | **Título** | Configuração de Suporte - Central de Ajuda |
 | :--------: | --------------- |
-| **Objetivo** | Acessar a Central de Ajuda. |
-| **Contexto** | **Pré-condição:** <br/>1. Possuir acesso ao Duolingo. <br/>2. Possuir acesso a tela principal.<br/>**Pós-condição:** <br/>O usuário terá acesso a Central de Ajuda. |
-| **Atores** | Usuário |
+| **Objetivo** | Acessar a Central de [Ajuda](../lexicos.md#ajuda). |
+| **Contexto** | **Pré-condição:** <br/>1. Possuir acesso ao [Duolingo](../lexicos.md#duolingo). <br/>2. Possuir acesso à tela principal. <br/>**Pós-condição:** <br/>O [usuário](../lexicos.md#usuario) terá acesso à Central de [Ajuda](../lexicos.md#ajuda). |
+| **Atores** | [Usuário](../lexicos.md#usuario) |
 | **Recursos** | Acesso à internet. <br/>Aplicação mobile ou web. |
-| **Episódios** | 1. O usuário acessa as configurações.<br/>2. O usuário clica no botão 'Central de Ajuda' no campo de 'Suporte'. |
-| **Restrição** | O usuário possuir cadastro. |
-| **Exceção** | A internet deixa de funcionar. <br/>O usuário sai da aplicação. |
+| **Episódios** | 1. O [usuário](../lexicos.md#usuario) acessa as [configurações](../lexicos.md#configuracoes).<br/>2. O [usuário](../lexicos.md#usuario) clica no botão 'Central de [Ajuda](../lexicos.md#ajuda)' no campo de '[Suporte](../lexicos.md#suporte)'. |
+| **Restrição** | O [usuário](../lexicos.md#usuario) possuir cadastro. |
+| **Exceção** | A internet deixa de funcionar. <br/>O [usuário](../lexicos.md#usuario) sai da aplicação. |
