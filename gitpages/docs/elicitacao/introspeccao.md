@@ -29,5 +29,6 @@ A realização da introspecção neste projeto visa compreender as funcionalidad
 | 30/07/2024 | 1.1 | Adicionando a introspecção individual (Miguel e Gabriela) | Miguel Moreira |
 | 30/07/2024 | 1.2 | Adicionando a introspecção individual (Arthur) | Arthur Trindade |
 | 30/07/2024 | 1.3 | Adicionando a introspecção individual (Bruno) | Bruno Ricardo |
-| 31/07/2024 | 1.4 | Adicionando o resultado da introspecção | Vinícius de Oliveira |
-| 01/08/2024 | 1.5 | Adição de links para léxicos | Arthur Trindade |
+| 30/07/2024 | 1.4 | Adicionando a introspecção individual (Felipe) | Felipe de Oliveira |
+| 31/07/2024 | 1.5 | Adicionando o resultado da introspecção | Vinícius de Oliveira |
+| 01/08/2024 | 1.6 | Adição de links para léxicos | Arthur Trindade |
