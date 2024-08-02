@@ -2,7 +2,7 @@
 
 ## Entrega 1 - 01/08/2024
 
-[Vídeo da Entrega 1](https://youtu.be/J9NznRi2heI)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J9NznRi2heI?si=lIoiVhmtKuoBMsuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 | Data       | Versão | Descrição                   | Autor(es)        |
 |------------|--------|-----------------------------|------------------|
