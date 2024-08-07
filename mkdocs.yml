@@ -65,7 +65,6 @@ nav:
                 - Compartilhar Perfil: modelagem/cenarios/compartilhar_perfil.md
                 - Completar Unidade: modelagem/cenarios/completar-unidade.md
                 - Configuração Cursos: modelagem/cenarios/configuracao_cursos.md
-                - Configuração de Idioma: modelagem/cenarios/configuracao_idioma.md
                 - Configuração Notificações: modelagem/cenarios/configuracao_notificacoes.md
                 - Configuração Perfil: modelagem/cenarios/configuracao_perfil.md
                 - Configuração Preferências: modelagem/cenarios/configuracao_preferencias.md
@@ -83,6 +82,16 @@ nav:
                 - Revisão de Unidade: modelagem/cenarios/revisao-unidade.md
                 - Trocar Curso: modelagem/cenarios/trocar_curso.md
           - Léxicos: modelagem/lexicos.md
+          - Casos de uso:
+                - Sobre: modelagem/casosdeuso/index.md
+                - Diagrama casos de uso: modelagem/casosdeuso/diagrama.md
+                - Casos de uso:
+                        - UC01 - Primeiro acesso: modelagem/casosdeuso/casodeuso/primeiroAcesso.md
+                        - UC02 - Login: modelagem/casosdeuso/casodeuso/login.md
+                        - UC03 - Aquisição do Super Duolingo: modelagem/casosdeuso/casodeuso/superDuolingo.md
+                        - UC04 - Loja: modelagem/casosdeuso/casodeuso/loja.md
+                        - UC05 - Realização de exercícios: modelagem/casosdeuso/casodeuso/realizarExercicio.md
+                        - UC06 - Troca de idioma: modelagem/casosdeuso/casodeuso/trocaIdioma.md
           - Referências: modelagem/referencias.md
     - Atas de reunião: ata_reuniao/atas.md
     - Entregas: entregas.md
