@@ -51,6 +51,7 @@ nav:
                       - Miguel: elicitacao/introspeccaoIndividual/introspeccao_miguel.md
                       - Vinícius: elicitacao/introspeccaoIndividual/introspeccao_Vinicius.md
                       - Resultado: elicitacao/introspeccaoIndividual/introspeccao_resultado.md
+          - StoryTelling: elicitacao/storytelling.md
           - Resultado das técnicas de elicitação: elicitacao/result.md
           - Referências: elicitacao/referencias.md
     - Modelagem:
