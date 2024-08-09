@@ -40,6 +40,7 @@ nav:
           - Referências: pre_rastreabilidade/referencias.md
     - Elicitação:
           - Sobre: elicitacao/index.md
+          - Brainstorming: elicitacao/brainstorming.md
           - Introspecção:
                 - Geral: elicitacao/introspeccao.md
                 - Individual:

@@ -1,6 +1,6 @@
 # Introdução
 
-Casos de uso são é técnica utilizada na engenharia de software para descrever como um sistema interage com os usuários ou outros sistemas para alcançar um objetivo específico. A sua execução é uma parte importante da análise de requisitos, ajudando a capturar e definir as funcionalidades que o sistema deve oferecer. Um caso de uso descreve uma sequência de ações que um sistema executa para fornecer um resultado. A técnica pode ser exibida por meio de diagramas ou textos.
+Casos de uso é uma técnica utilizada na engenharia de software para descrever como um sistema interage com os usuários ou outros sistemas para alcançar um objetivo específico. A sua execução é uma parte importante da análise de requisitos, ajudando a capturar e definir as funcionalidades que o sistema deve oferecer. Um caso de uso descreve uma sequência de ações que um sistema executa para fornecer um resultado. A técnica pode ser exibida por meio de diagramas ou textos.
 
 ## Histórico de Versão
 
