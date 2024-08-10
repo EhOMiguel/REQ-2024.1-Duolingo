@@ -42,6 +42,6 @@
 | ---- | ------ | --------- | --------- |
 | 29/07/2024 | 1.0 | Adição do documento de visão geral | Vinícius de Oliveira |
 | 01/08/2024 | 1.1 | Adição de links para léxicos | Arthur Trindade |
-| 29/07/2024 | 2.0 | Adição das oportunidades | Vinícius de Oliveira |
-| 29/07/2024 | 2.1 | Adição dos riscos | Vinícius de Oliveira |
-| 29/07/2024 | 2.2 | Adição do público alvo | Vinícius de Oliveira |
+| 09/08/2024 | 2.0 | Adição das oportunidades | Vinícius de Oliveira |
+| 09/08/2024 | 2.1 | Adição dos riscos | Vinícius de Oliveira |
+| 09/08/2024 | 2.2 | Adição do público alvo | Vinícius de Oliveira |

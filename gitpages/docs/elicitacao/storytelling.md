@@ -8,4 +8,4 @@ Para aplicar a técnica, as histórias foram desenvolvidas a partir de jornadas 
 
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
-| 29/07/2024 | 1.0 | Adição da introdução do StoryTelling | Vinícius de Oliveira |
+| 09/08/2024 | 1.0 | Adição da introdução do StoryTelling | Vinícius de Oliveira |
