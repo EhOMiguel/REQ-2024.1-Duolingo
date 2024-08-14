@@ -1,4 +1,4 @@
-# UC0X - Uso do Menu de Revisão no Duolingo
+# UC12 - Uso do Menu de Revisão no Duolingo
 
 **Descrição:** Este caso de uso descreve o processo de acesso e utilização do menu de revisão no Duolingo, onde o usuário pode revisar lições anteriores e reforçar o conhecimento adquirido.
 

@@ -95,6 +95,12 @@ nav:
                         - UC04 - Loja: modelagem/casosdeuso/casodeuso/loja.md
                         - UC05 - Realização de exercícios: modelagem/casosdeuso/casodeuso/realizarExercicio.md
                         - UC06 - Troca de idioma: modelagem/casosdeuso/casodeuso/trocaIdioma.md
+                        - UC07 - Perfil: modelagem/casosdeuso/casodeuso/perfil.md
+                        - UC08 - Compartilhar ofensiva: modelagem/casosdeuso/casodeuso/compartilharOfensiva.md
+                        - UC09 - Cadastrar usuário: modelagem/casosdeuso/casodeuso/cadastrarUsuario.md
+                        - UC10 - Adicionar amigos: modelagem/casosdeuso/casodeuso/adicionarAmigos.md
+                        - UC11 - Reportar problema: modelagem/casosdeuso/casodeuso/reportarProblema.md
+                        - UC12 - Revisão de lição: modelagem/casosdeuso/casodeuso/revisaoLicao.md
           - Referências: modelagem/referencias.md
     - Atas de reunião: ata_reuniao/atas.md
     - Entregas: entregas.md

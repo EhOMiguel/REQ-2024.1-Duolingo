@@ -1,4 +1,4 @@
-# UC0X - Reportar Problema no Duolingo
+# UC11 - Reportar Problema no Duolingo
 
 **Descrição:** Este caso de uso descreve o processo pelo qual o usuário pode reportar um problema encontrado durante o uso do Duolingo, como erros em exercícios, problemas técnicos ou conteúdo inadequado.
 

@@ -1,4 +1,4 @@
-# UC0X - Adicionar Amigos no Duolingo
+# UC10 - Adicionar Amigos no Duolingo
 
 **Descrição:** Este caso de uso descreve o processo pelo qual o usuário pode seguir amigos no Duolingo para compartilhar progresso, competir em placares e motivar o aprendizado de idiomas.
 

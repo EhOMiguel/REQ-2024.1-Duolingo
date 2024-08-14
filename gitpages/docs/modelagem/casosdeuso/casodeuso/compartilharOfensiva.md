@@ -1,4 +1,4 @@
-# UC0X - Compartilhar Ofensiva no Duolingo
+# UC08 - Compartilhar Ofensiva no Duolingo
 
 **Descrição:** Este caso de uso descreve o processo pelo qual o usuário pode compartilhar sua sequência de dias ativos, conhecida como "ofensiva", nas redes sociais ou com amigos.
 
