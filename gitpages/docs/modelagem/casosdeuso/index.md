@@ -12,4 +12,5 @@ Casos de uso é uma técnica utilizada na engenharia de software para descrever 
 | 07/08/2024 | 1.3 | UC04 - Loja | Vinícius de Oliveira |
 | 07/08/2024 | 1.4 | UC05 - Realização de exercícios | Vinícius de Oliveira |
 | 07/08/2024 | 1.5 | UC06 - Troca de idioma | Vinícius de Oliveira |
-| 07/08/2024 | 1.6 | UC07 - Configuração do Duolingo | Felipe de Oliveira |
+| 14/08/2024 | 1.6 | UC07 - Configuração do Duolingo | Felipe de Oliveira |
+| 14/08/2024 | 1.7 | UC08 - Desconectar conta | Felipe de Oliveira |
