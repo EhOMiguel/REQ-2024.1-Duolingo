@@ -64,4 +64,5 @@ Este projeto tem como objetivo levantar os requisitos de software do aplicativo 
 - **Markdown**: Para documentação e formatação de textos.
 - **Discord**: Utilizado para comunicação e coordenação da equipe.
 - **Duolingo**: Aplicativo de estudo de caso e levantamento de requisitos.
+- **Draw.io**: Ferramenta utilizada para confecção dos diagramas
 - **WhatsApp**: Utilizado para comunicação da equipe.

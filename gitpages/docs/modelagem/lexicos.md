@@ -735,3 +735,37 @@
 #### Sinônimos
 
 - Experiência, pontos
+
+---
+
+### Congelar
+
+#### Noção
+
+- Ato de protejer a [ofensiva](#Ofensiva) diária.
+
+#### Impacto
+
+- Permite aos [usuários](#usuario) manterem sua sequência de estudo intacta, mesmo quando não podem praticar diariamente.
+- Ajuda a manter a motivação e o engajamento com o aprendizado de idiomas.
+
+#### Sinônimos
+
+- Pausar, Bloquear.
+
+---
+
+### Nickname
+
+#### Noção
+
+- **Nickname** (apelido) é o nome ou pseudônimo escolhido por um usuário para se identificar dentro de uma plataforma.
+
+#### Impacto
+
+- Proporciona uma camada adicional de privacidade e personalização. 
+- Permite que os usuários se expressem de forma única e reconhecível dentro da comunidade do aplicativo.
+
+#### Sinônimos
+
+- Apelido, pseudônimo, username (nome de usuário).
