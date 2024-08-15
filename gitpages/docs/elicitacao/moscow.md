@@ -19,7 +19,7 @@ Para essa priorização, foi utilizado o brainstorming, onde cada pessoa argumen
 | 04 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acessar a mesma [conta](../modelagem/lexicos.md#conta) em dispositivos diferentes | Should |
 | 05 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de alterar o [idioma](../modelagem/lexicos.md#cursos) que deseja aprender | Should |
 | 06 | O [usuário](../modelagem/lexicos.md#usuario) deve conseguir [revisar](../modelagem/lexicos.md#revisar-licao) os [exercícios](../modelagem/lexicos.md#licao) errados | Should |
-| 07 | O [usuário](../modelagem/lexicos.md#usuario) deve visualizar o seu progresso no [idioma](../modelagem/lexicos.md#cursos) selecionado | Must |
+| 07 | O [usuário](../modelagem/lexicos.md#usuario) deve visualizar o seu progresso na seção do [idioma](../modelagem/lexicos.md#cursos) selecionado | Must |
 | 08 | O [usuário](../modelagem/lexicos.md#usuario) deve conseguir [compartilhar](../modelagem/lexicos.md#compartilhar) o seu progresso | Could |
 | 09 | Deve ser possível visualizar o [rank](../modelagem/lexicos.md#ranking) do [usuário](../modelagem/lexicos.md#usuario) | Should |
 | 10 | Deve ser possível visualizar a [liga](../modelagem/lexicos.md#divisao) do [usuário](../modelagem/lexicos.md#usuario) | Should |
@@ -38,51 +38,47 @@ Para essa priorização, foi utilizado o brainstorming, onde cada pessoa argumen
 | 23 | O sistema deve dar a possibilidade do [usuário](../modelagem/lexicos.md#usuario) poder pular uma [unidade](../modelagem/lexicos.md#unidade) ou [seção](../modelagem/lexicos.md#seção) | Should |
 | 24 | O sistema deve dar a possibilidade do [usuário](../modelagem/lexicos.md#usuario) pular [exercícios](../modelagem/lexicos.md#licao) com áudio ou fala | Must |
 | 25 | O [usuário](../modelagem/lexicos.md#usuario) deve poder visualizar as suas [conquistas](../modelagem/lexicos.md#conquistas) | Must |
-| 26 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de recuperar sua senha |  |
-| 27 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar as opções de [idiomas](../modelagem/lexicos.md#cursos) disponíveis |  |
-| 28 | Incluir uma funcionalidade de chatbot para prática de conversação e escrita em diferentes níveis de dificuldade |  |
-| 29 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar informações sobre a plataforma |  |
-| 30 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) |  |
-| 31 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar o conteúdo do [curso](../modelagem/lexicos.md#cursos) antes de iniciar |  |
-| 32 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acessar material didático e [exercícios](../modelagem/lexicos.md#licao) básicos |  |
-| 33 | O sistema deve apresentar [exercícios](../modelagem/lexicos.md#licao) interativos e dinâmicos |  |
-| 34 | O sistema deve incluir uma variedade de [exercícios](../modelagem/lexicos.md#licao), como [traduções](../modelagem/lexicos.md#traduzir-licao), preenchimento de lacunas, e [exercícios](../modelagem/lexicos.md#licao) de escuta |  |
-| 35 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) revise [lições](../modelagem/lexicos.md#licao) passadas e reforce o conhecimento adquirido |  |
-| 36 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acompanhar seu progresso manualmente |  |
-| 37 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de manter uma rotina de estudo usando métodos tradicionais |  |
-| 38 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) participe de [ligas](../modelagem/lexicos.md#divisao) e competições com outros [usuários](../modelagem/lexicos.md#usuario) |  |
-| 39 | O sistema deve fornecer relatórios detalhados sobre o progresso e as áreas de melhoria do [usuário](../modelagem/lexicos.md#usuario) |  |
-| 40 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) com o Google |  |
-| 41 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) com o Facebook |  |
-| 42 | O [usuário](../modelagem/lexicos.md#usuario) deve permanecer logado |  |
-| 43 | Permitir a escolha do nível de complexidade das conversas com o bot |  |
-| 44 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar a quantidade de [vidas](../modelagem/lexicos.md#vidas) disponíveis |  |
-| 45 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) com a Apple |  |
-| 46 | O sistema deve mostrar um guia mostrando o que o [usuário](../modelagem/lexicos.md#usuario) irá aprender na [unidade](../modelagem/lexicos.md#unidade) |  |
-| 47 | O sistema deve mostrar a [tradução](../modelagem/lexicos.md#traduzir-licao) de algumas palavras |  |
-| 48 | O sistema deve mostrar a pronúncia de algumas palavras |  |
-| 49 | Poder utilizar a plataforma sem pagar |  |
-| 50 | Poder saber o [nível](../modelagem/lexicos.md#nivel) atual de conhecimento |  |
-| 51 | Poder refazer [lições](../modelagem/lexicos.md#licao) já feitas de uma [unidade](../modelagem/lexicos.md#unidade) |  |
-| 52 | Poder fazer uma [lição](../modelagem/lexicos.md#licao) com um nível mais difícil após completá-la |  |
-| 53 | Poder completar [missões](../modelagem/lexicos.md#missao) diárias |  |
-| 54 | Poder configurar algumas [acessibilidades](../modelagem/lexicos.md#preferencias) e opções |  |
-| 55 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de escolher sua [meta](../modelagem/lexicos.md#meta) de [ofensiva](../modelagem/lexicos.md#ofensiva)|  |
-| 56 | O sistema deve fornecer um teste de nivelamento para avaliar o conhecimento prévio do [usuário](../modelagem/lexicos.md#usuario) no [idioma](../modelagem/lexicos.md#cursos) escolhido |  |
-| 57 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de um tutorial da plataforma |  |
-| 58 | O [usuário](../modelagem/lexicos.md#usuario) deve poder verificar o número de acertos e erros dos [exercícios](../modelagem/lexicos.md#licao) |  |
-| 59 | O [usuário](../modelagem/lexicos.md#usuario) pode acessar a plataforma sem um cadastro |  |
-| 60 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a possibilidade de praticar [exercícios](../modelagem/lexicos.md#licao) variados, como de escuta, fala e vocabulário |  |
-| 61 | Incluir exemplos práticos e situações reais, como trechos de filmes ou séries, para contextualizar o aprendizado |  |
-| 62 | Permitir que os [usuários](../modelagem/lexicos.md#usuario) escolham tópicos específicos ou [lições](../modelagem/lexicos.md#licao) com base em seus interesses |  |
-| 63 | Permitir a criação de grupos de conversação para prática de [idiomas](../modelagem/lexicos.md#cursos) |  |
-| 64 | Permitir a opção de "congelar" a [ofensiva](../modelagem/lexicos.md#ofensiva) para manter o progresso quando o [usuário](../modelagem/lexicos.md#usuario) não puder praticar |  |
-| 65 |  |  |
-| 66 |  |  |
-
+| 26 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de recuperar sua senha | Must |
+| 27 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar as opções de [idiomas](../modelagem/lexicos.md#cursos) disponíveis | Must |
+| 28 | Incluir uma funcionalidade de chatbot para prática de conversação e escrita em diferentes níveis de dificuldade | Could |
+| 29 | Oferecer cosméticos e opções de personalização para destacar o [perfil](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario) | Could |
+| 30 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) | Must |
+| 31 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar as unidades do [curso](../modelagem/lexicos.md#cursos) antes de iniciar | Could |
+| 32 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acessar material didático | Could |
+| 33 | O sistema deve apresentar [exercícios](../modelagem/lexicos.md#licao) interativos e dinâmicos | Must |
+| 34 | O sistema deve incluir uma variedade de [exercícios](../modelagem/lexicos.md#licao), como [traduções](../modelagem/lexicos.md#traduzir-licao), preenchimento de lacunas, e [exercícios](../modelagem/lexicos.md#licao) de escuta | Must |
+| 35 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) revise [lições](../modelagem/lexicos.md#licao) passadas e reforce o conhecimento adquirido | Must |
+| 36 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de acompanhar seu progresso navegando através do mapa | Must |
+| 37 | O [usuário](../modelagem/lexicos.md#usuario) deve poder redefinir o e-mail da sua [conta](../modelagem/lexicos.md#conta) | Must |
+| 38 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) participe de [ligas](../modelagem/lexicos.md#divisao) e competições com outros [usuários](../modelagem/lexicos.md#usuario) | Should |
+| 39 | O [usuário](../modelagem/lexicos.md#usuario) deve poder redefinir o nickname da sua [conta](../modelagem/lexicos.md#conta) | Must |
+| 40 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) com o Google | Must |
+| 41 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) com o Facebook | Must |
+| 42 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de criar uma [conta](../modelagem/lexicos.md#conta) com o Apple Id | Must |
+| 43 | Permitir a escolha do nível de complexidade das conversas com o bot | Could |
+| 44 | O [usuário](../modelagem/lexicos.md#usuario) deve ser capaz de visualizar a quantidade de [vidas](../modelagem/lexicos.md#vidas) disponíveis | Must |
+| 45 | O [usuário](../modelagem/lexicos.md#usuario) deve poder redefinir o nome da sua [conta](../modelagem/lexicos.md#conta) | Must |
+| 46 | Poder relatar um erro ou dúvida por uma mensagem de FAQ | Must |
+| 47 | O sistema deve mostrar a [tradução](../modelagem/lexicos.md#traduzir-licao) de algumas palavras | Must |
+| 48 | O sistema deve mostrar a pronúncia das palavras | Must |
+| 49 | Permitir a opção de "congelar" a [ofensiva](../modelagem/lexicos.md#ofensiva) para manter o progresso quando o [usuário](../modelagem/lexicos.md#usuario) não puder praticar | Must |
+| 50 | Poder saber o [nível](../modelagem/lexicos.md#nivel) atual de conhecimento | Must |
+| 51 | Permitir a criação de grupos de conversação para prática de [idiomas](../modelagem/lexicos.md#cursos) | Could |
+| 52 | Poder fazer uma [lição](../modelagem/lexicos.md#licao) com um nível mais difícil após completá-la | Should |
+| 53 | Poder completar [missões](../modelagem/lexicos.md#missao) diárias | Must |
+| 54 | Poder configurar [acessibilidades](../modelagem/lexicos.md#preferencias) e opções | Must |
+| 55 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de escolher sua [meta](../modelagem/lexicos.md#meta) de [ofensiva](../modelagem/lexicos.md#ofensiva)| Should |
+| 56 | O sistema deve fornecer um teste de nivelamento para avaliar o conhecimento prévio do [usuário](../modelagem/lexicos.md#usuario) no [idioma](../modelagem/lexicos.md#cursos) escolhido | Must |
+| 57 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de um tutorial da plataforma | Must |
+| 58 | Permitir que os [usuários](../modelagem/lexicos.md#usuario) escolham tópicos específicos base em seus interesses | Could |
+| 59 | O [usuário](../modelagem/lexicos.md#usuario) pode acessar a plataforma sem um cadastro | Must |
+| 60 | Permitir que os [usuários](../modelagem/lexicos.md#usuario) escolham lições com base em seus interesses | Could |
+| 61 | Incluir exemplos práticos e situações reais, como trechos de filmes ou séries, para contextualizar o aprendizado | Would |
+| 62 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de pular o tutorial da plataforma | Must |
 
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 09/08/2024 | 1.0 | Realização do MoSCoW até o requisito 25 | Vinícius de Oliveira, Bruno Ricardo, Arthur Trindade, Gabriela Tiago |
+| 14/08/2024 | 1.1 | Finalizando o MoSCoW | Todos os integrantes |

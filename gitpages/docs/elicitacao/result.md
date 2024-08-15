@@ -67,21 +67,29 @@
 | 63 | Permitir a criação de grupos de conversação para prática de [idiomas](../modelagem/lexicos.md#cursos) | Introspecção |
 | 64 | Permitir a opção de "congelar" a [ofensiva](../modelagem/lexicos.md#ofensiva) para manter o progresso quando o [usuário](../modelagem/lexicos.md#usuario) não puder praticar | Introspecção |
 | 65 | Incluir uma funcionalidade de chatbot para prática de conversação e escrita em diferentes níveis de dificuldade | Introspecção |
+| 66 | O sistema deve [notificar](../modelagem/lexicos.md#notificacoes) o [usuário](../modelagem/lexicos.md#usuario) por email ou push para que ele não perca o [streak](../modelagem/lexicos.md#ofensiva) | Introspecção |
+| 67 | O sistema deve mostrar um guia da respectiva [unidade](../modelagem/lexicos.md#unidade) | Introspecção |
+| 68 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) personalize seu [perfil](../modelagem/lexicos.md#conta) com uma foto e informações pessoais | Introspecção |
+| 69 | Poder tirar dúvidas por perguntas frequentes | Introspecção |
+| 70 | Poder relatar um erro ou dúvida por uma mensagem de FAQ | Introspecção |
+| 71 | O [usuário](../modelagem/lexicos.md#usuario) deve poder redefinir os dados da sua [conta](../modelagem/lexicos.md#conta) | Introspecção |
+| 72 | Oferecer cosméticos e opções de personalização para destacar o [perfil](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
 
 ### Requisitos Não Funcionais
 
 | Número | Requisito | Técnica |
 | ------ | --------- | ------- |
-| 01 | O sistema deve [notificar](../modelagem/lexicos.md#notificacoes) o [usuário](../modelagem/lexicos.md#usuario) por email ou push para que ele não perca o [streak](../modelagem/lexicos.md#ofensiva) | Introspecção |
-| 02 | O sistema deve mostrar um guia da respectiva [unidade](../modelagem/lexicos.md#unidade) | Introspecção |
-| 03 | O sistema deve dividir o [curso](../modelagem/lexicos.md#cursos) em [seções](../modelagem/lexicos.md#secao) e [unidades](../modelagem/lexicos.md#unidade) | Introspecção |
-| 04 | O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) personalize seu [perfil](../modelagem/lexicos.md#conta) com uma foto e informações pessoais | Introspecção |
-| 05 | O sistema deve incluir um modo offline para que o [usuário](../modelagem/lexicos.md#usuario) possa continuar estudando sem conexão à internet | Introspecção |
-| 06 | Poder tirar dúvidas por perguntas frequentes | Introspecção |
-| 07 | Poder relatar um erro ou dúvida por uma mensagem de FAQ | Introspecção |
-| 08 | O sistema deve oferecer suporte a múltiplos [idiomas](../modelagem/lexicos.md#cursos) e permitir que o [usuário](../modelagem/lexicos.md#usuario) aprenda mais de um [idioma](../modelagem/lexicos.md#cursos) simultaneamente | Introspecção |
-| 09 | O [usuário](../modelagem/lexicos.md#usuario) deve poder redefinir os dados da sua [conta](../modelagem/lexicos.md#conta) | Introspecção |
-| 10 | Oferecer cosméticos e opções de personalização para destacar o [perfil](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario) | Introspecção |
+| 01 | O sistema deve dividir o [curso](../modelagem/lexicos.md#cursos) em [seções](../modelagem/lexicos.md#secao) e [unidades](../modelagem/lexicos.md#unidade) | Introspecção |
+| 02 | O sistema deve incluir um modo offline | Introspecção |
+| 03 | O sistema deve oferecer suporte a múltiplos [idiomas](../modelagem/lexicos.md#cursos) | Introspecção |
+| 04 | O sistema deve criptografar os dados dos usuários | Brainstorming |
+| 05 | Utilizar botões representativos | NFR |
+| 06 | Utilizar imagens e ícones objetivos | NFR |
+| 07 | Utilizar linguagem direta e simples | NFR |
+| 08 | Utilizar cores constratantes | NFR |
+| 09 | Utilizar interface com poucos elementos | NFR |
+| 10 | O [usuário](../modelagem/lexicos.md#usuario) deve permanecer logado | Introspecção |
+| 11 | Poder utilizar a plataforma sem pagar | Introspecção |
 
 ## Histórico de Versão
 
@@ -89,3 +97,4 @@
 | ---- | ------ | --------- | --------- |
 | 31/07/2024 | 1.0 | Adicionando requisitos funcionais e não funcionais | Vinícius de Oliveira |
 | 01/08/2024 | 1.1 | Adição de links para léxicos | Arthur Trindade |
+| 14/08/2024 | 2.0 | Revisão dos requisitos | Todos os integrantes |
