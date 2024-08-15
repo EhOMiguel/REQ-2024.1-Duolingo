@@ -16,3 +16,9 @@ Casos de uso é uma técnica utilizada na engenharia de software para descrever 
 | 14/08/2024 | 1.7 | UC08 - Desconectar conta | Felipe de Oliveira |
 | 14/08/2024 | 1.8 | UC09 - Modificar avatar | Felipe de Oliveira |
 | 14/08/2024 | 1.9 | UC10 - Compartilhar conquista | Felipe de Oliveira |
+| 14/08/2024 | 1.10 | UC11 - Reportar problema | Bruno Ricardo |
+| 14/08/2024 | 1.11 | UC12 - Revisão de lição | Bruno Ricardo |
+| 14/08/2024 | 1.12 | UC13 - Adicionar amigos | Bruno Ricardo |
+| 14/08/2024 | 1.13 | UC14 - Cadastrar usuário | Bruno Ricardo |
+| 14/08/2024 | 1.14 | UC15 - Perfil | Bruno Ricardo |
+| 14/08/2024 | 1.15 | UC16 - Compartilhar ofensiva | Bruno Ricardo |
