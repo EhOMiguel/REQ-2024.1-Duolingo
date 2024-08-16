@@ -80,12 +80,20 @@
 |   09   | Utilizar interface com poucos elementos                                                                                                                   |      NFR      |
 |   10   | O [usuário](../modelagem/lexicos.md#usuario) deve permanecer logado                                                                                       | Introspecção  |
 |   11   | O [usuário](../modelagem/lexicos.md#usuario) pode utilizar a plataforma sem pagar                                                                         | Introspecção  |
+|   12   | A aplicação deve ter resposta rápida na navegação entre lições e atividades                                                                               |      NFR      |
+|   13   | O sistema deve ser responsivo em múltiplos tamanhos de tela                                                                                               |      NRF      |
+|   14   | A aplicação deve carregar rapidamente os recursos de multimídia, como áudio e imagens.                                                                    |      NFR      |
+|   15   | O sistema deve proteger as informações pessoais do [usuário](../modelagem/lexicos.md#usuario)                                                             |      NFR      |
+|   16   | O sistema deve ser capaz de armazenar as informações do [usuário](../modelagem/lexicos.md#usuario)                                                        |      NFR      |
+|   17   | A aplicação deve possuir um sistema de backup e recuperação de dados                                                                                      |      NFR      |
+|   18   | O sistema deve ser capaz de suportar milhões de [usuários](../modelagem/lexicos.md#usuario) simultaneamente, mantendo a performance                       |      NFR      |
 
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                          | Autor(es)            |
-| ---------- | ------ | -------------------------------------------------- | -------------------- |
-| 31/07/2024 | 1.0    | Adicionando requisitos funcionais e não funcionais | Vinícius de Oliveira |
-| 01/08/2024 | 1.1    | Adição de links para léxicos                       | Arthur Trindade      |
-| 14/08/2024 | 2.0    | Revisão dos requisitos                             | Todos os integrantes |
-| 15/08/2024 | 2.1    | Atualizando os requisitos funcionais               | Vinícius de Oliveira |
+| ---------- | :----: | -------------------------------------------------- | -------------------- |
+| 31/07/2024 |  1.0   | Adicionando requisitos funcionais e não funcionais | Vinícius de Oliveira |
+| 01/08/2024 |  1.1   | Adição de links para léxicos                       | Arthur Trindade      |
+| 14/08/2024 |  2.0   | Revisão dos requisitos                             | Todos os integrantes |
+| 15/08/2024 |  2.1   | Atualizando os requisitos funcionais               | Vinícius de Oliveira |
+| 15/08/2024 |  2.2   | Adicionando novos requisitos funcionais            | Gabriela Tiago       |
