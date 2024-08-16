@@ -76,9 +76,20 @@ Para essa priorização, foi utilizado o brainstorming, onde cada pessoa argumen
 | 61 | Incluir exemplos práticos e situações reais, como trechos de filmes ou séries, para contextualizar o aprendizado | Would |
 | 62 | O [usuário](../modelagem/lexicos.md#usuario) deve ter a opção de pular o tutorial da plataforma | Must |
 
+### Gravação das reuniões
+
+- MoSCoW parte 1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/07TRbITAoqI?si=JpaQNjDVnkKNB_jv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- MoSCoW parte 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0bmoI1jv-V4?si=2tWcZoed325L6QHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 09/08/2024 | 1.0 | Realização do MoSCoW até o requisito 25 | Vinícius de Oliveira, Bruno Ricardo, Arthur Trindade, Gabriela Tiago |
 | 14/08/2024 | 1.1 | Finalizando o MoSCoW | Todos os integrantes |
+| 16/08/2024 | 2.0 | Adicionando vídeo da reunião | Vinícius de Oliveira |
