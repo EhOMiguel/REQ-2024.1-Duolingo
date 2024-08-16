@@ -76,6 +76,7 @@ nav:
                 - Configuração Privacidade: modelagem/cenarios/configuracao_privacidade.md
                 - Configurações: modelagem/cenarios/configuracoes.md
                 - Criar Avatar: modelagem/cenarios/criar-avatar.md
+                - Desconectar Conta: modelagem/cenarios/desconectarConta.md
                 - Editar Avatar: modelagem/cenarios/editar-avatar.md
                 - Primeiro Acesso: modelagem/cenarios/primeiro_acesso.md
                 - Progresso Semanal: modelagem/cenarios/progresso_semanal.md

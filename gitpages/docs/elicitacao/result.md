@@ -67,33 +67,34 @@
 
 ### Requisitos Não Funcionais
 
-| Número | Requisito                                                                                                                                                 |    Técnica    |
-| :----: | --------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------: |
-|   01   | O sistema deve dividir o [curso](../modelagem/lexicos.md#cursos) em [seções](../modelagem/lexicos.md#secao) e [unidades](../modelagem/lexicos.md#unidade) | Introspecção  |
-|   02   | O sistema deve incluir um modo offline                                                                                                                    | Introspecção  |
-|   03   | O sistema deve oferecer suporte a múltiplos [idiomas](../modelagem/lexicos.md#cursos)                                                                     | Introspecção  |
-|   04   | O sistema deve criptografar os dados dos usuários                                                                                                         | Brainstorming |
-|   05   | Utilizar botões representativos                                                                                                                           |      NFR      |
-|   06   | Utilizar imagens e ícones objetivos                                                                                                                       |      NFR      |
-|   07   | Utilizar linguagem direta e simples                                                                                                                       |      NFR      |
-|   08   | Utilizar cores constratantes                                                                                                                              |      NFR      |
-|   09   | Utilizar interface com poucos elementos                                                                                                                   |      NFR      |
-|   10   | O [usuário](../modelagem/lexicos.md#usuario) deve permanecer logado                                                                                       | Introspecção  |
-|   11   | O [usuário](../modelagem/lexicos.md#usuario) pode utilizar a plataforma sem pagar                                                                         | Introspecção  |
-|   12   | A aplicação deve ter resposta rápida na navegação entre lições e atividades                                                                               |      NFR      |
-|   13   | O sistema deve ser responsivo em múltiplos tamanhos de tela                                                                                               |      NRF      |
-|   14   | A aplicação deve carregar rapidamente os recursos de multimídia, como áudio e imagens.                                                                    |      NFR      |
-|   15   | O sistema deve proteger as informações pessoais do [usuário](../modelagem/lexicos.md#usuario)                                                             |      NFR      |
-|   16   | O sistema deve ser capaz de armazenar as informações do [usuário](../modelagem/lexicos.md#usuario)                                                        |      NFR      |
-|   17   | A aplicação deve possuir um sistema de backup e recuperação de dados                                                                                      |      NFR      |
-|   18   | O sistema deve ser capaz de suportar milhões de [usuários](../modelagem/lexicos.md#usuario) simultaneamente, mantendo a performance                       |      NFR      |
+| Número | Requisito | Categoria | Técnica |
+| :----: | --------- | --------- | :-----: |
+| 01 | O sistema deve dividir o [curso](../modelagem/lexicos.md#cursos) em [seções](../modelagem/lexicos.md#secao) e [unidades](../modelagem/lexicos.md#unidade) | Usabilidade | Introspecção |
+| 02 | O sistema deve incluir um modo offline | Usabilidade | Introspecção |
+| 03 | O sistema deve oferecer suporte a múltiplos [idiomas](../modelagem/lexicos.md#cursos) | Usabilidade | Introspecção |
+| 04 | O sistema deve criptografar os dados dos usuários | Segurança | Brainstorming |
+| 05 | Utilizar botões representativos | Usabilidade | NFR |
+| 06 | Utilizar imagens e ícones objetivos | Usabilidade | NFR |
+| 07 | Utilizar linguagem direta e simples | Usabilidade | NFR |
+| 08 | Utilizar cores contrastantes | Usabilidade | NFR |
+| 09 | Utilizar interface com poucos elementos | Usabilidade | NFR |
+| 10 | O [usuário](../modelagem/lexicos.md#usuario) deve permanecer logado | Usabilidade | Introspecção |
+| 11 | O [usuário](../modelagem/lexicos.md#usuario) pode utilizar a plataforma sem pagar | Acessibilidade | Introspecção |
+| 12 | A aplicação deve ter resposta rápida na navegação entre lições e atividades | Desempenho | NFR |
+| 13 | O sistema deve ser responsivo em múltiplos tamanhos de tela | Usabilidade | NFR |
+| 14 | A aplicação deve carregar rapidamente os recursos de multimídia, como áudio e imagens | Desempenho | NFR |
+| 15 | O sistema deve proteger as informações pessoais do [usuário](../modelagem/lexicos.md#usuario) | Segurança | NFR |
+| 16 | O sistema deve ser capaz de armazenar as informações do [usuário](../modelagem/lexicos.md#usuario) | Confiabilidade | NFR |
+| 17 | A aplicação deve possuir um sistema de backup e recuperação de dados | Confiabilidade | NFR |
+| 18 | O sistema deve ser capaz de suportar milhões de [usuários](../modelagem/lexicos.md#usuario) simultaneamente, mantendo a performance | Desempenho | NFR |
 
 ## Histórico de Versão
 
-| Data       | Versão | Descrição                                          | Autor(es)            |
-| ---------- | :----: | -------------------------------------------------- | -------------------- |
-| 31/07/2024 |  1.0   | Adicionando requisitos funcionais e não funcionais | Vinícius de Oliveira |
-| 01/08/2024 |  1.1   | Adição de links para léxicos                       | Arthur Trindade      |
-| 14/08/2024 |  2.0   | Revisão dos requisitos                             | Todos os integrantes |
-| 15/08/2024 |  2.1   | Atualizando os requisitos funcionais               | Vinícius de Oliveira |
-| 15/08/2024 |  2.2   | Adicionando novos requisitos funcionais            | Gabriela Tiago       |
+| Data       | Versão | Descrição                                           | Autor(es)            |
+| ---------- | :----: | --------------------------------------------------- | -------------------- |
+| 31/07/2024 |  1.0   | Adicionando requisitos funcionais e não funcionais  | Vinícius de Oliveira |
+| 01/08/2024 |  1.1   | Adição de links para léxicos                        | Arthur Trindade      |
+| 14/08/2024 |  2.0   | Revisão dos requisitos                              | Todos os integrantes |
+| 15/08/2024 |  2.1   | Atualizando os requisitos funcionais                | Vinícius de Oliveira |
+| 15/08/2024 |  2.2   | Adicionando novos requisitos funcionais             | Gabriela Tiago       |
+| 15/08/2024 |  2.3   | Adicionando categoria aos requisitos não funcionais | Vinícius de Oliveira |
