@@ -12,18 +12,18 @@
 
 **Fluxo Principal:**
 
-- O usuário acessa o Duolingo.
-- O usuário clica no ícone de perfil.
-- O sistema exibe a tela de perfil com um campo de "Conquistas".
-- O usuário clica no botão de "VER TODAS".
-- O sistema exibe a tela de conquistas.
-- O usuário clica em uma conquista concluída.
-- O sistema exibe a tela da conquista com um ícone de compartilhar.
-- O usuário clica no ícone de compartilhar.
-- O sistema exibe as opções de compartilhamento.
-- O usuário escolhe uma opção de compartilhamento.
-- O sistema gera uma imagem de compartilhamento com a conquista.
-- O usuário conclui o compartilhamento.
+1. O usuário acessa o Duolingo.
+2. O usuário clica no ícone de perfil.
+3. O sistema exibe a tela de perfil com um campo de "Conquistas".
+4. O usuário clica no botão de "VER TODAS".
+5. O sistema exibe a tela de conquistas.
+6. O usuário clica em uma conquista concluída.
+7. O sistema exibe a tela da conquista com um ícone de compartilhar.
+8. O usuário clica no ícone de compartilhar.
+9. O sistema exibe as opções de compartilhamento.
+10. O usuário escolhe uma opção de compartilhamento.
+11. O sistema gera uma imagem de compartilhamento com a conquista.
+12. O usuário conclui o compartilhamento.
 
 **Fluxo de exceção:** 
 

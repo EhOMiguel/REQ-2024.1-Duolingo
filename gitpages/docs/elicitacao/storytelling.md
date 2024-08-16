@@ -134,3 +134,4 @@ Clarice usa o Duolingo principalmente em seu smartphone, durante o trajeto para 
 | Data       | Versão | Descrição                             | Autor(es)            |
 |------------|--------|---------------------------------------|----------------------|
 | 09/08/2024 | 1.0    | Adição da introdução do StoryTelling  | Vinícius de Oliveira |
+| 15/08/2024 | 1.1    | Adição das Personas  | Miguel Moreira |

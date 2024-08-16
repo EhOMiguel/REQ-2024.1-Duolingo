@@ -21,8 +21,8 @@
 
 ## Fluxo de Exceção:
 
-- O aplicativo apresenta um erro ao tentar enviar o relatório de problema.
-- O usuário decide cancelar o envio do relatório de problema antes de confirmar.
+1. O aplicativo apresenta um erro ao tentar enviar o relatório de problema.
+2. O usuário decide cancelar o envio do relatório de problema antes de confirmar.
 
 ## Restrições:
 

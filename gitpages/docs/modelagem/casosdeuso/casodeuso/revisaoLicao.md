@@ -23,9 +23,9 @@
 
 ## Fluxo de Exceção:
 
-- A conexão à internet é perdida durante a lição de revisão.
-- O aplicativo apresenta um erro ao carregar a lição de revisão.
-- O usuário decide sair da lição antes de concluí-la.
+1. A conexão à internet é perdida durante a lição de revisão.
+2. O aplicativo apresenta um erro ao carregar a lição de revisão.
+3. O usuário decide sair da lição antes de concluí-la.
 
 ## Restrições:
 

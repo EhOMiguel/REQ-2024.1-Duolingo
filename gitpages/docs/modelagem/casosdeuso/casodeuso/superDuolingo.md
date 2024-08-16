@@ -11,33 +11,33 @@
 
 **Fluxo Principal:**
 
-- O usuário acessa o Duolingo.
-- O usuário navega até a loja da aplicação ou até a aba de revisão de hoje.
-- O usuário clica no banner do super duolingo.
-- O sistema exibe os benefícios da assinatura.
-- O sistema avisa que mandará um lembrete 2 dias antes da assinatura acabar.
-- O sistema exibe as opções de assinatura.
-- O usuário seleciona a opção de assinatura desejada.
-- O sistema redireciona o usuário para a tela de pagamento.
-- O usuário insere suas informações de pagamento.
-- O usuário confirma a compra.
-- O sistema exibe uma mensagem de confirmação da assinatura.
-- O sistema ativa imediatamente os recursos premium do Super Duolingo na conta do usuário.
+1. O usuário acessa o Duolingo.
+2. O usuário navega até a loja da aplicação ou até a aba de revisão de hoje.
+3. O usuário clica no banner do super duolingo.
+4. O sistema exibe os benefícios da assinatura.
+5. O sistema avisa que mandará um lembrete 2 dias antes da assinatura acabar.
+6. O sistema exibe as opções de assinatura.
+7. O usuário seleciona a opção de assinatura desejada.
+8. O sistema redireciona o usuário para a tela de pagamento.
+9. O usuário insere suas informações de pagamento.
+10. O usuário confirma a compra.
+11. O sistema exibe uma mensagem de confirmação da assinatura.
+12. O sistema ativa imediatamente os recursos premium do Super Duolingo na conta do usuário.
 
 **Fluxo de exceção:** Cartão Recusado
 
-- O usuário acessa o Duolingo.
-- O usuário navega até a loja da aplicação ou até a aba de revisão de hoje.
-- O usuário clica no banner do super duolingo.
-- O sistema exibe os benefícios da assinatura.
-- O sistema avisa que mandará um lembrete 2 dias antes da assinatura acabar.
-- O sistema exibe as opções de assinatura.
-- O usuário seleciona a opção de assinatura desejada.
-- O sistema redireciona o usuário para a tela de pagamento.
-- O usuário insere suas informações de pagamento.
-- O usuário confirma a compra.
-- O sistema exibe uma mensagem de erro na confirmação da assinatura.
-- O sistema retorna para as opções de assinatura.
+1. O usuário acessa o Duolingo.
+2. O usuário navega até a loja da aplicação ou até a aba de revisão de hoje.
+3. O usuário clica no banner do super duolingo.
+4. O sistema exibe os benefícios da assinatura.
+5. O sistema avisa que mandará um lembrete 2 dias antes da assinatura acabar.
+6. O sistema exibe as opções de assinatura.
+7. O usuário seleciona a opção de assinatura desejada.
+8. O sistema redireciona o usuário para a tela de pagamento.
+9. O usuário insere suas informações de pagamento.
+10. O usuário confirma a compra.
+11. O sistema exibe uma mensagem de erro na confirmação da assinatura.
+12. O sistema retorna para as opções de assinatura.
 
 **Restrições:**
 

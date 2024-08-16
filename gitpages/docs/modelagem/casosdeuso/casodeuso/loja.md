@@ -12,48 +12,48 @@
 
 **Fluxo Principal:**
 
-- O usuário acessa o Duolingo.
-- O usuário clica nos cristais para acessar a loja.
-- O sistema exibe uma lista de itens disponíveis para compra na loja.
+1. O usuário acessa o Duolingo.
+2. O usuário clica nos cristais para acessar a loja.
+3. O sistema exibe uma lista de itens disponíveis para compra na loja.
 
 **Fluxo Alternativo 1:** Compra com cristais
 
-- O usuário seleciona o item ou funcionalidade que deseja comprar com cristais.
-- O sistema pergunta a quantidade de compra do item selecionado.
-- O usuário seleciona a quantidade desejada e clica em comprar item.
-- O sistema confirma a compra e informa o usuário sobre a aquisição bem-sucedida.
+1. O usuário seleciona o item ou funcionalidade que deseja comprar com cristais.
+2. O sistema pergunta a quantidade de compra do item selecionado.
+3. O usuário seleciona a quantidade desejada e clica em comprar item.
+4. O sistema confirma a compra e informa o usuário sobre a aquisição bem-sucedida.
 
 **Fluxo Alternativo 2:** Compra com dinheiro
 
-- O usuário seleciona o item ou funcionalidade que deseja comprar com dinheiro.
-- O sistema redireciona o usuário para a tela de pagamento.
-- O usuário insere suas informações de pagamento.
-- O usuário confirma a compra.
-- O sistema exibe uma mensagem de confirmação da compra.
-- O sistema ativa adiciona o item comprada na conta do usuário.
+1. O usuário seleciona o item ou funcionalidade que deseja comprar com dinheiro.
+2. O sistema redireciona o usuário para a tela de pagamento.
+3. O usuário insere suas informações de pagamento.
+4. O usuário confirma a compra.
+5. O sistema exibe uma mensagem de confirmação da compra.
+6. O sistema ativa adiciona o item comprada na conta do usuário.
 
 **Fluxo de Exceção 1:** Compra com cristais insulficiente
 
-- O usuário acessa o Duolingo.
-- O usuário clica nos cristais para acessar a loja.
-- O sistema exibe uma lista de itens disponíveis para compra na loja.
-- O usuário seleciona o item ou funcionalidade que deseja comprar com cristais.
-- O sistema pergunta a quantidade de compra do item selecionado.
-- O usuário seleciona a quantidade desejada e clica em comprar item.
-- O sistema verifica quantidade insulficiente de cristais.
-- O sistema da opções de compra de cristais com dinheiro ou voltar para a loja.
+1. O usuário acessa o Duolingo.
+2. O usuário clica nos cristais para acessar a loja.
+3. O sistema exibe uma lista de itens disponíveis para compra na loja.
+4. O usuário seleciona o item ou funcionalidade que deseja comprar com cristais.
+5. O sistema pergunta a quantidade de compra do item selecionado.
+6. O usuário seleciona a quantidade desejada e clica em comprar item.
+7. O sistema verifica quantidade insulficiente de cristais.
+8. O sistema da opções de compra de cristais com dinheiro ou voltar para a loja.
 
 **Fluxo de Exceção 2:** Cartão Recusado
 
-- O usuário acessa o Duolingo.
-- O usuário clica nos cristais para acessar a loja.
-- O sistema exibe uma lista de itens disponíveis para compra na loja.
-- O usuário seleciona o item ou funcionalidade que deseja comprar com dinheiro.
-- O sistema redireciona o usuário para a tela de pagamento.
-- O usuário insere suas informações de pagamento.
-- O usuário confirma a compra.
-- O sistema exibe uma mensagem de erro na confirmação da compra.
-- O sistema retorna para a loja.
+1. O usuário acessa o Duolingo.
+2. O usuário clica nos cristais para acessar a loja.
+3. O sistema exibe uma lista de itens disponíveis para compra na loja.
+4. O usuário seleciona o item ou funcionalidade que deseja comprar com dinheiro.
+5. O sistema redireciona o usuário para a tela de pagamento.
+6. O usuário insere suas informações de pagamento.
+7. O usuário confirma a compra.
+8. O sistema exibe uma mensagem de erro na confirmação da compra.
+9. O sistema retorna para a loja.
 
 **Restrições:**
 

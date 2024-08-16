@@ -1,6 +1,6 @@
 ## Léxico Duolingo
 
-### Ajuda
+### Ajuda - Tipo: Estado
 
 #### Noção
 
@@ -16,7 +16,7 @@
 
 ---
 
-### Aplicação
+### Aplicação - Tipo: Objeto
 
 #### Noção
 
@@ -32,7 +32,7 @@
 
 ---
 
-### Avatar
+### Avatar - Tipo: Objeto
 
 #### Noção
 
@@ -48,7 +48,7 @@
 
 ---
 
-### Comentários
+### Comentários - Tipo: Estado
 
 #### Noção
 
@@ -64,7 +64,7 @@
 
 ---
 
-### Compartilhar
+### Compartilhar - Tipo: Verbo
 
 #### Noção
 
@@ -80,7 +80,7 @@
 
 ---
 
-### Conquistas
+### Conquistas - Tipo: Estado
 
 #### Noção
 
@@ -96,7 +96,7 @@
 
 ---
 
-### Conta
+### Conta - Tipo: Estado
 
 #### Noção
 
@@ -112,7 +112,7 @@
 
 ---
 
-### Configurações
+### Configurações - Tipo: Estado
 
 #### Noção
 
@@ -128,7 +128,7 @@
 
 ---
 
-### Cristais
+### Cristais - Tipo: Estado
 
 #### Noção
 
@@ -144,7 +144,7 @@
 
 ---
 
-### Cursos
+### Cursos - Tipo: Estado
 
 #### Noção
 
@@ -160,7 +160,7 @@
 
 ---
 
-### Divisão
+### Divisão - Tipo: Estado
 
 #### Noção
 
@@ -176,7 +176,7 @@
 
 ---
 
-### Duolingo
+### Duolingo - Tipo: Estado
 
 #### Noção
 
@@ -192,7 +192,7 @@
 
 ---
 
-### Falar
+### Falar - Tipo: Verbo
 
 #### Noção
 
@@ -208,7 +208,7 @@
 
 ---
 
-### Guiada Unidade
+### Guiada Unidade - Tipo: Estado
 
 #### Noção
 
@@ -224,7 +224,7 @@
 
 ---
 
-### Inscrição
+### Inscrição - Tipo: Objeto
 
 #### Noção
 
@@ -240,7 +240,7 @@
 
 ---
 
-### Lição
+### Lição - Tipo: Objeto
 
 #### Noção
 
@@ -256,7 +256,7 @@
 
 ---
 
-### Login
+### Login - Tipo: Estado
 
 #### Noção
 
@@ -272,7 +272,7 @@
 
 ---
 
-### Medalha
+### Medalha - Tipo: Estado
 
 #### Noção
 
@@ -288,7 +288,7 @@
 
 ---
 
-### Meta
+### Meta - Tipo: Estado
 
 #### Noção
 
@@ -304,7 +304,7 @@
 
 ---
 
-### Missão
+### Missão - Tipo: Estado
 
 #### Noção
 
@@ -320,7 +320,7 @@
 
 ---
 
-### Nível
+### Nível - Tipo: Estado
 
 #### Noção
 
@@ -336,7 +336,7 @@
 
 ---
 
-### Notificações
+### Notificações - Tipo: Estado
 
 #### Noção
 
@@ -352,7 +352,7 @@
 
 ---
 
-### Ofensiva
+### Ofensiva - Tipo: Estado
 
 #### Noção
 
@@ -368,7 +368,7 @@
 
 ---
 
-### Ouvir
+### Ouvir - Tipo: Verbo
 
 #### Noção
 
@@ -384,7 +384,7 @@
 
 ---
 
-### Pódio
+### Pódio - Tipo: Estado
 
 #### Noção
 
@@ -400,7 +400,7 @@
 
 ---
 
-### Pontuação
+### Pontuação - Tipo: Objeto
 
 #### Noção
 
@@ -416,7 +416,7 @@
 
 ---
 
-### Posições da Divisão
+### Posições da Divisão - Tipo: Estado
 
 #### Noção
 
@@ -432,7 +432,7 @@
 
 ---
 
-### Preferências
+### Preferências - Tipo: Verbo
 
 #### Noção
 
@@ -448,7 +448,7 @@
 
 ---
 
-### Privacidade
+### Privacidade - Tipo: Estado
 
 #### Noção
 
@@ -464,7 +464,7 @@
 
 ---
 
-### Ranking
+### Ranking - Tipo: Estado
 
 #### Noção
 
@@ -480,7 +480,7 @@
 
 ---
 
-### Reação
+### Reação - Tipo: Objeto
 
 #### Noção
 
@@ -496,7 +496,7 @@
 
 ---
 
-### Recompensa
+### Recompensa - Tipo: Estado
 
  da Missão
 
@@ -514,7 +514,7 @@
 
 ---
 
-### Revisar (Lição)
+### Revisar (Lição) - Tipo: Verbo
 
 #### Noção
 
@@ -530,7 +530,7 @@
 
 ---
 
-### Schools
+### Schools - Tipo: Estado
 
 #### Noção
 
@@ -546,7 +546,7 @@
 
 ---
 
-### Seção
+### Seção - Tipo: Objeto
 
 #### Noção
 
@@ -562,7 +562,7 @@
 
 ---
 
-### Seguindo
+### Seguindo - Tipo: Estado
 
 #### Noção
 
@@ -578,7 +578,7 @@
 
 ---
 
-### Seguidores
+### Seguidores - Tipo: Estado
 
 #### Noção
 
@@ -594,7 +594,7 @@
 
 ---
 
-### Suporte
+### Suporte - Tipo: Estado
 
 #### Noção
 
@@ -610,7 +610,7 @@
 
 ---
 
-### Super
+### Super - Tipo: Verbo
 
 #### Noção
 
@@ -626,7 +626,7 @@
 
 ---
 
-### Titãs (Lição)
+### Titãs (Lição) - Tipo: Objeto
 
 #### Noção
 
@@ -642,7 +642,7 @@
 
 ---
 
-### Traduzir (Lição)
+### Traduzir (Lição) - Tipo: Verbo
 
 #### Noção
 
@@ -658,7 +658,7 @@
 
 ---
 
-### Unidade
+### Unidade - Tipo: Estado
 
 #### Noção
 
@@ -674,7 +674,7 @@
 
 ---
 
-### Usuário
+### Usuário - Tipo: Estado
 
 #### Noção
 
@@ -690,7 +690,7 @@
 
 ---
 
-### Vidas
+### Vidas - Tipo: Estado
 
 #### Noção
 
@@ -706,7 +706,7 @@
 
 ---
 
-### Widget do Duolingo
+### Widget do Duolingo - Tipo: Estado
 
 #### Noção
 
@@ -722,7 +722,7 @@
 
 ---
 
-### XP
+### XP - Tipo: Estado
 
 #### Noção
 
@@ -738,7 +738,7 @@
 
 ---
 
-### Congelar
+### Congelar - Tipo: Verbo
 
 #### Noção
 
@@ -755,11 +755,11 @@
 
 ---
 
-### Nickname
+### Nickname - Tipo: Estado
 
 #### Noção
 
-- **Nickname** (apelido) é o nome ou pseudônimo escolhido por um usuário para se identificar dentro de uma plataforma.
+- Nickname (apelido) é o nome ou pseudônimo escolhido por um usuário para se identificar dentro de uma plataforma.
 
 #### Impacto
 

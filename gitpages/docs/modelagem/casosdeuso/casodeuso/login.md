@@ -12,43 +12,43 @@
 
 **Fluxo Principal:**
 
-- O usuário acessa o Duolingo.
-- O sistema exibe uma tela de boas-vindas com opções para começar agora e já possuo uma conta.
-- O usuário escolhe a opção "Já tenho uma conta".
-- O sistema exibe uma tela de login com campos para inserir o e-mail/usuário e a senha, esqueci a senha, login com Facebook e login com Google.
+1. O usuário acessa o Duolingo.
+2. O sistema exibe uma tela de boas-vindas com opções para começar agora e já possuo uma conta.
+3. O usuário escolhe a opção "Já tenho uma conta".
+4. O sistema exibe uma tela de login com campos para inserir o e-mail/usuário e a senha, esqueci a senha, login com Facebook e login com Google.
 
 **Fluxos Alternativo 1:** Login com e-mail/usuário e senha
 
-- O usuário insere seu e-mail/usuário e senha nos campos apropriados.
-- O sistema verifica as credenciais fornecidas.
-- O sistema autentica o usuário e redireciona para a tela principal do Duolingo.
+1. O usuário insere seu e-mail/usuário e senha nos campos apropriados.
+2. O sistema verifica as credenciais fornecidas.
+3. O sistema autentica o usuário e redireciona para a tela principal do Duolingo.
 
 **Fluxos Alternativo 2:** Login com Facebook
 
-- O usuário seleciona a opção “Facebook". 
-- O sistema abre uma janela para importação dos dados.
+1. O usuário seleciona a opção “Facebook". 
+2. O sistema abre uma janela para importação dos dados.
 
 **Fluxos Alternativo 3:** Login com Google
 
-- O usuário seleciona a opção “Google". 
-- O sistema abre uma janela para importação dos dados.
+1. O usuário seleciona a opção “Google". 
+2. O sistema abre uma janela para importação dos dados.
 
 **Fluxos Alternativo 4:** Usuário esqueceu a senha
 
-- O usuário seleciona a opção “Esqueci a senha". 
-- O usuário insere o e-mail para a recuperação da senha.
-- O sistema envia um e-mail com instruções para redefinir a senha.
-- O usuário segue as instruções no e-mail para criar uma nova senha e, em seguida, faz login novamente.
+1. O usuário seleciona a opção “Esqueci a senha". 
+2. O usuário insere o e-mail para a recuperação da senha.
+3. O sistema envia um e-mail com instruções para redefinir a senha.
+4. O usuário segue as instruções no e-mail para criar uma nova senha e, em seguida, faz login novamente.
 
 **Fluxo de exceção:** 
 
-- O usuário acessa o Duolingo.
-- O sistema exibe uma tela de boas-vindas com opções para começar agora e já possuo uma conta.
-- O usuário escolhe a opção "Já tenho uma conta".
-- O sistema exibe uma tela de login com campos para inserir o e-mail/usuário e a senha, esqueci a senha, login com Facebook e login com Google.
-- O usuário forcene os dados para o login.
-- Dados fornecidos pelo usuário são inválidos.
-- O sistema retorna para a tela de login.
+1. O usuário acessa o Duolingo.
+2. O sistema exibe uma tela de boas-vindas com opções para começar agora e já possuo uma conta.
+3. O usuário escolhe a opção "Já tenho uma conta".
+4. O sistema exibe uma tela de login com campos para inserir o e-mail/usuário e a senha, esqueci a senha, login com Facebook e login com Google.
+5. O usuário forcene os dados para o login.
+6. Dados fornecidos pelo usuário são inválidos.
+7. O sistema retorna para a tela de login.
 
 **Restrições:**
 
