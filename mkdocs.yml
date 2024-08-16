@@ -105,7 +105,7 @@ nav:
                         - UC14 - Cadastrar usuário: modelagem/casosdeuso/casodeuso/cadastrarUsuario.md 
                         - UC15 - Perfil: modelagem/casosdeuso/casodeuso/perfil.md 
                         - UC16 - Compartilhar ofensiva: modelagem/casosdeuso/casodeuso/compartilharOfensiva.md
-
+          - Especificação Suplementar: modelagem/especificacaoSuplementar.md
           - Referências: modelagem/referencias.md
     - Atas de reunião: ata_reuniao/atas.md
     - Entregas: entregas.md
