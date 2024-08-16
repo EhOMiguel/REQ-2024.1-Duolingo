@@ -1,20 +1,30 @@
+---
+
 ## Introdução
 
-Storytelling é uma das diversas técnicas de elicitação de requisitos. Nessa abordagem, é contada uma pequena história que ilustra como o usuário utiliza a aplicação em sua rotina diária. Por meio dessa narrativa, é possível identificar diversos requisitos para cada contexto em que o usuário interage com o aplicativo, como necessidades específicas, desafios enfrentados e as expectativas de uso.
+> Storytelling é uma das diversas técnicas de elicitação de requisitos. Nessa abordagem, é contada uma pequena história que ilustra como o usuário utiliza a aplicação em sua rotina diária. Por meio dessa narrativa, é possível identificar diversos requisitos para cada contexto em que o usuário interage com o aplicativo, como necessidades específicas, desafios enfrentados e as expectativas de uso.
 
-Para aplicar a técnica, as histórias foram desenvolvidas a partir de jornadas do usuário, utilizando personas para caracterizar o perfil das pessoas que atuarão na história. As personas ajudam a contextualizar os cenários, permitindo uma compreensão mais profunda dos diferentes tipos de usuários e suas interações com o sistema. Essa técnica é particularmente eficaz para explorar requisitos subjetivos e descobrir novas funcionalidades que podem melhorar a experiência do usuário, garantindo que o desenvolvimento do software esteja alinhado com as necessidades reais dos usuários.
+> Para aplicar a técnica, as histórias foram desenvolvidas a partir de jornadas do usuário, utilizando personas para caracterizar o perfil das pessoas que atuarão na história. As personas ajudam a contextualizar os cenários, permitindo uma compreensão mais profunda dos diferentes tipos de usuários e suas interações com o sistema. Essa técnica é particularmente eficaz para explorar requisitos subjetivos e descobrir novas funcionalidades que podem melhorar a experiência do usuário, garantindo que o desenvolvimento do software esteja alinhado com as necessidades reais dos usuários.
 
-## Personas
+---
+
+<center>
+
 ### Persona: Tumão - Estudante Universitário
+
+</center>
+
+<center>
+    <img src="../assets/images/tumao.jpeg" style="width:12vw"/> 
+</center>
+
+> **Tumão** é um dedicado aluno de engenharia de software que deseja crescer muito em sua carreira e quem sabe um dia criar gansos. Ele é curioso, motivado e tem um forte desejo de aprender novas habilidades que possam impulsionar sua carreira. Além disso, ele tem interesse em tecnologias emergentes.
 
 #### Informações Básicas
 - **Nome**: Tumão
 - **Idade**: 25 anos
 - **Profissão**: Estudante de Engenharia de Software
 - **Localização**: Saint Mary
-
-#### Bibliografia
-Tumão é um dedicado aluno de engenharia de software que deseja crescer muito em sua carreira e quem sabe um dia criar gansos. Ele é curioso, motivado e tem um forte desejo de aprender novas habilidades que possam impulsionar sua carreira. Além disso, ele tem interesse em tecnologias emergentes.
 
 #### Necessidades
 - Aprender inglês para aproveitar as melhores vagas no mercado de software, que estão principalmente nos EUA.
@@ -39,16 +49,23 @@ Tumão usa o Duolingo principalmente durante suas viagens de ônibus, que são c
 
 ---
 
+<center>
+
 ### Persona: Maria das Graças - Empregada Doméstica
+
+</center>
+
+<center>
+    <img path="../assets/images/maria.jpg" alt="Rich_picture_geral" style="width:300px;"/>
+</center>
+
+> **Maria das Graças** é uma mãe de três filhos adultos que já são fluentes em inglês. Após anos dedicados à família e ao trabalho doméstico, Maria agora quer se atualizar com o mundo ao seu redor, aprendendo inglês para compreender melhor as notícias, vídeos, e músicas que tanto gosta.
 
 #### Informações Básicas
 - **Nome**: Maria das Graças
 - **Idade**: 52 anos
 - **Profissão**: Empregada Doméstica
 - **Localização**: Interior de São Paulo, Brasil
-
-#### Bibliografia
-Maria é uma mãe de três filhos adultos que já são fluentes em inglês. Após anos dedicados à família e ao trabalho doméstico, Maria agora quer se atualizar com o mundo ao seu redor, aprendendo inglês para compreender melhor as notícias, vídeos, e músicas que tanto gosta.
 
 #### Necessidades
 - Aprender inglês de uma maneira prática e que caiba em sua rotina agitada.
@@ -70,41 +87,26 @@ Maria usa o Duolingo durante seus momentos de folga e nos fins de semana quando 
 - **18:30**: Chega em casa, cuida de tarefas domésticas e começa a preparar o jantar.
 - **20:00 - 20:30**: Janta com a família e conversa sobre o dia.
 - **20:30 - 21:00**: Enquanto relaxa assistindo TV ou ouvindo música, ocasionalmente se lembra de abrir o Duolingo para uma lição rápida.
-- **21:00**: Prepara-se para dormir e planeja o dia seguinte.
-- **22:00**: Deita-se para dormir. Geralmente não usa o Duolingo à noite, mas pode decidir fazer uma atividade se estiver particularmente motivada.
-
-#### Motivações
-- Desejo de se conectar melhor com o mundo e com os interesses de seus filhos.
-- Querer participar de conversas e consumir mídia em inglês.
-
-#### Barreiras
-- Falta de tempo devido à sua carga de trabalho pesada.
-- Falta de costume com tecnologia e aplicativos de aprendizado.
-
-#### Estilo de Aprendizado
-- Visual e auditivo, com preferência por lições que utilizam vídeos e músicas.
-
-#### Interesses Pessoais
-- Além de música, Maria gosta de assistir novelas e programas de culinária.
-
-#### Habilidades Digitais
-- Básicas; ela utiliza principalmente o smartphone para redes sociais e comunicação.
-
-#### Ambiente de Estudo
-- Prefere estudar na cozinha ou na sala enquanto realiza outras atividades domésticas.
 
 ---
 
+<center>
+
 ### Persona: Clarice Lee - Adolescente Competitiva
+
+</center>
+
+<center>
+    <img src="../assets/images/clarice.jpeg" style="width:12vw"/> 
+</center>
+
+> **Clarice Lee** é uma adolescente dedicada e extrovertida, que adora aprender coisas novas, especialmente quando pode compartilhar suas conquistas com seus amigos. No ensino médio, ela tem um grupo de amigos que estudam juntos e se desafiam mutuamente, especialmente em matérias que consideram difíceis, como inglês.
 
 #### Informações Básicas
 - **Nome**: Clarice Lee
 - **Idade**: 15 anos
 - **Profissão**: Estudante do Ensino Médio
 - **Localização**: Goiás, Brasil
-
-#### Bibliografia
-Clarice é uma adolescente dedicada e extrovertida, que adora aprender coisas novas, especialmente quando pode compartilhar suas conquistas com seus amigos. No ensino médio, ela tem um grupo de amigos que estudam juntos e se desafiam mutuamente, especialmente em matérias que consideram difíceis, como inglês.
 
 #### Necessidades
 - Melhorar as habilidades de inglês para acompanhar as aulas na escola.
@@ -125,23 +127,10 @@ Clarice usa o Duolingo principalmente em seu smartphone, durante o trajeto para 
 - **Progresso e Melhoria**: Ao longo do tempo, Clarice vê melhorias em suas notas de inglês na escola, e isso a motiva ainda mais a continuar usando o aplicativo.
 - **Manutenção**: Clarice mantém o uso regular do Duolingo, principalmente pelo aspecto social e a vontade de manter seu progresso e liderança no grupo.
 
-#### Objetivos
-- Melhorar suas notas de inglês na escola.
-- Manter uma rotina de estudo constante.
-- Competir e interagir com seus amigos de forma saudável.
-
-#### Barreiras
-- A possibilidade de perder a sequência de dias estudados se não conseguir usar o aplicativo por algum motivo.
-- Dificuldade em alguns exercícios que não são diretamente relacionados ao conteúdo escolar.
-
-#### Motivações
-- Ver melhorias concretas nas notas escolares.
-- Sentir-se motivada pela competição saudável com amigos.
-- Receber recompensas no aplicativo, como novos emblemas e troféus.
-
+---
 
 ## Histórico de Versão
 
-| Data | Versão | Descrição | Autor(es) |
-| ---- | ------ | --------- | --------- |
-| 09/08/2024 | 1.0 | Adição da introdução do StoryTelling | Vinícius de Oliveira |
+| Data       | Versão | Descrição                             | Autor(es)            |
+|------------|--------|---------------------------------------|----------------------|
+| 09/08/2024 | 1.0    | Adição da introdução do StoryTelling  | Vinícius de Oliveira |
