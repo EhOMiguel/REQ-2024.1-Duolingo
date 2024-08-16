@@ -1,12 +1,20 @@
 # Diagramas de caso de uso
 
-#### Primeiro acesso e login no sistema
+#### Primeiro acesso e login no sistema 1.0
 
 ![Diagrama_primeiroAcesso_login](../../assets/images/Diagrama_login_primeiroAcesso.png)
+
+#### Primeiro acesso e login no sistema 1.1
+
+![Diagrama_primeiroAcesso_login](../../assets/images/Diagrama_login_primeiroAcesso_1_1.png)
+
+---
 
 #### Loja e aquisição do super duolingo
 
 ![Diagrama_loja_superDuo](../../assets/images/Diagrama_loja_superDuo.png)
+
+---
 
 ## Histórico de Versão
 
