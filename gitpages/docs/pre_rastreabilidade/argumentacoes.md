@@ -24,7 +24,25 @@ O uso da argumentação neste projeto busca promover a resolução de pontos de 
 
 ---
 
+**Questão**
+<a><p>O que é mais importante para a aplicação do duolingo?</p></a>
+
+![grafo_arg_2](../assets/images/argumentacao2.png)
+
+**Argumentos**
+
+- <a>p1</a> - A gamificação é o mais importante para a aplicação, pois consegue reter a atenção dos usuários.
+- <a>p2</a> - Com a gamificação é possível criar novos métodos de ensino e facilita a divulgação entre os usuários.
+- <a>p3</a> - O ensino é o mais importante, pois o usuário quer aprender o idioma desejado
+- <a>p4</a> - Com o foco no ensino é possível criar fluxos mais completos para o aprendizado.
+
+**Conclusão** 
+<a><p>O mais importante para o Duolingo é a gamificação, pois é algo diferente no mercado de ensino de línguas estrangeiras e com a gamificação é possível criar fluxos completos e personalizados para cada usuário, sendo assim mantendo o usuário por mais tempo na aplicação.</p></a>
+
+---
+
 # Histórico de Versão
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 29/07/2024 | 1.0 | Adição da primeira argumentação | Vinícius de Oliveira |
+| 16/08/2024 | 2.0 | Adição da segunda argumentação | Vinícius de Oliveira |
