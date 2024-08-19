@@ -10,9 +10,14 @@ O NFR Framework é uma abordagem orientada a processos, utilizada para a valida�
 
 ![nfr_usabilidade](../assets/images/usabilidade_NFR.png)
 
+## NFR-Acessibilidade
+
+![nfr_acessibilidade](../assets/images/acessibilidade_NFR.png)
+
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) |
 | ---- | ------ | --------- | --------- |
 | 16/08/2024 | 1.0 | Criação da aba NFR Framework | Vinícius de Oliveira |
-| 16/08/2024 | 1.0 | Adicionando introdução e imagens da usabilidade e desempenho | Vinícius de Oliveira |
+| 16/08/2024 | 1.1 | Adicionando introdução e imagens da usabilidade e desempenho | Vinícius de Oliveira |
+| 16/08/2024 | 1.2 | Adicionando NFR da acessibilidade | Vinícius de Oliveira |
