@@ -63,3 +63,10 @@
 | Curso e Conteúdo de Ensino                 | US059 | [Usuário](../modelagem/lexicos.md#usuario)   | Escolher tópicos específicos para as [lições](../modelagem/lexicos.md#licao) | Aprender com conteúdos que mais me interessam              |
 | Curso e Conteúdo de Ensino                 | US060 | [Usuário](../modelagem/lexicos.md#usuario)   | Ver exemplos práticos e situações reais | Relacionar o aprendizado com a vida real                   |
 | Integrações e Funcionalidades Externas     | US061 | [Usuário](../modelagem/lexicos.md#usuario)   | Acessar a plataforma sem [inscrição](../modelagem/lexicos.md#inscricao) | Experimentar o aplicativo antes de criar uma [conta](../modelagem/lexicos.md#conta) |
+
+
+## Histórico de Versão
+
+| Data       | Versão | Descrição                             | Autor(es)            |
+|------------|--------|---------------------------------------|----------------------|
+| 19/08/2024 | 2.0    | Criação do arquivo e adição da primeira versão do backlog | Miguel Moreira |
