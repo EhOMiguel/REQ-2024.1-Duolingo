@@ -107,6 +107,7 @@ nav:
                         - UC15 - Perfil: modelagem/casosdeuso/casodeuso/perfil.md 
                         - UC16 - Compartilhar ofensiva: modelagem/casosdeuso/casodeuso/compartilharOfensiva.md
           - Especificação Suplementar: modelagem/especificacaoSuplementar.md
+          - Backlog do produto: modelagem/backlog.md
           - NFR: modelagem/nfr.md
           - Referências: modelagem/referencias.md
     - Atas de reunião: ata_reuniao/atas.md
