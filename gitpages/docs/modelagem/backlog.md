@@ -75,6 +75,26 @@
 -   O sistema deve verificar as credenciais fornecidas.
 -   O sistema deve autenticar o [usuário](../modelagem/lexicos.md#usuario) e redirecionar para a tela principal do [Duolingo](../modelagem/lexicos.md#duolingo).
 
+### US002 - Visualizar Perfil
+
+-   O [usuário](../modelagem/lexicos.md#usuario) deve poder acessar a tela de perfil a partir da tela principal.
+-   A tela de perfil deve exibir as informações do [usuário](../modelagem/lexicos.md#usuario):
+    -   Foto de perfil ou avatar;
+    -   Nome;
+    -   [Nickname](../modelagem/lexicos.md#nickname);
+    -   Tempo de inscrição;
+    -   [Cursos](../modelagem/lexicos.md#cursos) escolhidos;
+    -   Quantidade de amigos que o [usuário](../modelagem/lexicos.md#usuario) segue;
+    -   Quantidade de [seguidores](../modelagem/lexicos.md#seguidores) do [usuário](../modelagem/lexicos.md#usuario);
+    -   Strick atual;
+    -   Total de XP acumulado;
+    -   Divisão atual;
+    -   Quantidade de pódios;
+    -   Conquistas desbloqueadas;
+-   Deve existir um botão de adicionar [amigo](../modelagem/lexicos.md#seguidores).
+-   Deve existir um botão para compartilhar o perfil do [usuário](../modelagem/lexicos.md#usuario).
+-   O sistema deve mostrar sugestões de outros [usuários](../modelagem/lexicos.md#usuario).
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
