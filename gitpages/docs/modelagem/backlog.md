@@ -6,7 +6,7 @@
 | Cadastro e Gestão de Usuários          | US002 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar o meu [perfil](../modelagem/lexicos.md#conta)                                                                                         | Verificar minhas informações pessoais                                                                                     |
 | Curso e Conteúdo de Ensino             | US003 | [Usuário](../modelagem/lexicos.md#usuário) | Resolver [lições](../modelagem/lexicos.md#licao) do [curso](../modelagem/lexicos.md#cursos) escolhido                                            | Praticar e aprender o [curso](../modelagem/lexicos.md#cursos)                                                             |
 | Integrações e Funcionalidades Externas | US004 | [Usuário](../modelagem/lexicos.md#usuário) | Acessar minha [conta](../modelagem/lexicos.md#conta) em dispositivos diferentes                                                                  | Continuar meu progresso em qualquer dispositivo                                                                           |
-| Seleção e Gestão de Idiomas            | US005 | [Usuário](../modelagem/lexicos.md#usuário) | Alterar o [idioma](../modelagem/lexicos.md#cursos) que desejo aprender                                                                           | Explorar novos [idiomas](../modelagem/lexicos.md#cursos)                                                                  |
+| Seleção e Gestão de Idiomas            | US005 | [Usuário](../modelagem/lexicos.md#usuário) | Alterar o [curso](../modelagem/lexicos.md#cursos) que desejo aprender                                                                            | Explorar novos [idiomas](../modelagem/lexicos.md#cursos)                                                                  |
 | Curso e Conteúdo de Ensino             | US006 | [Usuário](../modelagem/lexicos.md#usuário) | Revisar [exercícios](../modelagem/lexicos.md#licao) errados                                                                                      | Corrigir meus erros e reforçar o aprendizado                                                                              |
 | Curso e Conteúdo de Ensino             | US007 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar meu progresso                                                                                                                         | Acompanhar meu desempenho no [idioma](../modelagem/lexicos.md#cursos) selecionado                                         |
 | Interações Sociais e Competitivas      | US008 | [Usuário](../modelagem/lexicos.md#usuário) | [Compartilhar](../modelagem/lexicos.md#compartilhar) meu progresso                                                                               | Mostrar meu avanço para amigos ou redes sociais                                                                           |
@@ -115,6 +115,18 @@
 -   O sistema deve manter o [usuário](../modelagem/lexicos.md#usuário) autenticado sem a necessidade de [login](../modelagem/lexicos.md#login) a cada acesso em múltiplos dispositivos simultaneamente.
 -   O progresso do [usuário](../modelagem/lexicos.md#usuário) deve ser sincronizado em tempo real ao alternar entre dispositivos ativos.
 -   Em casos de conflitos de progresso (e.g., um usuário faz progresso em dois dispositivos desconectados), o sistema deve adotar uma lógica para resolver a inconsistência, como priorizar o progresso mais recente
+
+### US005 - Alterar Curso
+
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder selecionar o botão para alterar o [curso](../modelagem/lexicos.md#cursos) na tela principal.
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder visualizar a lista dos [cursos](../modelagem/lexicos.md#cursos) já adicionados por ele.
+-   O sistema deve exibir um botão de adicionar novo [curso](../modelagem/lexicos.md#cursos).
+-   O sistema deve exibir uma lista de [cursos](../modelagem/lexicos.md#cursos) disponíveis para adicionar.
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder selecionar o [curso](../modelagem/lexicos.md#cursos) que deseja aprender.
+-   O sistema deve alterar o [idioma](../modelagem/lexicos.md#cursos) do [usuário](../modelagem/lexicos.md#usuário) na plataforma.
+-   O sistema deve exibir uma mensagem de confirmação da alteração do [idioma](../modelagem/lexicos.md#cursos).
+-   O sistema deve redirecionar o [usuário](../modelagem/lexicos.md#usuário) para a tela principal após a alteração do [idioma](../modelagem/lexicos.md#cursos).
+-   O sistema deve exibir o [idioma](../modelagem/lexicos.md#cursos) selecionado na tela principal.
 
 ## Histórico de Versão
 
