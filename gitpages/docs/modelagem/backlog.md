@@ -128,6 +128,19 @@
 -   O sistema deve redirecionar o [usuário](../modelagem/lexicos.md#usuário) para a tela principal após a alteração do [idioma](../modelagem/lexicos.md#cursos).
 -   O sistema deve exibir o [idioma](../modelagem/lexicos.md#cursos) selecionado na tela principal.
 
+### US006 - Revisar Exercícios Errados
+
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar uma [seção](../modelagem/lexicos.md#seção) dedicada para revisar exercícios a partir do menu principal.
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar a tela de revisão de [exercícios](../modelagem/lexicos.md#exercício) errados.
+-   O sistema deve exibir a lista de [exercícios](../modelagem/lexicos.md#exercício) errados.
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder começar a [lição](../modelagem/lexicos.md#lição) de revisão de [exercícios](../modelagem/lexicos.md#exercício) respondidos errados.
+-   O sistema deve exibir o [exercício](../modelagem/lexicos.md#exercício).
+-   O [usuário](../modelagem/lexicos.md#usuário) deve resolver o [exercício](../modelagem/lexicos.md#exercício).
+-   O sistema deve verificar a resposta do [usuário](../modelagem/lexicos.md#usuário).
+-   O sistema deve dar feedback sobre a resposta do [usuário](../modelagem/lexicos.md#usuário).
+-   O sistema deve mostrar a tela de conclusão do [exercício](../modelagem/lexicos.md#exercício).
+-   O sistema deve atribuir [XP](../modelagem/lexicos.md#xp) ao [usuário](../modelagem/lexicos.md#usuário) ao concluir o [exercício](../modelagem/lexicos.md#exercício).
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
