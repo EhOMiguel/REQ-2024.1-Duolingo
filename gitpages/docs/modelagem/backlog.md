@@ -92,7 +92,7 @@
     -   Quantidade de pódios;
     -   Conquistas desbloqueadas;
 -   Deve existir um botão de adicionar [amigo](../modelagem/lexicos.md#seguidores).
--   Deve existir um botão para compartilhar o perfil do [usuário](../modelagem/lexicos.md#usuário).
+-   Deve existir um botão para [compartilhar](../modelagem/lexicos.md#compartilhar) o perfil do [usuário](../modelagem/lexicos.md#usuário).
 -   O sistema deve mostrar sugestões de outros [usuários](../modelagem/lexicos.md#usuário).
 
 ### US003 - Resolver Exercício do Curso Escolhido
@@ -108,6 +108,13 @@
 -   O sistema deve mostrar tela de conclusão do [exercício](../modelagem/lexicos.md#licao).
 -   O sistema deve atribuir [XP](../modelagem/lexicos.md#xp) ao [usuário](../modelagem/lexicos.md#usuário) ao concluir o [exercício](../modelagem/lexicos.md#llição).
 -   O sistema deve avançar para a próxima [lição](../modelagem/lexicos.md#lição) ou [unidade](../modelagem/lexicos.md#unidade) após a conclusão do exercício.
+
+### US004 - Acessar Conta em Dispositivos Diferentes
+
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder realizar o [login](../modelagem/lexicos.md#login) na plataforma em diferentes dispositivos.
+-   O sistema deve manter o [usuário](../modelagem/lexicos.md#usuário) autenticado sem a necessidade de [login](../modelagem/lexicos.md#login) a cada acesso em múltiplos dispositivos simultaneamente.
+-   O progresso do [usuário](../modelagem/lexicos.md#usuário) deve ser sincronizado em tempo real ao alternar entre dispositivos ativos.
+-   Em casos de conflitos de progresso (e.g., um usuário faz progresso em dois dispositivos desconectados), o sistema deve adotar uma lógica para resolver a inconsistência, como priorizar o progresso mais recente
 
 ## Histórico de Versão
 
