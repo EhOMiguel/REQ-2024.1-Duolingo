@@ -19,7 +19,7 @@
 | Gamificação e Sistema de Recompensas   | US015 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar meu [streak](../modelagem/lexicos.md#ofensiva)                                                                                        | Acompanhar minha sequência de dias de prática                                                                             |
 | Curso e Conteúdo de Ensino             | US016 | [Usuário](../modelagem/lexicos.md#usuário) | Receber [exercícios](../modelagem/lexicos.md#licao) correspondentes ao meu nível e [idioma](../modelagem/lexicos.md#cursos)                      | Ter um aprendizado mais eficaz                                                                                            |
 | Monetização e Funcionalidades Premium  | US017 | [Usuário](../modelagem/lexicos.md#usuário) | Usar diferentes métodos de pagamento para obtenção do [Super](../modelagem/lexicos.md#super) Duolingo                                            | Pagar da maneira mais conveniente para mim                                                                                |
-| Recursos de Suporte ao Aprendizado     | US018 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar a porcentagem de acertos e o tempo gasto nos [exercícios](../modelagem/lexicos.md#licao)                                              | Avaliar meu desempenho em cada [licão](../modelagem/lexicos.md#licao)                                                     |
+| Recursos de Suporte ao Aprendizado     | US018 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar a porcentagem de acertos e o tempo gasto nos [exercícios](../modelagem/lexicos.md#licao)                                              | Avaliar meu desempenho em cada [licão](../modelagem/lexicos.md#licao), [unidade](../modelagem/lexicos.md#unidade), [seção](../modelagem/lexicos.md#seção) e [curso](../modelagem/lexicos.md)                                                     |
 | Gamificação e Sistema de Recompensas   | US019 | [Usuário](../modelagem/lexicos.md#usuário) | Atualizar meu [streak](../modelagem/lexicos.md#ofensiva)                                                                                         | Manter meu progresso contínuo                                                                                             |
 | Gamificação e Sistema de Recompensas   | US020 | [Usuário](../modelagem/lexicos.md#usuário) | Receber [recompensas](../modelagem/lexicos.md#recompensa) e [conquistas](../modelagem/lexicos.md#conquistas)                                     | Ser motivado a continuar usando a plataforma                                                                              |
 | Monetização e Funcionalidades Premium  | US021 | [Usuário](../modelagem/lexicos.md#usuário) | Usar [cristais](../modelagem/lexicos.md#cristais) na loja                                                                                        | Comprar itens e vantagens dentro do aplicativo                                                                            |
@@ -147,6 +147,13 @@
 -   O sistema deve exibir o progresso do [usuário](../modelagem/lexicos.md#usuário) em [XP](../modelagem/lexicos.md#xp) e [nível](../modelagem/lexicos.md#nível).
 -   O [usuário](../modelagem/lexicos.md#usuário) deve poder visualizar o progresso de cada habilidade ou módulo, incluindo o nível de conclusão e as lições restantes.
 -   O sistema deve mostrar as habilidades que precisam de revisão (baseado no tempo desde a última prática) devem ser destacadas.
+
+### US016 - Receber exercícios correspondentes ao meu nível e idioma
+
+- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) no [idioma](../modelagem/lexicos.md#cursos) escolhido pelo [usuário](../modelagem/lexicos.md#usuario).<br/>
+- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o progresso do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) variados para manter o [usuário](../modelagem/lexicos.md#usuario) engajado.<br/>
 
 ## Histórico de Versão
 
