@@ -8,7 +8,7 @@
 | Integrações e Funcionalidades Externas | US004 | [Usuário](../modelagem/lexicos.md#usuário) | Acessar minha [conta](../modelagem/lexicos.md#conta) em dispositivos diferentes                                                                  | Continuar meu progresso em qualquer dispositivo                                                                           |
 | Seleção e Gestão de Idiomas            | US005 | [Usuário](../modelagem/lexicos.md#usuário) | Alterar o [curso](../modelagem/lexicos.md#cursos) que desejo aprender                                                                            | Explorar novos [idiomas](../modelagem/lexicos.md#cursos)                                                                  |
 | Curso e Conteúdo de Ensino             | US006 | [Usuário](../modelagem/lexicos.md#usuário) | Revisar [exercícios](../modelagem/lexicos.md#licao) errados                                                                                      | Corrigir meus erros e reforçar o aprendizado                                                                              |
-| Curso e Conteúdo de Ensino             | US007 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar meu progresso                                                                                                                         | Acompanhar meu desempenho no [idioma](../modelagem/lexicos.md#cursos) selecionado                                         |
+| Curso e Conteúdo de Ensino             | US007 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar meu progresso                                                                                                                         | Acompanhar meu desempenho no [curso](../modelagem/lexicos.md#cursos) selecionado                                          |
 | Interações Sociais e Competitivas      | US008 | [Usuário](../modelagem/lexicos.md#usuário) | [Compartilhar](../modelagem/lexicos.md#compartilhar) meu progresso                                                                               | Mostrar meu avanço para amigos ou redes sociais                                                                           |
 | Interações Sociais e Competitivas      | US009 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar meu [ranking](../modelagem/lexicos.md#ranking)                                                                                        | Comparar meu desempenho com outros [usuários](../modelagem/lexicos.md#usuário)                                            |
 | Interações Sociais e Competitivas      | US010 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar minha [liga](../modelagem/lexicos.md#divisao)                                                                                         | Verificar em qual divisão estou                                                                                           |
@@ -135,11 +135,18 @@
 -   O sistema deve exibir a lista de [exercícios](../modelagem/lexicos.md#exercício) errados.
 -   O [usuário](../modelagem/lexicos.md#usuário) deve poder começar a [lição](../modelagem/lexicos.md#lição) de revisão de [exercícios](../modelagem/lexicos.md#exercício) respondidos errados.
 -   O sistema deve exibir o [exercício](../modelagem/lexicos.md#exercício).
--   O [usuário](../modelagem/lexicos.md#usuário) deve resolver o [exercício](../modelagem/lexicos.md#exercício).
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder resolver o [exercício](../modelagem/lexicos.md#exercício).
 -   O sistema deve verificar a resposta do [usuário](../modelagem/lexicos.md#usuário).
 -   O sistema deve dar feedback sobre a resposta do [usuário](../modelagem/lexicos.md#usuário).
 -   O sistema deve mostrar a tela de conclusão do [exercício](../modelagem/lexicos.md#exercício).
 -   O sistema deve atribuir [XP](../modelagem/lexicos.md#xp) ao [usuário](../modelagem/lexicos.md#usuário) ao concluir o [exercício](../modelagem/lexicos.md#exercício).
+
+### US007 - Visualizar Progresso
+
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar seu progresso na tela de progresso.
+-   O sistema deve exibir o progresso do [usuário](../modelagem/lexicos.md#usuário) em [XP](../modelagem/lexicos.md#xp) e [nível](../modelagem/lexicos.md#nível).
+-   O [usuário](../modelagem/lexicos.md#usuário) deve poder visualizar o progresso de cada habilidade ou módulo, incluindo o nível de conclusão e as lições restantes.
+-   O sistema deve mostrar as habilidades que precisam de revisão (baseado no tempo desde a última prática) devem ser destacadas.
 
 ## Histórico de Versão
 
