@@ -198,6 +198,12 @@
 - <input type="checkbox" disabled/> O sistema deve exibir a loja de itens e vantagens disponíveis para compra com [cristais](../modelagem/lexicos.md#cristais).<br/>
 - <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) compre itens e vantagens com [cristais](../modelagem/lexicos.md#cristais).<br/>
 
+### US022 - Visualizar streak de outra pessoa
+
+- <input type="checkbox" disabled/> O sistema deve permitir o [usuário](../modelagem/lexicos.md#usuário) acessar o perfil de outro [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o [streak](../modelagem/lexicos.md#ofensiva) do outro [usuário](../modelagem/lexicos.md#usuario) no perfil.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) compare seu [streak](../modelagem/lexicos.md#ofensiva) com o de outro [usuário](../modelagem/lexicos.md#usuario).<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
