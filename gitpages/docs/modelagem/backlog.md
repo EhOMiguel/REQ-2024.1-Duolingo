@@ -165,6 +165,16 @@
 - <input type="checkbox" disabled/> O sistema deve aceitar pagamento por PIX como forma de pagamento.<br/>
 - <input type="checkbox" disabled/> O sistema deve gerar um recibo de pagamento para o [usuário](../modelagem/lexicos.md#usuario).<br/>
 
+### US018 - Visualizar a porcentagem de acertos e o tempo gasto nos exercícios
+
+- <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [exercício](../modelagem/lexicos.md#licao).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o tempo gasto pelo [usuário](../modelagem/lexicos.md#usuario) em cada [exercício](../modelagem/lexicos.md#licao).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [unidade](../modelagem/lexicos.md#unidade).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o tempo gasto pelo [usuário](../modelagem/lexicos.md#usuario) em cada [unidade](../modelagem/lexicos.md#unidade).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [seção](../modelagem/lexicos.md#seção).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o tempo gasto pelo [usuário](../modelagem/lexicos.md#usuario) em cada [seção](../modelagem/lexicos.md#seção).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [curso](../modelagem/lexicos.md#cursos).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o tempo gasto pelo [usuário](../modelagem/lexicos.md#usuario) em cada [curso](../modelagem/lexicos.md#cursos).<br/>
 
 ## Histórico de Versão
 
