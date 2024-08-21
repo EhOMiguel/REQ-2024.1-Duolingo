@@ -176,6 +176,13 @@
 - <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [curso](../modelagem/lexicos.md#cursos).<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir o tempo gasto pelo [usuário](../modelagem/lexicos.md#usuario) em cada [curso](../modelagem/lexicos.md#cursos).<br/>
 
+### US019 - Atualizar meu streak
+
+- <input type="checkbox" disabled/> O sistema deve ter um contador de dias consecutivos de prática do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuario) deve conseguir praticar diariamente.<br/>
+- <input type="checkbox" disabled/> O sistema deve atualizar o [streak](../modelagem/lexicos.md#ofensiva) do [usuário](../modelagem/lexicos.md#usuario) diariamente.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o [streak](../modelagem/lexicos.md#ofensiva) do [usuário](../modelagem/lexicos.md#usuario) na tela principal.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
