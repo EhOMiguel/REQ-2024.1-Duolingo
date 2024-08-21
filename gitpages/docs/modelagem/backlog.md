@@ -267,6 +267,12 @@
 - <input type="checkbox" disabled/> O sistema deve mostrar o progresso do usuário no curso, indicando as unidades concluídas, as que estão em progresso e as que ainda não foram iniciadas.<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir um guia de todas as unidades disponíveis no curso, com uma breve introdução dos conteúdos vistos na unidade.<br/>
 
+### US032 - Acessar material didático
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse o material didático correspondente a cada unidade do curso.<br/>
+- <input type="checkbox" disabled/> O material didático deve estar disponível para visualização a qualquer momento, independentemente de o usuário já ter iniciado ou concluído a unidade.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário faça download de determinados materiais didáticos.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
