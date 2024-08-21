@@ -245,6 +245,12 @@
 - <input type="checkbox" disabled/> O chatbot deve permitir que o [usuário](../modelagem/lexicos.md#usuario) escolha o nível de dificuldade da conversação.<br/>
 - <input type="checkbox" disabled/> O chatbot deve fornecer feedback ao [usuário](../modelagem/lexicos.md#usuario) sobre a conversação.<br/>
 
+### US029 - Comprar cosméticos e opções de personalização
+
+- <input type="checkbox" disabled/> O sistema deve oferecer cosméticos e opções de personalização para o [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuario) deve poder comprar cosméticos e opções de personalização.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir a utilização de cosméticos e opções de personalização pelo [usuário](../modelagem/lexicos.md#usuario) no [perfil](../modelagem/lexicos.md#conta).<br/>
+
 
 ## Histórico de Versão
 
