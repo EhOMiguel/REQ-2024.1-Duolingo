@@ -312,6 +312,14 @@
 - <input type="checkbox" disabled/> Após a inserção do novo e-mail, o sistema deve enviar um e-mail de confirmação para o novo endereço fornecido, contendo um link para verificar a alteração.<br/>
 - <input type="checkbox" disabled/> A alteração do e-mail deve ser concluída apenas após o usuário clicar no link de verificação enviado para o novo endereço de e-mail.<br/>
 
+### US039 - Participar de ligas e competições
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário se participe de ligas e competições após completar 10 lições.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma lista de usuários que participam da liga.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a divisão que o usuário está.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir informações de como o usuário pode subir de divisão.<br/>
+
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
