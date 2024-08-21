@@ -260,6 +260,13 @@
 - <input type="checkbox" disabled/> O sistema deve salvar as informações da [conta](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario).<br/>
 - <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve conseguir usar a plataforma com seu progresso salvo após criar a [conta](../modelagem/lexicos.md#conta).<br/>
 
+### US031 - Visualizar as unidades do curso antes de iniciar
+
+- <input type="checkbox" disabled/> O sistema deve exibir uma lista de todas as unidades disponíveis no curso, com títulos de cada unidade.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma breve descrição do conteúdo de cada unidade.<br/>
+- <input type="checkbox" disabled/> O sistema deve mostrar o progresso do usuário no curso, indicando as unidades concluídas, as que estão em progresso e as que ainda não foram iniciadas.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir um guia de todas as unidades disponíveis no curso, com uma breve introdução dos conteúdos vistos na unidade.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
