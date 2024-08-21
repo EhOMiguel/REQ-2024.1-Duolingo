@@ -317,7 +317,7 @@
 
 - <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) acesse a opção de redefinição de [nickname](../modelagem/lexicos.md#nickname) nas configurações de [conta](../modelagem/lexicos.md#conta).<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir o [nickname](../modelagem/lexicos.md#nickname) atual do [usuário](../modelagem/lexicos.md#usuario) e permitir a edição dele.<br/>
-- <input type="checkbox" disabled/> O sistema deve validar o novo [nickname](../modelagem/lexicos.md#nickname) para garantir que ele esteja disponível (não seja utilizado por outro [usuário](../modelagem/lexicos.md#usuario)) e que siga as regras de formato, como comprimento permitido e ausência de caracteres especiais não suportados.<br/>
+- <input type="checkbox" disabled/> O sistema deve validar o novo [nickname](../modelagem/lexicos.md#nickname) para garantir que ele siga as regras de formato, como comprimento permitido e ausência de caracteres especiais não suportados.<br/>
 - <input type="checkbox" disabled/> Após a inserção do novo [nickname](../modelagem/lexicos.md#nickname), o sistema deve solicitar a confirmação da alteração, permitindo que o [usuário](../modelagem/lexicos.md#usuario) revise e confirme a mudança.<br/>
 - <input type="checkbox" disabled/> O sistema deve aplicar a alteração de [nickname](../modelagem/lexicos.md#nickname) imediatamente após a confirmação.<br/>
 
@@ -359,6 +359,15 @@
 - <input type="checkbox" disabled/> O sistema deve atualizar automaticamente o contador de [vidas](../modelagem/lexicos.md#vidas) sempre que o [usuário](../modelagem/lexicos.md#usuario) ganhar ou perder uma [vida](../modelagem/lexicos.md#vidas).<br/>
 - <input type="checkbox" disabled/> O sistema deve notificar o [usuário](../modelagem/lexicos.md#usuario) quando o número de [vidas](../modelagem/lexicos.md#vidas) estiver baixo ou quando todas as [vidas](../modelagem/lexicos.md#vidas) forem esgotadas, sugerindo ações para recuperar [vidas](../modelagem/lexicos.md#vidas), como assistir anúncios ou usar recompensas.<br/>
 - <input type="checkbox" disabled/>  O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) visualize informações detalhadas sobre como ganhar ou recuperar [vidas](../modelagem/lexicos.md#vidas).<br/>
+
+### US045 - Redefinir o nome da minha [conta](../modelagem/lexicos.md#conta)
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) acesse a opção de redefinição de nome nas configurações de [conta](../modelagem/lexicos.md#conta).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o nome atual do [usuário](../modelagem/lexicos.md#usuario) e permitir a edição dele.<br/>
+- <input type="checkbox" disabled/> O sistema deve validar o novo nome para garantir que ele esteja disponível (não seja utilizado por outro [usuário](../modelagem/lexicos.md#usuario)) e que siga as regras de formato, como comprimento permitido e ausência de caracteres especiais não suportados.<br/>
+- <input type="checkbox" disabled/> Após a inserção do novo nome, o sistema deve solicitar a confirmação da alteração, permitindo que o [usuário](../modelagem/lexicos.md#usuario) revise e confirme a mudança.<br/>
+- <input type="checkbox" disabled/> O sistema deve aplicar a alteração de nome imediatamente após a confirmação.<br/>
+
 
 ## Histórico de Versão
 
