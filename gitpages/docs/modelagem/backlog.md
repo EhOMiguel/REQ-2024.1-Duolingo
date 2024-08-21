@@ -297,14 +297,9 @@
 
 - <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do usuário no curso, com todas as unidades e lições disponíveis.<br/>
 - <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do usuário.<br/>
-
-### US037 - Acompanhar meu progresso navegando pelo mapa
-
-- <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do usuário no curso, com todas as unidades e lições disponíveis.<br/>
-- <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do usuário.<br/>
 - <input type="checkbox" disabled/> O sistema deve permitir que o usuário navegue pelo mapa.<br/>
 
-### US038 - Redefinir o e-mail da minha conta
+### US037 - Redefinir o e-mail da minha conta
 
 - <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse a opção de redefinição de e-mail nas configurações de conta.<br/>
 - <input type="checkbox" disabled/> O sistema deve fornecer um campo para o usuário inserir o novo endereço de e-mail e um campo para confirmação do novo e-mail.<br/>
@@ -312,13 +307,28 @@
 - <input type="checkbox" disabled/> Após a inserção do novo e-mail, o sistema deve enviar um e-mail de confirmação para o novo endereço fornecido, contendo um link para verificar a alteração.<br/>
 - <input type="checkbox" disabled/> A alteração do e-mail deve ser concluída apenas após o usuário clicar no link de verificação enviado para o novo endereço de e-mail.<br/>
 
-### US039 - Participar de ligas e competições
+### US038 - Participar de ligas e competições
 
 - <input type="checkbox" disabled/> O sistema deve permitir que o usuário se participe de ligas e competições após completar 10 lições.<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir uma lista de usuários que participam da liga.<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir a divisão que o usuário está.<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir informações de como o usuário pode subir de divisão.<br/>
 
+### US039 - Redefinir o nickname da minha conta
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse a opção de redefinição de nickname (apelido) nas configurações de conta.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o nickname atual do usuário e permitir a edição dele.<br/>
+- <input type="checkbox" disabled/> O sistema deve validar o novo nickname para garantir que ele esteja disponível (não seja utilizado por outro usuário) e que siga as regras de formato, como comprimento permitido e ausência de caracteres especiais não suportados.<br/>
+- <input type="checkbox" disabled/> Após a inserção do novo nickname, o sistema deve solicitar a confirmação da alteração, permitindo que o usuário revise e confirme a mudança.<br/>
+- <input type="checkbox" disabled/> O sistema deve aplicar a alteração de nickname imediatamente após a confirmação.<br/>
+
+### US040 - Criar uma conta com o Google
+
+- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma conta utilizando o Google na tela de cadastro.<br/>
+- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Google", o sistema deve redirecionar o usuário para a página de autenticação do Google.<br/>
+- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Google para acessar as informações básicas da conta, como nome e endereço de e-mail do usuário.<br/>
+- <input type="checkbox" disabled/> O sistema deve criar a conta do usuário e associá-la ao endereço de e-mail do Google.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
 
 ## Histórico de Versão
 
