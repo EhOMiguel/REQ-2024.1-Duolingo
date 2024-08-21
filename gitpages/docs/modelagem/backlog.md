@@ -354,6 +354,13 @@
 - <input type="checkbox" disabled/>  O sistema deve permitir que o usuário altere o nível de complexidade durante a conversa, caso deseje ajustar a dificuldade.<br/>
 - <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
 
+### US044 - Visualizar a quantidade de vidas disponíveis
+
+- <input type="checkbox" disabled/> O sistema deve exibir a quantidade de vidas disponíveis do usuário de forma clara e visível na tela inicial e durante as atividades do curso.<br/>
+- <input type="checkbox" disabled/> O sistema deve atualizar automaticamente o contador de vidas sempre que o usuário ganhar ou perder uma vida.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o usuário quando o número de vidas estiver baixo ou quando todas as vidas forem esgotadas, sugerindo ações para recuperar vidas, como assistir anúncios ou usar recompensas.<br/>
+- <input type="checkbox" disabled/>  O sistema deve permitir que o usuário visualize informações detalhadas sobre como ganhar ou recuperar vidas.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
