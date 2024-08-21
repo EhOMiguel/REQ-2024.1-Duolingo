@@ -220,6 +220,14 @@
 - <input type="checkbox" disabled/> O sistema deve exibir as [conquistas](../modelagem/lexicos.md#conquistas) disponíveis para desbloquear.<br/>
 - <input type="checkbox" disabled/> O sistema deve permitir o [usuário](../modelagem/lexicos.md#usuario) compartilhar suas [conquistas](../modelagem/lexicos.md#conquistas).<br/>
 
+### US026 - Recuperar minha senha
+
+- <input type="checkbox" disabled/> O sistema deve oferecer uma opção para recuperar a senha do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve enviar um e-mail ou SMS com um link ou código para redefinir a senha do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) redefina a senha após receber o link ou código.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma mensagem de confirmação após a redefinição da senha.<br/>
+- <input type="checkbox" disabled/> O sistema deve redefinir a senha do [usuário](../modelagem/lexicos.md#usuario).<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
