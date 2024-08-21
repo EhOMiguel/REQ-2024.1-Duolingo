@@ -302,6 +302,7 @@
 
 - <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do usuário no curso, com todas as unidades e lições disponíveis.<br/>
 - <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do usuário.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário navegue pelo mapa.<br/>
 
 ### US038 - Redefinir o e-mail da minha conta
 
