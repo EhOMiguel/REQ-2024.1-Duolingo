@@ -273,6 +273,13 @@
 - <input type="checkbox" disabled/> O material didático deve estar disponível para visualização a qualquer momento, independentemente de o usuário já ter iniciado ou concluído a unidade.<br/>
 - <input type="checkbox" disabled/> O sistema deve permitir que o usuário faça download de determinados materiais didáticos.<br/>
 
+### US033 - Resolver exercícios interativos e dinâmicos
+
+- <input type="checkbox" disabled/> O sistema deve apresentar exercícios interativos e dinâmicos para o usuário em cada unidade do curso.<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer feedback imediato ao usuário após a conclusão de cada exercício, indicando se a resposta está correta ou incorreta e oferecendo explicações ou dicas adicionais quando necessário.<br/>
+- <input type="checkbox" disabled/> O sistema deve adaptar o nível de dificuldade dos exercícios com base no desempenho do usuário, oferecendo desafios apropriados para o seu nível de conhecimento.<br/>
+- <input type="checkbox" disabled/> O progresso do usuário nos exercícios deve ser salvo automaticamente, permitindo que o usuário retome de onde parou.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
