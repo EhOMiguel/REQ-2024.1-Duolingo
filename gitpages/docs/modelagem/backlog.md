@@ -228,6 +228,12 @@
 - <input type="checkbox" disabled/> O sistema deve exibir uma mensagem de confirmação após a redefinição da senha.<br/>
 - <input type="checkbox" disabled/> O sistema deve redefinir a senha do [usuário](../modelagem/lexicos.md#usuario).<br/>
 
+### US027 - Visualizar opções de idiomas disponíveis
+
+- <input type="checkbox" disabled/> O sistema deve exibir as opções de [idiomas](../modelagem/lexicos.md#cursos) disponíveis para o [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) escolha um novo [idioma](../modelagem/lexicos.md#cursos) para aprender.<br/>
+- <input type="checkbox" disabled/> O sistema deve salvar as escolhas de [idiomas](../modelagem/lexicos.md#cursos) do [usuário](../modelagem/lexicos.md#usuario).<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
