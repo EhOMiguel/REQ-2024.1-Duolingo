@@ -204,6 +204,11 @@
 - <input type="checkbox" disabled/> O sistema deve exibir o [streak](../modelagem/lexicos.md#ofensiva) do outro [usuário](../modelagem/lexicos.md#usuario) no perfil.<br/>
 - <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) compare seu [streak](../modelagem/lexicos.md#ofensiva) com o de outro [usuário](../modelagem/lexicos.md#usuario).<br/>
 
+### US023 - Pular uma unidade ou seção
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) pule uma [unidade](../modelagem/lexicos.md#unidade) ou [seção](../modelagem/lexicos.md#seção).<br/>
+- <input type="checkbox" disabled/> O sistema deve realizar uma avaliação ao [usuário](../modelagem/lexicos.md#usuario) para determinar se ele pode pular a [unidade](../modelagem/lexicos.md#unidade) ou [seção](../modelagem/lexicos.md#seção).<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
