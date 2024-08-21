@@ -330,6 +330,14 @@
 - <input type="checkbox" disabled/> O sistema deve criar a conta do usuário e associá-la ao endereço de e-mail do Google.<br/>
 - <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
 
+### US041 - Criar uma conta com o Facebook
+
+- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma conta utilizando o Facebook na tela de cadastro.<br/>
+- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Facebook", o sistema deve redirecionar o usuário para a página de autenticação do Facebook.<br/>
+- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Facebook para acessar as informações básicas da conta, como nome, endereço de e-mail e foto de perfil do usuário.<br/>
+- <input type="checkbox" disabled/> O sistema deve criar a conta do usuário e associá-la ao endereço de e-mail do Facebook.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
