@@ -191,6 +191,13 @@
 - <input type="checkbox" disabled/> O sistema deve exibir as recompensas e conquistas disponíveis para desbloquear.<br/>
 - <input type="checkbox" disabled/> O sistema deve permitir o [usuário](../modelagem/lexicos.md#usuario) compartilhar suas recompensas e conquistas.<br/>
 
+### US021 - Usar cristais na loja
+
+- <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder adiquirir [cristais](../modelagem/lexicos.md#cristais)<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a quantidade de [cristais](../modelagem/lexicos.md#cristais) disponíveis para o [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a loja de itens e vantagens disponíveis para compra com [cristais](../modelagem/lexicos.md#cristais).<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) compre itens e vantagens com [cristais](../modelagem/lexicos.md#cristais).<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
