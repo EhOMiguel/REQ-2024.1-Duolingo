@@ -346,6 +346,13 @@
 - <input type="checkbox" disabled/> O sistema deve criar a conta do usuário e associá-la ao endereço de e-mail do Apple ID.<br/>
 - <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
 
+### US043 - Escolher o nível de complexidade das conversas com o bot
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário selecione o nível de complexidade das conversas com o bot (por exemplo, iniciante, intermediário, avançado) antes de iniciar a interação.<br/>
+- <input type="checkbox" disabled/> Após a seleção do nível de complexidade, o sistema deve adaptar as conversas e os desafios apresentados pelo bot de acordo com o nível escolhido.<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer feedback adequado durante as conversas, ajustado ao nível de complexidade selecionado, oferecendo dicas e sugestões mais detalhadas em níveis mais baixos e menos orientação em níveis mais altos.<br/>
+- <input type="checkbox" disabled/>  O sistema deve permitir que o usuário altere o nível de complexidade durante a conversa, caso deseje ajustar a dificuldade.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
 
 ## Histórico de Versão
 
