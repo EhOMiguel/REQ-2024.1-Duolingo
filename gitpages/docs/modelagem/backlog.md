@@ -150,10 +150,21 @@
 
 ### US016 - Receber exercícios correspondentes ao meu nível e idioma
 
-- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuario).<br/>
-- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) no [idioma](../modelagem/lexicos.md#cursos) escolhido pelo [usuário](../modelagem/lexicos.md#usuario).<br/>
-- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o progresso do [usuário](../modelagem/lexicos.md#usuario).<br/>
-- [ ] O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) variados para manter o [usuário](../modelagem/lexicos.md#usuario) engajado.<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) no [idioma](../modelagem/lexicos.md#cursos) escolhido pelo [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o progresso do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) variados para manter o [usuário](../modelagem/lexicos.md#usuario) engajado.<br/>
+
+### US017 - Usar diferentes métodos de pagamento para obtenção do Super Duolingo
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) escolha entre diferentes métodos de pagamento.<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer um método de pagamento seguro.<br/>
+- <input type="checkbox" disabled/> O sistema deve aceitar cartões de crédito como forma de pagamento.<br/>
+- <input type="checkbox" disabled/> O sistema deve aceitar PayPal como forma de pagamento.<br/>
+- <input type="checkbox" disabled/> O sistema deve aceitar Google Pay como forma de pagamento.<br/>
+- <input type="checkbox" disabled/> O sistema deve aceitar pagamento por PIX como forma de pagamento.<br/>
+- <input type="checkbox" disabled/> O sistema deve gerar um recibo de pagamento para o [usuário](../modelagem/lexicos.md#usuario).<br/>
+
 
 ## Histórico de Versão
 
