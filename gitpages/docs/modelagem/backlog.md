@@ -286,8 +286,12 @@
 - <input type="checkbox" disabled/> Os exercícios devem ser variados, incluindo diferentes tipos de interações, como múltipla escolha, arrastar e soltar, preenchimento de lacunas, e exercícios de pronúncia com reconhecimento de voz.<br/>
 - <input type="checkbox" disabled/> Cada tipo de exercício deve ser apresentado de forma clara e intuitiva, com instruções simples para que o usuário entenda como completá-lo.
 <br/>
-- <input type="checkbox" disabled/> Cada tipo de exercício deve ser apresentado de forma clara e intuitiva, com instruções simples para que o usuário entenda como completá-lo.
-<br/>
+
+### US035 - Revisar lições passadas
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse e revise lições já concluídas em qualquer unidade do curso.<br/>
+- <input type="checkbox" disabled/> O sistema deve realizar um feedback após a realização da revisão da lição.<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer uma recompensa para quem fizer a revisão da lição.<br/>
 
 ## Histórico de Versão
 
