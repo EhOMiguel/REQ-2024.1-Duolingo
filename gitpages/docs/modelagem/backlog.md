@@ -148,6 +148,16 @@
 -   <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder visualizar o progresso de cada habilidade ou módulo, incluindo o nível de conclusão e as lições restantes.
 -   <input type="checkbox" disabled/> O sistema deve mostrar as habilidades que precisam de revisão (baseado no tempo desde a última prática) devem ser destacadas.
 
+### US008 - Compartilhar Progresso
+
+-   <input type="checkbox" disabled/> O sistema deve exibir um botão de [compartilhamento](../modelagem/lexicos.md#compartilhar) ao concluir uma [lição](../modelagem/lexicos.md#lição).
+-   <input type="checkbox" disabled> O sistema deve exibir um botão de fechar componente de [compartilhamento](../modelagem/lexicos.md#compartilhar).
+-   <input type="checkbox" disabled/> O sistema deve mostrar ao [usuário](../modelagem/lexicos.md#usuário) as opções de redes sociais para o [compartilhar](../modelagem/lexicos.md#compartilhar) seu progresso.
+-   <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) dever ser capaz de clicar na opção de uma rede social.
+-   <input type="checkbox" disabled/> O sistema deve abrir a rede social selecionada pelo [usuário](../modelagem/lexicos.md#usuário).
+-   <input type="checkbox" disabled/> O sistema deve gerar uma imagem do progresso para o [usuário](../modelagem/lexicos.md#usuário) [compartilhar](../modelagem/lexicos.md#compartilhar).
+-   <input type="checkbox" disabled/> O sistema deve exibir uma mensagem de confirmação do [compartilhamento](../modelagem/lexicos.md#compartilhar).
+
 ### US016 - Receber exercícios correspondentes ao meu nível e idioma
 
 -   <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuario).<br/>
