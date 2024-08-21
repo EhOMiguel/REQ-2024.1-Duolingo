@@ -298,6 +298,19 @@
 - <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do usuário no curso, com todas as unidades e lições disponíveis.<br/>
 - <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do usuário.<br/>
 
+### US037 - Acompanhar meu progresso navegando pelo mapa
+
+- <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do usuário no curso, com todas as unidades e lições disponíveis.<br/>
+- <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do usuário.<br/>
+
+### US038 - Redefinir o e-mail da minha conta
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse a opção de redefinição de e-mail nas configurações de conta.<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer um campo para o usuário inserir o novo endereço de e-mail e um campo para confirmação do novo e-mail.<br/>
+- <input type="checkbox" disabled/> O sistema deve validar o novo endereço de e-mail para garantir que ele esteja no formato correto e que não esteja associado a outra conta existente no Duolingo.<br/>
+- <input type="checkbox" disabled/> Após a inserção do novo e-mail, o sistema deve enviar um e-mail de confirmação para o novo endereço fornecido, contendo um link para verificar a alteração.<br/>
+- <input type="checkbox" disabled/> A alteração do e-mail deve ser concluída apenas após o usuário clicar no link de verificação enviado para o novo endereço de e-mail.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
