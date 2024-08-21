@@ -293,6 +293,11 @@
 - <input type="checkbox" disabled/> O sistema deve realizar um feedback após a realização da revisão da lição.<br/>
 - <input type="checkbox" disabled/> O sistema deve fornecer uma recompensa para quem fizer a revisão da lição.<br/>
 
+### US036 - Acompanhar meu progresso navegando pelo mapa
+
+- <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do usuário no curso, com todas as unidades e lições disponíveis.<br/>
+- <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do usuário.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
