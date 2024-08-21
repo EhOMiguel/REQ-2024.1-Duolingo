@@ -279,6 +279,15 @@
 - <input type="checkbox" disabled/> O sistema deve fornecer feedback imediato ao usuário após a conclusão de cada exercício, indicando se a resposta está correta ou incorreta e oferecendo explicações ou dicas adicionais quando necessário.<br/>
 - <input type="checkbox" disabled/> O sistema deve adaptar o nível de dificuldade dos exercícios com base no desempenho do usuário, oferecendo desafios apropriados para o seu nível de conhecimento.<br/>
 - <input type="checkbox" disabled/> O progresso do usuário nos exercícios deve ser salvo automaticamente, permitindo que o usuário retome de onde parou.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o usuário refaça exercícios específicos ou tipos de exercícios para reforçar o aprendizado de áreas em que ele tenha tido dificuldades.<br/>
+
+### US034 - Resolver diferentes tipos de exercícios
+
+- <input type="checkbox" disabled/> Os exercícios devem ser variados, incluindo diferentes tipos de interações, como múltipla escolha, arrastar e soltar, preenchimento de lacunas, e exercícios de pronúncia com reconhecimento de voz.<br/>
+- <input type="checkbox" disabled/> Cada tipo de exercício deve ser apresentado de forma clara e intuitiva, com instruções simples para que o usuário entenda como completá-lo.
+<br/>
+- <input type="checkbox" disabled/> Cada tipo de exercício deve ser apresentado de forma clara e intuitiva, com instruções simples para que o usuário entenda como completá-lo.
+<br/>
 
 ## Histórico de Versão
 
