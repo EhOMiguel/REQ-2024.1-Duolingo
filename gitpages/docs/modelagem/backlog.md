@@ -183,6 +183,14 @@
 - <input type="checkbox" disabled/> O sistema deve atualizar o [streak](../modelagem/lexicos.md#ofensiva) do [usuário](../modelagem/lexicos.md#usuario) diariamente.<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir o [streak](../modelagem/lexicos.md#ofensiva) do [usuário](../modelagem/lexicos.md#usuario) na tela principal.<br/>
 
+### US020 - Receber recompensas e conquistas
+
+- <input type="checkbox" disabled/> O sistema deve fornecer recompensas ao [usuário](../modelagem/lexicos.md#usuario) por completar [exercícios](../modelagem/lexicos.md#licao).<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer conquistas ao [usuário](../modelagem/lexicos.md#usuário) por completar [exercícios](../modelagem/lexicos.md#licao).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir as recompensas e conquistas desbloqueadas pelo [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir as recompensas e conquistas disponíveis para desbloquear.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir o [usuário](../modelagem/lexicos.md#usuario) compartilhar suas recompensas e conquistas.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
