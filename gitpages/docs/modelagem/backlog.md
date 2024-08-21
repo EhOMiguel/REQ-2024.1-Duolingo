@@ -260,106 +260,105 @@
 - <input type="checkbox" disabled/> O sistema deve salvar as informações da [conta](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario).<br/>
 - <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve conseguir usar a plataforma com seu progresso salvo após criar a [conta](../modelagem/lexicos.md#conta).<br/>
 
-### US031 - Visualizar as unidades do curso antes de iniciar
+### US031 - Visualizar as unidades do [curso](../modelagem/lexicos.md#cursos) antes de iniciar
 
-- <input type="checkbox" disabled/> O sistema deve exibir uma lista de todas as unidades disponíveis no curso, com títulos de cada unidade.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma lista de todas as unidades disponíveis no [curso](../modelagem/lexicos.md#cursos), com títulos de cada unidade.<br/>
 - <input type="checkbox" disabled/> O sistema deve exibir uma breve descrição do conteúdo de cada unidade.<br/>
-- <input type="checkbox" disabled/> O sistema deve mostrar o progresso do usuário no curso, indicando as unidades concluídas, as que estão em progresso e as que ainda não foram iniciadas.<br/>
-- <input type="checkbox" disabled/> O sistema deve exibir um guia de todas as unidades disponíveis no curso, com uma breve introdução dos conteúdos vistos na unidade.<br/>
+- <input type="checkbox" disabled/> O sistema deve mostrar o progresso do [usuário](../modelagem/lexicos.md#usuario) no [curso](../modelagem/lexicos.md#cursos), indicando as unidades concluídas, as que estão em progresso e as que ainda não foram iniciadas.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir um guia de todas as unidades disponíveis no [curso](../modelagem/lexicos.md#cursos), com uma breve introdução dos conteúdos vistos na unidade.<br/>
 
 ### US032 - Acessar material didático
 
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse o material didático correspondente a cada unidade do curso.<br/>
-- <input type="checkbox" disabled/> O material didático deve estar disponível para visualização a qualquer momento, independentemente de o usuário já ter iniciado ou concluído a unidade.<br/>
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário faça download de determinados materiais didáticos.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) acesse o material didático correspondente a cada unidade do [curso](../modelagem/lexicos.md#cursos).<br/>
+- <input type="checkbox" disabled/> O material didático deve estar disponível para visualização a qualquer momento, independentemente de o [usuário](../modelagem/lexicos.md#usuario) já ter iniciado ou concluído a unidade.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) faça download de determinados materiais didáticos.<br/>
 
-### US033 - Resolver exercícios interativos e dinâmicos
+### US033 - Resolver [exercícios](../modelagem/lexicos.md#licao) interativos e dinâmicos
 
-- <input type="checkbox" disabled/> O sistema deve apresentar exercícios interativos e dinâmicos para o usuário em cada unidade do curso.<br/>
-- <input type="checkbox" disabled/> O sistema deve fornecer feedback imediato ao usuário após a conclusão de cada exercício, indicando se a resposta está correta ou incorreta e oferecendo explicações ou dicas adicionais quando necessário.<br/>
-- <input type="checkbox" disabled/> O sistema deve adaptar o nível de dificuldade dos exercícios com base no desempenho do usuário, oferecendo desafios apropriados para o seu nível de conhecimento.<br/>
-- <input type="checkbox" disabled/> O progresso do usuário nos exercícios deve ser salvo automaticamente, permitindo que o usuário retome de onde parou.<br/>
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário refaça exercícios específicos ou tipos de exercícios para reforçar o aprendizado de áreas em que ele tenha tido dificuldades.<br/>
+- <input type="checkbox" disabled/> O sistema deve apresentar [exercícios](../modelagem/lexicos.md#licao) interativos e dinâmicos para o [usuário](../modelagem/lexicos.md#usuario) em cada unidade do [curso](../modelagem/lexicos.md#cursos).<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer feedback imediato ao [usuário](../modelagem/lexicos.md#usuario) após a conclusão de cada [exercício](../modelagem/lexicos.md#licao), indicando se a resposta está correta ou incorreta e oferecendo explicações ou dicas adicionais quando necessário.<br/>
+- <input type="checkbox" disabled/> O sistema deve adaptar o nível de dificuldade dos [exercícios](../modelagem/lexicos.md#licao) com base no desempenho do [usuário](../modelagem/lexicos.md#usuario), oferecendo desafios apropriados para o seu nível de conhecimento.<br/>
+- <input type="checkbox" disabled/> O progresso do [usuário](../modelagem/lexicos.md#usuario) nos [exercícios](../modelagem/lexicos.md#licao) deve ser salvo automaticamente, permitindo que o [usuário](../modelagem/lexicos.md#usuario) retome de onde parou.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) refaça [exercícios](../modelagem/lexicos.md#licao) específicos ou tipos de [exercícios](../modelagem/lexicos.md#licao) para reforçar o aprendizado de áreas em que ele tenha tido dificuldades.<br/>
 
-### US034 - Resolver diferentes tipos de exercícios
+### US034 - Resolver diferentes tipos de [exercícios](../modelagem/lexicos.md#licao)
 
-- <input type="checkbox" disabled/> Os exercícios devem ser variados, incluindo diferentes tipos de interações, como múltipla escolha, arrastar e soltar, preenchimento de lacunas, e exercícios de pronúncia com reconhecimento de voz.<br/>
-- <input type="checkbox" disabled/> Cada tipo de exercício deve ser apresentado de forma clara e intuitiva, com instruções simples para que o usuário entenda como completá-lo.
-<br/>
+- <input type="checkbox" disabled/> Os [exercícios](../modelagem/lexicos.md#licao) devem ser variados, incluindo diferentes tipos de interações, como múltipla escolha, arrastar e soltar, preenchimento de lacunas, e [exercícios](../modelagem/lexicos.md#licao) de pronúncia com reconhecimento de voz.<br/>
+- <input type="checkbox" disabled/> Cada tipo de [exercício](../modelagem/lexicos.md#licao) deve ser apresentado de forma clara e intuitiva, com instruções simples para que o [usuário](../modelagem/lexicos.md#usuario) entenda como completá-lo.<br/>
 
-### US035 - Revisar lições passadas
+### US035 - Revisar [lições](../modelagem/lexicos.md#licao) passadas
 
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse e revise lições já concluídas em qualquer unidade do curso.<br/>
-- <input type="checkbox" disabled/> O sistema deve realizar um feedback após a realização da revisão da lição.<br/>
-- <input type="checkbox" disabled/> O sistema deve fornecer uma recompensa para quem fizer a revisão da lição.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) acesse e revise [lições](../modelagem/lexicos.md#licao) já concluídas em qualquer unidade do [curso](../modelagem/lexicos.md#cursos).<br/>
+- <input type="checkbox" disabled/> O sistema deve realizar um feedback após a realização da revisão da [lição](../modelagem/lexicos.md#licao).<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer uma recompensa para quem fizer a revisão da [lição](../modelagem/lexicos.md#licao).<br/>
 
 ### US036 - Acompanhar meu progresso navegando pelo mapa
 
-- <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do usuário no curso, com todas as unidades e lições disponíveis.<br/>
-- <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do usuário.<br/>
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário navegue pelo mapa.<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer um mapa visual e interativo que represente o progresso do [usuário](../modelagem/lexicos.md#usuario) no [curso](../modelagem/lexicos.md#cursos), com todas as unidades e [lições](../modelagem/lexicos.md#licao) disponíveis.<br/>
+- <input type="checkbox" disabled/> Cada unidade no mapa deve estar claramente identificada, indicando o status de progresso do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) navegue pelo mapa.<br/>
 
-### US037 - Redefinir o e-mail da minha conta
+### US037 - Redefinir o e-mail da minha [conta](../modelagem/lexicos.md#conta)
 
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse a opção de redefinição de e-mail nas configurações de conta.<br/>
-- <input type="checkbox" disabled/> O sistema deve fornecer um campo para o usuário inserir o novo endereço de e-mail e um campo para confirmação do novo e-mail.<br/>
-- <input type="checkbox" disabled/> O sistema deve validar o novo endereço de e-mail para garantir que ele esteja no formato correto e que não esteja associado a outra conta existente no Duolingo.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) acesse a opção de redefinição de e-mail nas configurações de [conta](../modelagem/lexicos.md#conta).<br/>
+- <input type="checkbox" disabled/> O sistema deve fornecer um campo para o [usuário](../modelagem/lexicos.md#usuario) inserir o novo endereço de e-mail e um campo para confirmação do novo e-mail.<br/>
+- <input type="checkbox" disabled/> O sistema deve validar o novo endereço de e-mail para garantir que ele esteja no formato correto e que não esteja associado a outra [conta](../modelagem/lexicos.md#conta) existente no [Duolingo](../modelagem/lexicos.md#duolingo).<br/>
 - <input type="checkbox" disabled/> Após a inserção do novo e-mail, o sistema deve enviar um e-mail de confirmação para o novo endereço fornecido, contendo um link para verificar a alteração.<br/>
-- <input type="checkbox" disabled/> A alteração do e-mail deve ser concluída apenas após o usuário clicar no link de verificação enviado para o novo endereço de e-mail.<br/>
+- <input type="checkbox" disabled/> A alteração do e-mail deve ser concluída apenas após o [usuário](../modelagem/lexicos.md#usuario) clicar no link de verificação enviado para o novo endereço de e-mail.<br/>
 
-### US038 - Participar de ligas e competições
+### US038 - Participar de [ligas](../modelagem/lexicos.md#divisao) e competições
 
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário se participe de ligas e competições após completar 10 lições.<br/>
-- <input type="checkbox" disabled/> O sistema deve exibir uma lista de usuários que participam da liga.<br/>
-- <input type="checkbox" disabled/> O sistema deve exibir a divisão que o usuário está.<br/>
-- <input type="checkbox" disabled/> O sistema deve exibir informações de como o usuário pode subir de divisão.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) participe de [ligas](../modelagem/lexicos.md#divisao) e competições após completar 10 [lições](../modelagem/lexicos.md#licao).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma lista de [usuários](../modelagem/lexicos.md#usuario) que participam da [liga](../modelagem/lexicos.md#divisao).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a [divisão](../modelagem/lexicos.md#divisao) que o [usuário](../modelagem/lexicos.md#usuario) está.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir informações de como o [usuário](../modelagem/lexicos.md#usuario) pode subir de [divisão](../modelagem/lexicos.md#divisao).<br/>
 
-### US039 - Redefinir o nickname da minha conta
+### US039 - Redefinir o [nickname](../modelagem/lexicos.md#nickname) da minha [conta](../modelagem/lexicos.md#conta)
 
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse a opção de redefinição de nickname (apelido) nas configurações de conta.<br/>
-- <input type="checkbox" disabled/> O sistema deve exibir o nickname atual do usuário e permitir a edição dele.<br/>
-- <input type="checkbox" disabled/> O sistema deve validar o novo nickname para garantir que ele esteja disponível (não seja utilizado por outro usuário) e que siga as regras de formato, como comprimento permitido e ausência de caracteres especiais não suportados.<br/>
-- <input type="checkbox" disabled/> Após a inserção do novo nickname, o sistema deve solicitar a confirmação da alteração, permitindo que o usuário revise e confirme a mudança.<br/>
-- <input type="checkbox" disabled/> O sistema deve aplicar a alteração de nickname imediatamente após a confirmação.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) acesse a opção de redefinição de [nickname](../modelagem/lexicos.md#nickname) nas configurações de [conta](../modelagem/lexicos.md#conta).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir o [nickname](../modelagem/lexicos.md#nickname) atual do [usuário](../modelagem/lexicos.md#usuario) e permitir a edição dele.<br/>
+- <input type="checkbox" disabled/> O sistema deve validar o novo [nickname](../modelagem/lexicos.md#nickname) para garantir que ele esteja disponível (não seja utilizado por outro [usuário](../modelagem/lexicos.md#usuario)) e que siga as regras de formato, como comprimento permitido e ausência de caracteres especiais não suportados.<br/>
+- <input type="checkbox" disabled/> Após a inserção do novo [nickname](../modelagem/lexicos.md#nickname), o sistema deve solicitar a confirmação da alteração, permitindo que o [usuário](../modelagem/lexicos.md#usuario) revise e confirme a mudança.<br/>
+- <input type="checkbox" disabled/> O sistema deve aplicar a alteração de [nickname](../modelagem/lexicos.md#nickname) imediatamente após a confirmação.<br/>
 
-### US040 - Criar uma conta com o Google
+### US040 - Criar uma [conta](../modelagem/lexicos.md#conta) com o Google
 
-- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma conta utilizando o Google na tela de cadastro.<br/>
-- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Google", o sistema deve redirecionar o usuário para a página de autenticação do Google.<br/>
-- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Google para acessar as informações básicas da conta, como nome e endereço de e-mail do usuário.<br/>
-- <input type="checkbox" disabled/> O sistema deve criar a conta do usuário e associá-la ao endereço de e-mail do Google.<br/>
-- <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma [conta](../modelagem/lexicos.md#conta) utilizando o Google na tela de cadastro.<br/>
+- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Google", o sistema deve redirecionar o [usuário](../modelagem/lexicos.md#usuario) para a página de autenticação do Google.<br/>
+- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Google para acessar as informações básicas da [conta](../modelagem/lexicos.md#conta), como nome e endereço de e-mail do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve criar a [conta](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario) e associá-la ao endereço de e-mail do Google.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o [usuário](../modelagem/lexicos.md#usuario) sobre a criação bem-sucedida da [conta](../modelagem/lexicos.md#conta) e fornecer acesso imediato ao aplicativo.<br/>
 
-### US041 - Criar uma conta com o Facebook
+### US041 - Criar uma [conta](../modelagem/lexicos.md#conta) com o Facebook
 
-- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma conta utilizando o Facebook na tela de cadastro.<br/>
-- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Facebook", o sistema deve redirecionar o usuário para a página de autenticação do Facebook.<br/>
-- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Facebook para acessar as informações básicas da conta, como nome, endereço de e-mail e foto de perfil do usuário.<br/>
-- <input type="checkbox" disabled/> O sistema deve criar a conta do usuário e associá-la ao endereço de e-mail do Facebook.<br/>
-- <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma [conta](../modelagem/lexicos.md#conta) utilizando o Facebook na tela de cadastro.<br/>
+- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Facebook", o sistema deve redirecionar o [usuário](../modelagem/lexicos.md#usuario) para a página de autenticação do Facebook.<br/>
+- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Facebook para acessar as informações básicas da [conta](../modelagem/lexicos.md#conta), como nome, endereço de e-mail e foto de perfil do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve criar a [conta](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario) e associá-la ao endereço de e-mail do Facebook.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o [usuário](../modelagem/lexicos.md#usuario) sobre a criação bem-sucedida da [conta](../modelagem/lexicos.md#conta) e fornecer acesso imediato ao aplicativo.<br/>
 
-### US042 - Criar uma conta com o Facebook
+### US042 - Criar uma [conta](../modelagem/lexicos.md#conta) com o Apple ID
 
-- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma conta utilizando o Apple ID na tela de cadastro.<br/>
-- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Apple ID", o sistema deve redirecionar o usuário para a página de autenticação da Apple.<br/>
-- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Apple ID para acessar as informações básicas da conta, como nome e endereço de e-mail do usuário.<br/>
-- <input type="checkbox" disabled/> O sistema deve criar a conta do usuário e associá-la ao endereço de e-mail do Apple ID.<br/>
-- <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir uma opção para criar uma [conta](../modelagem/lexicos.md#conta) utilizando o Apple ID na tela de cadastro.<br/>
+- <input type="checkbox" disabled/> Ao selecionar a opção "Entrar com o Apple ID", o sistema deve redirecionar o [usuário](../modelagem/lexicos.md#usuario) para a página de autenticação da Apple.<br/>
+- <input type="checkbox" disabled/> O sistema deve solicitar permissões necessárias ao Apple ID para acessar as informações básicas da [conta](../modelagem/lexicos.md#conta), como nome e endereço de e-mail do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve criar a [conta](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario) e associá-la ao endereço de e-mail do Apple ID.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o [usuário](../modelagem/lexicos.md#usuario) sobre a criação bem-sucedida da [conta](../modelagem/lexicos.md#conta) e fornecer acesso imediato ao aplicativo.<br/>
 
 ### US043 - Escolher o nível de complexidade das conversas com o bot
 
-- <input type="checkbox" disabled/> O sistema deve permitir que o usuário selecione o nível de complexidade das conversas com o bot (por exemplo, iniciante, intermediário, avançado) antes de iniciar a interação.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) selecione o nível de complexidade das conversas com o bot (por exemplo, iniciante, intermediário, avançado) antes de iniciar a interação.<br/>
 - <input type="checkbox" disabled/> Após a seleção do nível de complexidade, o sistema deve adaptar as conversas e os desafios apresentados pelo bot de acordo com o nível escolhido.<br/>
 - <input type="checkbox" disabled/> O sistema deve fornecer feedback adequado durante as conversas, ajustado ao nível de complexidade selecionado, oferecendo dicas e sugestões mais detalhadas em níveis mais baixos e menos orientação em níveis mais altos.<br/>
-- <input type="checkbox" disabled/>  O sistema deve permitir que o usuário altere o nível de complexidade durante a conversa, caso deseje ajustar a dificuldade.<br/>
-- <input type="checkbox" disabled/> O sistema deve notificar o usuário sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) altere o nível de complexidade durante a conversa, caso deseje ajustar a dificuldade.<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o [usuário](../modelagem/lexicos.md#usuario) sobre a criação bem-sucedida da conta e fornecer acesso imediato ao aplicativo.<br/>
 
-### US044 - Visualizar a quantidade de vidas disponíveis
+### US044 - Visualizar a quantidade de [vidas](../modelagem/lexicos.md#vidas) disponíveis
 
-- <input type="checkbox" disabled/> O sistema deve exibir a quantidade de vidas disponíveis do usuário de forma clara e visível na tela inicial e durante as atividades do curso.<br/>
-- <input type="checkbox" disabled/> O sistema deve atualizar automaticamente o contador de vidas sempre que o usuário ganhar ou perder uma vida.<br/>
-- <input type="checkbox" disabled/> O sistema deve notificar o usuário quando o número de vidas estiver baixo ou quando todas as vidas forem esgotadas, sugerindo ações para recuperar vidas, como assistir anúncios ou usar recompensas.<br/>
-- <input type="checkbox" disabled/>  O sistema deve permitir que o usuário visualize informações detalhadas sobre como ganhar ou recuperar vidas.<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir a quantidade de [vidas](../modelagem/lexicos.md#vidas) disponíveis do [usuário](../modelagem/lexicos.md#usuario) de forma clara e visível na tela inicial e durante as atividades do [curso](../modelagem/lexicos.md#cursos).<br/>
+- <input type="checkbox" disabled/> O sistema deve atualizar automaticamente o contador de [vidas](../modelagem/lexicos.md#vidas) sempre que o [usuário](../modelagem/lexicos.md#usuario) ganhar ou perder uma [vida](../modelagem/lexicos.md#vidas).<br/>
+- <input type="checkbox" disabled/> O sistema deve notificar o [usuário](../modelagem/lexicos.md#usuario) quando o número de [vidas](../modelagem/lexicos.md#vidas) estiver baixo ou quando todas as [vidas](../modelagem/lexicos.md#vidas) forem esgotadas, sugerindo ações para recuperar [vidas](../modelagem/lexicos.md#vidas), como assistir anúncios ou usar recompensas.<br/>
+- <input type="checkbox" disabled/>  O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) visualize informações detalhadas sobre como ganhar ou recuperar [vidas](../modelagem/lexicos.md#vidas).<br/>
 
 ## Histórico de Versão
 
