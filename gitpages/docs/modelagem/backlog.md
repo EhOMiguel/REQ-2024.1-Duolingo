@@ -251,6 +251,14 @@
 - <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuario) deve poder comprar cosméticos e opções de personalização.<br/>
 - <input type="checkbox" disabled/> O sistema deve permitir a utilização de cosméticos e opções de personalização pelo [usuário](../modelagem/lexicos.md#usuario) no [perfil](../modelagem/lexicos.md#conta).<br/>
 
+### US030 - Criar uma conta
+
+- <input type="checkbox" disabled/> O sistema deve oferecer ao [usuário](../modelagem/lexicos.md#usuário) a opção de criar uma [conta](../modelagem/lexicos.md#conta).<br/>
+- <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve oferecer sua idade, e-mail e senha para criar a [conta](../modelagem/lexicos.md#conta).<br/>
+- <input type="checkbox" disabled/> O sistema deve enviar um e-mail de confirmação para o [usuário](../modelagem/lexicos.md#usuário).<br/>
+- <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder personalizar seu [perfil](../modelagem/lexicos.md#conta).<br/>
+- <input type="checkbox" disabled/> O sistema deve salvar as informações da [conta](../modelagem/lexicos.md#conta) do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve conseguir usar a plataforma com seu progresso salvo após criar a [conta](../modelagem/lexicos.md#conta).<br/>
 
 ## Histórico de Versão
 
