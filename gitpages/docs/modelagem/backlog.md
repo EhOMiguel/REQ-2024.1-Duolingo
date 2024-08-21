@@ -234,6 +234,18 @@
 - <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) escolha um novo [idioma](../modelagem/lexicos.md#cursos) para aprender.<br/>
 - <input type="checkbox" disabled/> O sistema deve salvar as escolhas de [idiomas](../modelagem/lexicos.md#cursos) do [usuário](../modelagem/lexicos.md#usuario).<br/>
 
+### US028 - Praticar conversação com um chatbot
+
+- <input type="checkbox" disabled/> O sistema deve oferecer um chatbot ao [usuário](../modelagem/lexicos.md#usuario)<br/>
+- <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuario) deve poder praticar conversação com o chatbot.<br/>
+- <input type="checkbox" disabled/> O chatbot deve corrigir o [usuário](../modelagem/lexicos.md#usuario) quando necessário.<br/>
+- <input type="checkbox" disabled/> O chatbot deve permitir que o [usuário](../modelagem/lexicos.md#usuario) fale por áudio.<br/>
+- <input type="checkbox" disabled/> O chatbot deve analisar a pronúncia do [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O chatbot deve oferecer sugestões de palavras e frases ao [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O chatbot deve permitir que o [usuário](../modelagem/lexicos.md#usuario) escolha o nível de dificuldade da conversação.<br/>
+- <input type="checkbox" disabled/> O chatbot deve fornecer feedback ao [usuário](../modelagem/lexicos.md#usuario) sobre a conversação.<br/>
+
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
