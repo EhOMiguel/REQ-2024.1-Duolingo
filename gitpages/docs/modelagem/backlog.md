@@ -214,6 +214,12 @@
 - <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) pule [exercícios](../modelagem/lexicos.md#licao) com áudio ou fala.<br/>
 - <input type="checkbox" disabled/> O sistema deve oferecer [exercícios](../modelagem/lexicos.md#lição) para substituir os [exercícios](../modelagem/lexicos.md#lição) com áudio ou fala.<br/>
 
+### US025 - Visualizar minhas conquistas
+
+- <input type="checkbox" disabled/> O sistema deve exibir as [conquistas](../modelagem/lexicos.md#conquistas) desbloqueadas pelo [usuário](../modelagem/lexicos.md#usuario).<br/>
+- <input type="checkbox" disabled/> O sistema deve exibir as [conquistas](../modelagem/lexicos.md#conquistas) disponíveis para desbloquear.<br/>
+- <input type="checkbox" disabled/> O sistema deve permitir o [usuário](../modelagem/lexicos.md#usuario) compartilhar suas [conquistas](../modelagem/lexicos.md#conquistas).<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
