@@ -209,6 +209,11 @@
 - <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) pule uma [unidade](../modelagem/lexicos.md#unidade) ou [seção](../modelagem/lexicos.md#seção).<br/>
 - <input type="checkbox" disabled/> O sistema deve realizar uma avaliação ao [usuário](../modelagem/lexicos.md#usuario) para determinar se ele pode pular a [unidade](../modelagem/lexicos.md#unidade) ou [seção](../modelagem/lexicos.md#seção).<br/>
 
+### US024 - Pular exercícios com áudio ou fala
+
+- <input type="checkbox" disabled/> O sistema deve permitir que o [usuário](../modelagem/lexicos.md#usuario) pule [exercícios](../modelagem/lexicos.md#licao) com áudio ou fala.<br/>
+- <input type="checkbox" disabled/> O sistema deve oferecer [exercícios](../modelagem/lexicos.md#lição) para substituir os [exercícios](../modelagem/lexicos.md#lição) com áudio ou fala.<br/>
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição                                                 | Autor(es)      |
