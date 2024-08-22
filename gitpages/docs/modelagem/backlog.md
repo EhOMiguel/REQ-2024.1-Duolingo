@@ -175,6 +175,15 @@
 -   <input type="checkbox" disabled/> O sistema deve exibir a posição do [usuário](../modelagem/lexicos.md#usuário) na [liga](../modelagem/lexicos.md#divisao).
 -   <input type="checkbox" disabled/> O sistema deve exibir todos os [usuários](../modelagem/lexicos.md#usuário) da [liga](../modelagem/lexicos.md#divisao) ordenado-os pelo [XP](../modelagem/lexicos.md#xp), do que possui a maior quantidade de [XP](../modelagem/lexicos.md#xp) para o que possui a menor quantidade.
 
+### US011 - Compartilhar Liga ou Ranking
+
+-   <input type="checkbox" disabled/> O sistema deve exibir um botão de [compartilhamento](../modelagem/lexicos.md#compartilhar) ao acessar a [liga](../modelagem/lexicos.md#divisao) ou [ranking](../modelagem/lexicos.md#ranking).
+-   <input type="checkbox" disabled> O sistema deve exibir um botão de fechar componente de [compartilhamento](../modelagem/lexicos.md#compartilhar).
+-   <input type="checkbox" disabled/> O sistema deve mostrar ao [usuário](../modelagem/lexicos.md#usuário) as opções de redes sociais para o [compartilhar](../modelagem/lexicos.md#compartilhar) sua [liga](../modelagem/lexicos.md#divisao) ou [ranking](../modelagem/lexicos.md#ranking).
+-   <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) dever ser capaz de clicar na opção de uma rede social.
+-   <input type="checkbox" disabled/> O sistema deve abrir a rede social selecionada pelo [usuário](../modelagem/lexicos.md#usuário).
+-   <input type="checkbox" disabled/> O sistema deve gerar uma imagem da posição da [liga](../modelagem/lexicos.md#divisao) ou [ranking](../modelagem/lexicos.md#ranking) que o [usuário](../modelagem/lexicos.md#usuário) está para ele [compartilhe](../modelagem/lexicos.md#compartilhar).
+
 ### US016 - Receber exercícios correspondentes ao meu nível e idioma
 
 -   <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuário).<br/>
