@@ -166,6 +166,15 @@
 -   <input type="checkbox" disabled/> O sistema deve exibir a quantidade de [XP](../modelagem/lexicos.md#xp) dos outros [usuários](../modelagem/lexicos.md#usuário) da [liga](../modelagem/lexicos.md#divisao).
 -   <input type="checkbox" disabled/> O sistema deve exibir ordenar os [usuários](../modelagem/lexicos.md#usuário) por quantidade de [XP](../modelagem/lexicos.md#xp) do que possuir maior quantidade de [XP](../modelagem/lexicos.md#xp) para o quer possui menos.
 
+### US010 - Visualizar minha liga
+
+-   <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar sua [liga](../modelagem/lexicos.md#divisao) a partir do menu principal.
+-   <input type="checkbox" disabled/> O sistema deve exibir o nome da [liga](../modelagem/lexicos.md#divisao) atual do [usuário](../modelagem/lexicos.md#usuário).
+-   <input type="checkbox" disabled/> O sistema deve exibir a quantidade de [XP](../modelagem/lexicos.md#xp) do [usuário](../modelagem/lexicos.md#usuário).
+-   <input type="checkbox" disabled/> O sistema deve exibir a quantidade de [XP](../modelagem/lexicos.md#xp) dos outros [usuários](../modelagem/lexicos.md#usuário) da [liga](../modelagem/lexicos.md#divisao).
+-   <input type="checkbox" disabled/> O sistema deve exibir a posição do [usuário](../modelagem/lexicos.md#usuário) na [liga](../modelagem/lexicos.md#divisao).
+-   <input type="checkbox" disabled/> O sistema deve exibir todos os [usuários](../modelagem/lexicos.md#usuário) da [liga](../modelagem/lexicos.md#divisao) ordenado-os pelo [XP](../modelagem/lexicos.md#xp), do que possui a maior quantidade de [XP](../modelagem/lexicos.md#xp) para o que possui a menor quantidade.
+
 ### US016 - Receber exercícios correspondentes ao meu nível e idioma
 
 -   <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuário).<br/>
@@ -185,7 +194,7 @@
 
 ### US018 - Visualizar a porcentagem de acertos e o tempo gasto nos exercícios
 
--   <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [exercício](../modelagem/lexicos.md#licao).<br/>
+-   <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [exercício](../modelagem/lexicos.md#lição).<br/>
 -   <input type="checkbox" disabled/> O sistema deve exibir o tempo gasto pelo [usuário](../modelagem/lexicos.md#usuario) em cada [exercício](../modelagem/lexicos.md#licao).<br/>
 -   <input type="checkbox" disabled/> O sistema deve exibir a porcentagem de acertos do [usuário](../modelagem/lexicos.md#usuario) em cada [unidade](../modelagem/lexicos.md#unidade).<br/>
 -   <input type="checkbox" disabled/> O sistema deve exibir o tempo gasto pelo [usuário](../modelagem/lexicos.md#usuario) em cada [unidade](../modelagem/lexicos.md#unidade).<br/>
