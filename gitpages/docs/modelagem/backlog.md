@@ -78,7 +78,8 @@
 ### US002 - Visualizar Perfil
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar a tela de perfil a partir da tela principal.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> A tela de perfil deve exibir as informações do [usuário](../modelagem/lexicos.md#usuário):<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> A tela de perfil deve exibir as informações do [usuário](../modelagem/lexicos.md#usuário):
+
 -   <input type="checkbox" disabled/> Foto de perfil ou avatar;
 -   <input type="checkbox" disabled/> Nome;
 -   <input type="checkbox" disabled/> [Nickname](../modelagem/lexicos.md#nickname);
@@ -192,6 +193,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão de [seguir](../modelagem/lexicos.md#seguir).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão para [compartilhar](../modelagem/lexicos.md#compartilhar) o perfil do [usuário](../modelagem/lexicos.md#usuário).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir as informações do [usuário](../modelagem/lexicos.md#usuário) visitado:
+
 -   <input type="checkbox" disabled/> Foto de perfil ou avatar;
 -   <input type="checkbox" disabled/> Nome;
 -   <input type="checkbox" disabled/> [Nickname](../modelagem/lexicos.md#nickname);
@@ -213,6 +215,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder selecionar o botão de adicionar [amigos](../modelagem/lexicos.md#seguidores) a partir do seu perfil.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir uma lista de maneiras adicionar um [amigo](../modelagem/lexicos.md#seguidores), sendo elas:
+
 -   <input type="checkbox" disabled/> Escolher dos contatos;
 -   <input type="checkbox" disabled/> Adicionar por [nome](../modelagem/lexicos.md#nome) ou [nickname](../modelagem/lexicos.md#nickname);
 -   <input type="checkbox" disabled/> [Compartilhar](../modelagem/lexicos.md#compartilhar) o seu próprio perfil.
