@@ -184,6 +184,29 @@
 -   <input type="checkbox" disabled/> O sistema deve abrir a rede social selecionada pelo [usuário](../modelagem/lexicos.md#usuário).
 -   <input type="checkbox" disabled/> O sistema deve gerar uma imagem da posição da [liga](../modelagem/lexicos.md#divisao) ou [ranking](../modelagem/lexicos.md#ranking) que o [usuário](../modelagem/lexicos.md#usuário) está para ele [compartilhe](../modelagem/lexicos.md#compartilhar).
 
+### US012 - Visualizar o Perfil de Outro Usuário
+
+-   <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar o perfil de outro [usuário](../modelagem/lexicos.md#usuário) a partir da [liga](../modelagem/lexicos.md#divisao).
+-   <input type="checkbox" disabled/> O sistema deve exibir o perfil do [usuário](../modelagem/lexicos.md#usuário) visitado.
+-   <input type="checkbox" disabled/> Deve existir um botão de [seguir](../modelagem/lexicos.md#seguir).
+-   <input type="checkbox" disabled/> Deve existir um botão para [compartilhar](../modelagem/lexicos.md#compartilhar) o perfil do [usuário](../modelagem/lexicos.md#usuário).
+-   <input type="checkbox" disabled/> O sistema deve exibir as informações do [usuário](../modelagem/lexicos.md#usuário) visitado:
+    -   <input type="checkbox" disabled/> Foto de perfil ou avatar;
+    -   <input type="checkbox" disabled/> Nome;
+    -   <input type="checkbox" disabled/> [Nickname](../modelagem/lexicos.md#nickname);
+    -   <input type="checkbox" disabled/> Tempo de inscrição;
+    -   <input type="checkbox" disabled/> [Cursos](../modelagem/lexicos.md#cursos) escolhidos;
+    -   <input type="checkbox" disabled/> Quantidade de amigos que o [usuário](../modelagem/lexicos.md#usuário) segue;
+    -   <input type="checkbox" disabled/> Quantidade de [seguidores](../modelagem/lexicos.md#seguidores) do [usuário](../modelagem/lexicos.md#usuário);
+    -   <input type="checkbox" disabled/> Progresso semanal do outro [usuário](../modelagem/lexicos.md#usuário).
+    -   <input type="checkbox" disabled/> [Ofensiva](../modelagem/lexicos.md#ofensiva) atual;
+    -   <input type="checkbox" disabled/> Total de [XP](../modelagem/lexicos.md#xp) acumulado;
+    -   <input type="checkbox" disabled/> Divisão atual;
+    -   <input type="checkbox" disabled/> Quantidade de pódios;
+    -   <input type="checkbox" disabled/> Conquistas desbloqueadas;
+-   <input type="checkbox" disabled/> Deve existir um botão de reportar [usuário](../modelagem/lexicos.md#usuário).
+-   <input type="checkbox" disabled/> Deve existir um botão de bloquear [usuário](../modelagem/lexicos.md#usuário).
+
 ### US016 - Receber exercícios correspondentes ao meu nível e idioma
 
 -   <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuário).<br/>
