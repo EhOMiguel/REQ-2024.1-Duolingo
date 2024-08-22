@@ -49,7 +49,7 @@
 | Cadastro e Gestão de Usuários          | US045 | [Usuário](../modelagem/lexicos.md#usuário) | Redefinir o nome da minha [conta](../modelagem/lexicos.md#conta)                                                                                 | Atualizar minhas informações pessoais no aplicativo                                                                                                                                          |
 | Recursos de Suporte ao Aprendizado     | US046 | [Usuário](../modelagem/lexicos.md#usuário) | Relatar um erro ou dúvida por mensagem de FAQ                                                                                                    | Obter suporte rápido para problemas no aplicativo                                                                                                                                            |
 | Curso e Conteúdo de Ensino             | US047 | [Usuário](../modelagem/lexicos.md#usuário) | Ver a [tradução](../modelagem/lexicos.md#traduzir-licao) de algumas palavras                                                                     | Entender melhor os [exercícios](../modelagem/lexicos.md#licao)                                                                                                                               |
-| Curso e Conteúdo de Ensino             | US048 | [Usuário](../modelagem/lexicos.md#usuário) | Ver a pronúncia das palavras                                                                                                                     | Melhorar minha habilidade de [falar](../modelagem/lexicos.md#falar)                                                                                                                          |
+| Curso e Conteúdo de Ensino             | US048 | [Usuário](../modelagem/lexicos.md#usuário) | Ouvir a pronúncia das palavras                                                                                                                     | Melhorar minha habilidade de [falar](../modelagem/lexicos.md#falar)                                                                                                                          |
 | Gamificação e Sistema de Recompensas   | US049 | [Usuário](../modelagem/lexicos.md#usuário) | Congelar a [ofensiva](../modelagem/lexicos.md#ofensiva)                                                                                          | Manter meu progresso quando não puder praticar                                                                                                                                               |
 | Curso e Conteúdo de Ensino             | US050 | [Usuário](../modelagem/lexicos.md#usuário) | Visualizar meu [nível](../modelagem/lexicos.md#nivel) atual de conhecimento                                                                      | Saber meu progresso em relação ao [idioma](../modelagem/lexicos.md#cursos)                                                                                                                   |
 | Interações Sociais e Competitivas      | US051 | [Usuário](../modelagem/lexicos.md#usuário) | Participar de grupos de conversação                                                                                                              | Praticar [idiomas](../modelagem/lexicos.md#cursos) com outros [usuários](../modelagem/lexicos.md#usuário)                                                                                    |
@@ -377,6 +377,105 @@
 -   <input type="checkbox" disabled/> O sistema deve validar o novo nome para garantir que ele esteja disponível (não seja utilizado por outro [usuário](../modelagem/lexicos.md#usuario)) e que siga as regras de formato, como comprimento permitido e ausência de caracteres especiais não suportados.<br/>
 -   <input type="checkbox" disabled/> Após a inserção do novo nome, o sistema deve solicitar a confirmação da alteração, permitindo que o [usuário](../modelagem/lexicos.md#usuario) revise e confirme a mudança.<br/>
 -   <input type="checkbox" disabled/> O sistema deve aplicar a alteração de nome imediatamente após a confirmação.<br/>
+
+### US046 - Relatar um erro ou dúvida por mensagem de FAQ
+
+-   <input type="checkbox" disabled/> O sistema deve exibir o FAQ acessível a partir do menu de configurações.
+-   <input type="checkbox" disabled/> O FAQ deve mostrar as perguntas mais frequentes feitas pelos usuários, divididas nas categorias "Uso do Duolingo", "Gerenciamento de Conta" e "Assinatura e Pagamentos".
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário clique em uma pergunta específica para exibir uma seção com a resposta correspondente.
+-   <input type="checkbox" disabled/> O FAQ deve permitir que o usuário envie uma mensagem explicando seu problema ou dúvida, fornecendo seu e-mail, assunto da dúvida, descrição detalhada, tipo de problema enfrentado, e permitindo o anexo de arquivos.
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário visualize as mensagens enviadas e respondidas pelo FAQ em uma seção específica.
+
+### US047 - Ver a tradução de algumas palavras
+
+-   <input type="checkbox" disabled/> O sistema deve exibir a tradução de palavras selecionadas durante os exercícios.
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário veja a tradução clicando em uma palavra sublinhada.
+-   <input type="checkbox" disabled/> A tradução deve aparecer em um pop-up ou balão informativo ao lado da palavra selecionada.
+
+### US048 - Ouvir a pronúncia das palavras
+
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário ouça a pronúncia de palavras individuais.
+-   <input type="checkbox" disabled/> O usuário deve poder clicar em um ícone de áudio ao lado da palavra para ouvir a pronúncia de frases completas, quando disponível.
+-   <input type="checkbox" disabled/> O sistema deve oferecer diferentes velocidades de pronúncia (normal e lenta).
+
+### US049 - Congelar a ofensiva
+
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário ative o congelamento da ofensiva por um determinado período.
+-   <input type="checkbox" disabled/> O sistema deve exibir um aviso ao usuário sobre quantos dias a ofensiva será congelada.
+-   <input type="checkbox" disabled/> O sistema deve mostrar uma confirmação visual quando a ofensiva for congelada.
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário descongele sua ofensiva antes do período acabar, se assim desejar.
+
+### US050 - Visualizar meu nível atual de conhecimento
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US051 - Participar de grupos de conversação
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US052 - Resolver exercícios em um nível mais difícil após completá-los
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US053 - Completar missões diárias
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US054 - Configurar acessibilidades e opções
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US055 - Escolher minha meta de ofensiva
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US056 - Fazer um teste de nivelamento
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US057 - Fazer um tutorial da plataforma
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US058 - Pular o tutorial
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US059 - Escolher tópicos específicos para as lições
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US060 - Ver exemplos práticos e situações reais
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+
+### US061 - Acessar a plataforma sem inscrição
+
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/> 
+-   <input type="checkbox" disabled/>
 
 ## Histórico de Versão
 
