@@ -456,75 +456,75 @@
 
 ### US050 - Visualizar meu nível atual de conhecimento
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve exibir o nível atual do usuário na tela principal.
+-   <input type="checkbox" disabled/> O nível deve ser atualizado automaticamente com base no progresso do usuário.
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário visualize o histórico de progresso para entender como atingiu o nível atual.
 
 ### US051 - Participar de grupos de conversação
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve exibir uma lista de grupos de conversação disponíveis para o idioma escolhido.
+-   <input type="checkbox" disabled/> O usuário deve poder ingressar em um grupo de conversação a partir da lista.
+-   <input type="checkbox" disabled/> O sistema deve permitir a interação com outros usuários no grupo via chat e áudio.
 
 ### US052 - Resolver exercícios em um nível mais difícil após completá-los
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve oferecer uma opção para repetir exercícios em um nível de dificuldade maior após a conclusão.
+-   <input type="checkbox" disabled/> O sistema deve adaptar o conteúdo do exercício para ser mais desafiador com base no desempenho anterior do usuário.
+-   <input type="checkbox" disabled/> O sistema deve fornecer feedback específico sobre o progresso em exercícios de maior dificuldade.
 
 ### US053 - Completar missões diárias
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve exibir uma lista de missões diárias disponíveis na tela de missões.
+-   <input type="checkbox" disabled/> O sistema deve notificar o usuário quando uma missão diária for completada.
+-   <input type="checkbox" disabled/> O sistema deve fornecer recompensas por completar missões diárias.
 
 ### US054 - Configurar acessibilidades e opções
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário acesse as configurações de acessibilidade a partir do menu de configurações.
+-   <input type="checkbox" disabled/> O usuário deve poder ajustar as configurações de acordo com suas necessidades (ex: tamanho da fonte, contraste).
+-   <input type="checkbox" disabled/> O sistema deve salvar e aplicar as configurações de acessibilidade escolhidas pelo usuário.
 
 ### US055 - Escolher minha meta de ofensiva
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário defina uma meta diária de prática (ex: 10 minutos por dia).
+-   <input type="checkbox" disabled/> O sistema deve enviar lembretes para que o usuário atinja sua meta diária.
+-   <input type="checkbox" disabled/> O sistema deve mostrar o progresso do usuário em relação à meta diária na tela principal.
 
 ### US056 - Fazer um teste de nivelamento
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve oferecer ao usuário a opção de fazer um teste de nivelamento ao iniciar um novo curso.
+-   <input type="checkbox" disabled/> O sistema deve ajustar o nível inicial do usuário com base nos resultados do teste de nivelamento.
+-   <input type="checkbox" disabled/> O usuário deve receber feedback detalhado sobre seu desempenho no teste de nivelamento.
 
 ### US057 - Fazer um tutorial da plataforma
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve oferecer um tutorial interativo para novos usuários ao iniciar o aplicativo pela primeira vez.
+-   <input type="checkbox" disabled/> O tutorial deve cobrir as funcionalidades principais da plataforma, como navegação e resolução de exercícios.
+-   <input type="checkbox" disabled/> O usuário deve poder pular o tutorial ou voltar a ele posteriormente a partir do menu de ajuda.
 
 ### US058 - Pular o tutorial
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve exibir uma opção para pular o tutorial ao iniciar a plataforma pela primeira vez.
+-   <input type="checkbox" disabled/> O sistema deve confirmar se o usuário deseja realmente pular o tutorial antes de redirecioná-lo para a tela principal.
+-   <input type="checkbox" disabled/> O usuário deve poder acessar o tutorial posteriormente, mesmo que tenha optado por pulá-lo inicialmente.
 
 ### US059 - Escolher tópicos específicos para as lições
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário selecione tópicos específicos para as lições a partir de uma lista.
+-   <input type="checkbox" disabled/> O sistema deve adaptar as lições para focar nos tópicos escolhidos pelo usuário.
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário alterne entre diferentes tópicos a qualquer momento.
 
 ### US060 - Ver exemplos práticos e situações reais
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve incluir exemplos práticos e situações reais nos exercícios oferecidos ao usuário.
+-   <input type="checkbox" disabled/> O usuário deve poder acessar uma seção dedicada a exemplos e situações reais a partir do menu principal.
+-   <input type="checkbox" disabled/> O sistema deve fornecer feedback sobre a aplicação do conhecimento em contextos reais.
 
 ### US061 - Acessar a plataforma sem inscrição
 
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
--   <input type="checkbox" disabled/>
+-   <input type="checkbox" disabled/> O sistema deve permitir que o usuário explore a plataforma sem a necessidade de criar uma conta.
+-   <input type="checkbox" disabled/> O usuário deve ter acesso limitado a algumas funcionalidades enquanto estiver sem inscrição.
+-   <input type="checkbox" disabled/> O sistema deve oferecer ao usuário a opção de criar uma conta a qualquer momento durante a navegação sem inscrição.
 
 ## Histórico de Versão
 
@@ -553,3 +553,4 @@
 | 21/08/2024 | 2.1.9  | Adicionando critério para a US028 - Praticar conversação com um chatbot          | Felipe Motta   |
 | 21/08/2024 | 2.2.0  | Adicionando critério para a US029 - Comprar cosméticos...                        | Felipe Motta   |
 | 21/08/2024 | 2.2.1  | Adicionando critério para a US030 - Criar uma conta                              | Felipe Motta   |
+| 21/08/2024 | 2.2.1  | Adicionando critérios de aceitação US045 a US061                              | Arthur Trindade   |

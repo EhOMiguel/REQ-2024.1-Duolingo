@@ -15,7 +15,7 @@
 </center>
 
 <center>
-    <img src="../assets/images/tumao.jpeg" style="width:12vw"/> 
+    <img src="../../assets/images/tumao.jpeg" style="width:12vw"/> 
 </center>
 
 > **Tumão** é um dedicado aluno de engenharia de software que deseja crescer muito em sua carreira e quem sabe um dia criar gansos. Ele é curioso, motivado e tem um forte desejo de aprender novas habilidades que possam impulsionar sua carreira. Além disso, ele tem interesse em tecnologias emergentes.
@@ -56,7 +56,7 @@ Tumão usa o Duolingo principalmente durante suas viagens de ônibus, que são c
 </center>
 
 <center>
-    <img path="../assets/images/maria.jpg" alt="Rich_picture_geral" style="width:300px;"/>
+    <img src="../../assets/images/maria.jpg"/> 
 </center>
 
 > **Maria das Graças** é uma mãe de três filhos adultos que já são fluentes em inglês. Após anos dedicados à família e ao trabalho doméstico, Maria agora quer se atualizar com o mundo ao seu redor, aprendendo inglês para compreender melhor as notícias, vídeos, e músicas que tanto gosta.
@@ -97,7 +97,7 @@ Maria usa o Duolingo durante seus momentos de folga e nos fins de semana quando 
 </center>
 
 <center>
-    <img src="../assets/images/clarice.jpeg" style="width:12vw"/> 
+    <img src="../../assets/images/clarice.jpeg" style="width:12vw"/> 
 </center>
 
 > **Clarice Lee** é uma adolescente dedicada e extrovertida, que adora aprender coisas novas, especialmente quando pode compartilhar suas conquistas com seus amigos. No ensino médio, ela tem um grupo de amigos que estudam juntos e se desafiam mutuamente, especialmente em matérias que consideram difíceis, como inglês.
