@@ -207,6 +207,16 @@
 -   <input type="checkbox" disabled/> Deve existir um botão de reportar [usuário](../modelagem/lexicos.md#usuário).
 -   <input type="checkbox" disabled/> Deve existir um botão de bloquear [usuário](../modelagem/lexicos.md#usuário).
 
+### US013 - Adicionar outro usuário
+
+-   <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder selecionar o botão de adicionar [amigos](../modelagem/lexicos.md#seguidores) a partir do seu perfil.
+-   <input type="checkbox" disabled/> O sistema deve exibir uma lista de maneiras adicionar um [amigo](../modelagem/lexicos.md#seguidores), sendo elas:
+    -   <input type="checkbox" disabled/> Escolher dos contatos;
+    -   <input type="checkbox" disabled/> Adicionar por [nome](../modelagem/lexicos.md#nome) ou [nickname](../modelagem/lexicos.md#nickname);
+    -   <input type="checkbox" disabled/> [Compartilhar](../modelagem/lexicos.md#compartilhar) o seu próprio perfil.
+-   <input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder adicionar um [amigo](../modelagem/lexicos.md#seguidores) a partir da lista de sugestões de [usuários](../modelagem/lexicos.md#usuário).
+-   <input type="checkbox" disabled/> O sistema deve mudar o botão de seguir para '[seguindo](../modelagem/lexicos.md#seguindo)'.
+
 ### US016 - Receber exercícios correspondentes ao meu nível e idioma
 
 -   <input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuário).<br/>
