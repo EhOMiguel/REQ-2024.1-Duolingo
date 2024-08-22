@@ -56,7 +56,7 @@ Tumão usa o Duolingo principalmente durante suas viagens de ônibus, que são c
 </center>
 
 <center>
-    <img src="../../assets/images/maria.jpg"/> 
+    <img src="../../assets/images/maria.jpg" style="width:12vw"/> 
 </center>
 
 > **Maria das Graças** é uma mãe de três filhos adultos que já são fluentes em inglês. Após anos dedicados à família e ao trabalho doméstico, Maria agora quer se atualizar com o mundo ao seu redor, aprendendo inglês para compreender melhor as notícias, vídeos, e músicas que tanto gosta.
