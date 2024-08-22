@@ -79,19 +79,19 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar a tela de perfil a partir da tela principal.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> A tela de perfil deve exibir as informações do [usuário](../modelagem/lexicos.md#usuário):
-
--   <input type="checkbox" disabled/> Foto de perfil ou avatar;
--   <input type="checkbox" disabled/> Nome;
--   <input type="checkbox" disabled/> [Nickname](../modelagem/lexicos.md#nickname);
--   <input type="checkbox" disabled/> Tempo de inscrição;
--   <input type="checkbox" disabled/> [Cursos](../modelagem/lexicos.md#cursos) escolhidos;
--   <input type="checkbox" disabled/> Quantidade de amigos que o [usuário](../modelagem/lexicos.md#usuário) segue;
--   <input type="checkbox" disabled/> Quantidade de [seguidores](../modelagem/lexicos.md#seguidores) do [usuário](../modelagem/lexicos.md#usuário);
--   <input type="checkbox" disabled/> [Ofensiva](../modelagem/lexicos.md#ofensiva) atual;
--   <input type="checkbox" disabled/> Total de [XP](../modelagem/lexicos.md#xp) acumulado;
--   <input type="checkbox" disabled/> Divisão atual;
--   <input type="checkbox" disabled/> Quantidade de pódios;
--   <input type="checkbox" disabled/> Conquistas desbloqueadas;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Foto de perfil ou avatar;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Nome;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> [Nickname](../modelagem/lexicos.md#nickname);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Tempo de inscrição;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> [Cursos](../modelagem/lexicos.md#cursos) escolhidos;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Quantidade de amigos que o [usuário](../modelagem/lexicos.md#usuário) segue;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Quantidade de [seguidores](../modelagem/lexicos.md#seguidores) do [usuário](../modelagem/lexicos.md#usuário);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> [Ofensiva](../modelagem/lexicos.md#ofensiva) atual;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Total de [XP](../modelagem/lexicos.md#xp) acumulado;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Divisão atual;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Quantidade de pódios;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Conquistas desbloqueadas;
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão de adicionar [amigo](../modelagem/lexicos.md#seguidores).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão para [compartilhar](../modelagem/lexicos.md#compartilhar) o perfil do [usuário](../modelagem/lexicos.md#usuário).<br/>
@@ -193,20 +193,20 @@
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão de [seguir](../modelagem/lexicos.md#seguir).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão para [compartilhar](../modelagem/lexicos.md#compartilhar) o perfil do [usuário](../modelagem/lexicos.md#usuário).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir as informações do [usuário](../modelagem/lexicos.md#usuário) visitado:
-
--   <input type="checkbox" disabled/> Foto de perfil ou avatar;
--   <input type="checkbox" disabled/> Nome;
--   <input type="checkbox" disabled/> [Nickname](../modelagem/lexicos.md#nickname);
--   <input type="checkbox" disabled/> Tempo de inscrição;
--   <input type="checkbox" disabled/> [Cursos](../modelagem/lexicos.md#cursos) escolhidos;
--   <input type="checkbox" disabled/> Quantidade de amigos que o [usuário](../modelagem/lexicos.md#usuário) segue;
--   <input type="checkbox" disabled/> Quantidade de [seguidores](../modelagem/lexicos.md#seguidores) do [usuário](../modelagem/lexicos.md#usuário);
--   <input type="checkbox" disabled/> Progresso semanal do outro [usuário](../modelagem/lexicos.md#usuário).
--   <input type="checkbox" disabled/> [Ofensiva](../modelagem/lexicos.md#ofensiva) atual;
--   <input type="checkbox" disabled/> Total de [XP](../modelagem/lexicos.md#xp) acumulado;
--   <input type="checkbox" disabled/> Divisão atual;
--   <input type="checkbox" disabled/> Quantidade de pódios;
--   <input type="checkbox" disabled/> Conquistas desbloqueadas;
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Foto de perfil ou avatar;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Nome;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> [Nickname](../modelagem/lexicos.md#nickname);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Tempo de inscrição;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> [Cursos](../modelagem/lexicos.md#cursos) escolhidos;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Quantidade de amigos que o [usuário](../modelagem/lexicos.md#usuário) segue;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Quantidade de [seguidores](../modelagem/lexicos.md#seguidores) do [usuário](../modelagem/lexicos.md#usuário);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Progresso semanal do outro [usuário](../modelagem/lexicos.md#usuário).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> [Ofensiva](../modelagem/lexicos.md#ofensiva) atual;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Total de [XP](../modelagem/lexicos.md#xp) acumulado;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Divisão atual;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Quantidade de pódios;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Conquistas desbloqueadas;
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão de reportar [usuário](../modelagem/lexicos.md#usuário).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Deve existir um botão de bloquear [usuário](../modelagem/lexicos.md#usuário).
@@ -215,10 +215,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder selecionar o botão de adicionar [amigos](../modelagem/lexicos.md#seguidores) a partir do seu perfil.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir uma lista de maneiras adicionar um [amigo](../modelagem/lexicos.md#seguidores), sendo elas:
-
--   <input type="checkbox" disabled/> Escolher dos contatos;
--   <input type="checkbox" disabled/> Adicionar por [nome](../modelagem/lexicos.md#nome) ou [nickname](../modelagem/lexicos.md#nickname);
--   <input type="checkbox" disabled/> [Compartilhar](../modelagem/lexicos.md#compartilhar) o seu próprio perfil.
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Escolher dos contatos;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> Adicionar por [nome](../modelagem/lexicos.md#nome) ou [nickname](../modelagem/lexicos.md#nickname);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> [Compartilhar](../modelagem/lexicos.md#compartilhar) o seu próprio perfil.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder adicionar um [amigo](../modelagem/lexicos.md#seguidores) a partir da lista de sugestões de [usuários](../modelagem/lexicos.md#usuário).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve mudar o botão de seguir para '[seguindo](../modelagem/lexicos.md#seguindo)'.
