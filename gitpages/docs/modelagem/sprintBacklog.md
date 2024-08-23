@@ -130,6 +130,8 @@
   - US061: Acessar a plataforma sem [inscrição](../modelagem/lexicos.md#inscricao)
 
 **Resultado:** Expansão do suporte a múltiplos dispositivos e permitir o acesso sem a necessidade de inscrição imediata.
+
+
 | Data       | Versão | Descrição                                                 | Autor(es)      |
 | ---------- | ------ | --------------------------------------------------------- | -------------- |
 | 21/08/2024 | 2.0    | Criação do arquivo e adição da primeira versão do sprint backlog | Miguel Moreira |

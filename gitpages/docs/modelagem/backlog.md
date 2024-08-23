@@ -566,27 +566,7 @@
 
 | Data       | Versão | Descrição                                                                        | Autor(es)      |
 | ---------- | ------ | -------------------------------------------------------------------------------- | -------------- |
-| 19/08/2024 | 1.0    | Criação do arquivo e adição da primeira versão do backlog                        | Miguel Moreira |
-| 20/08/2024 | 2.0.1  | Adiciona critério de aceitação para a US001 de Login                             | Gabriela Tiago |
-| 20/08/2024 | 2.0.2  | Adiciona critério para a US002 de Visualizar perfil                              | Gabriela Tiago |
-| 20/08/2024 | 2.0.3  | Adiciona critério para a US003 de Resolver exercício do curso escolhido          | Gabriela Tiago |
-| 20/08/2024 | 2.0.3  | Adiciona critério para a US004 de Acessar minha conta em dispositivos diferentes | Gabriela Tiago |
-| 20/08/2024 | 2.0.4  | Adiciona critério para a US005 de Alterar o curso que desejo aprender            | Gabriela Tiago |
-| 20/08/2024 | 2.0.5  | Adiciona critério para a US006 de Revisar exercícios errados                     | Gabriela Tiago |
-| 20/08/2024 | 2.0.6  | Adiciona critério para a US007 de Visualizar meu progresso                       | Gabriela Tiago |
-| 20/08/2024 | 2.0.7  | Adicionando critério para a US016 - Receber exercícios correspondentes...        | Felipe Motta   |
-| 21/08/2024 | 2.0.8  | Adicionando critério para a US017 - Usar diferentes métodos                      | Felipe Motta   |
-| 21/08/2024 | 2.0.9  | Adicionando critério para a US018 - Visualizar a porcentagem de acertos...       | Felipe Motta   |
-| 21/08/2024 | 2.1.0  | Adicionando critério para a US019 - Atualizar meu streak                         | Felipe Motta   |
-| 21/08/2024 | 2.1.1  | Adicionando critério para a US020 - Receber recompensas e conquistas             | Felipe Motta   |
-| 21/08/2024 | 2.1.2  | Adicionando critério para a US021 - Usar cristais na loja                        | Felipe Motta   |
-| 21/08/2024 | 2.1.3  | Adicionando critério para a US022 - Visualizar streak de outra pessoa            | Felipe Motta   |
-| 21/08/2024 | 2.1.4  | Adicionando critério para a US023 - Pular unidade ou seção                       | Felipe Motta   |
-| 21/08/2024 | 2.1.5  | Adicionando critério para a US024 - Pular exercícios com áudio ou fala           | Felipe Motta   |
-| 21/08/2024 | 2.1.6  | Adicionando critério para a US025 - Visualizar minhas conquistas                 | Felipe Motta   |
-| 21/08/2024 | 2.1.7  | Adicionando critério para a US026 - Recuperar minha senha                        | Felipe Motta   |
-| 21/08/2024 | 2.1.8  | Adicionando critério para a US027 - Visualizar opções de idiomas disponíveis     | Felipe Motta   |
-| 21/08/2024 | 2.1.9  | Adicionando critério para a US028 - Praticar conversação com um chatbot          | Felipe Motta   |
-| 21/08/2024 | 2.2.0  | Adicionando critério para a US029 - Comprar cosméticos...                        | Felipe Motta   |
-| 21/08/2024 | 2.2.1  | Adicionando critério para a US030 - Criar uma conta                              | Felipe Motta   |
-| 21/08/2024 | 2.2.1  | Adicionando critérios de aceitação US045 a US061                              | Arthur Trindade   |
+| 19/08/2024 | 1.0  | Criação do arquivo e adição da primeira versão do backlog                          | Miguel Moreira |
+| 20/08/2024 | 2.0  | Adiciona critério de aceitação para a US001 de Login                               | Gabriela Tiago |
+| 21/08/2024 | 2.1  | Adicionando critérios de aceitação US031 a US045                                   | Bruno Ricardo  |
+| 21/08/2024 | 2.2  | Adicionando critérios de aceitação US046 a US061                                   | Arthur Trindade|
