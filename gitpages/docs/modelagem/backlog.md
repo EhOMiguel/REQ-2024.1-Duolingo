@@ -223,6 +223,26 @@
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder adicionar um [amigo](../modelagem/lexicos.md#seguidores) a partir da lista de sugestões de [usuários](../modelagem/lexicos.md#usuário).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve mudar o botão de seguir para '[seguindo](../modelagem/lexicos.md#seguindo)'.
 
+### US014 - Comprar mais vidas
+
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder comprar mais [vidas](../modelagem/lexicos.md#vidas) a partir da tela de [exercícios](../modelagem/lexicos.md#exercício) quando não há mais vidas para se continuar a [lição](../modelagem/lexicos.md#lição).
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir um botão de comprar [vidas](../modelagem/lexicos.md#vidas).
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir a quantidade de [vidas](../modelagem/lexicos.md#vidas) que o [usuário](../modelagem/lexicos.md#usuário) tem disponíveis.
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir as maneiras de comprar [vidas](../modelagem/lexicos.md#vidas) para o [usuário](../modelagem/lexicos.md#usuário).
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder comprar [vidas](../modelagem/lexicos.md#vidas) com [cristais](../modelagem/lexicos.md#cristais).
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder comprar [vidas](../modelagem/lexicos.md#vidas) com dinheiro.
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir uma mensagem de confirmação da compra de [vidas](../modelagem/lexicos.md#vidas).
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir a quantidade de [vidas](../modelagem/lexicos.md#vidas) que o [usuário](../modelagem/lexicos.md#usuário) tem disponíveis após a compra.
+
+### US015 - Visualizar a ofensiva
+
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O [usuário](../modelagem/lexicos.md#usuário) deve poder acessar a tela de [ofensiva](../modelagem/lexicos.md#ofensiva) a partir do menu.
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir a [ofensiva](../modelagem/lexicos.md#ofensiva) atual do [usuário](../modelagem/lexicos.md#usuário).
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir o desafio de [ofensiva](../modelagem/lexicos.md#ofensiva) do [usuário](../modelagem/lexicos.md#usuário) .
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir a quantidade de dias de prática.
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir a quantidade de bloqueios utilizados.
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve exibir o calendário com os dias praticados.
+
 ### US016 - Receber exercícios correspondentes ao meu nível e idioma
 
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" disabled/> O sistema deve fornecer [exercícios](../modelagem/lexicos.md#licao) de acordo com o [nível](../modelagem/lexicos.md#nivel) de conhecimento do [usuário](../modelagem/lexicos.md#usuário).<br/>
