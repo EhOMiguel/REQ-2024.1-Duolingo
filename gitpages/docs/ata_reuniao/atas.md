@@ -6,10 +6,10 @@ Aqui você encontrará os registros das nossas discussões, decisões e tarefas 
 
 [Ata 1 - 24/07/2024](ata1.md)<br>
 [Ata 2 - 25/07/2024](ata2.md)<br>
-[Ata 3 - 29/07/2024](ata3.md)
-[Ata 1 - 14/08/2024](ata4.md)<br>
-[Ata 2 - 09/08/2024](ata5.md)<br>
-[Ata 3 - 29/07/2024](ata6.md)
+[Ata 3 - 29/07/2024](ata3.md)<br>
+[Ata 4 - 14/08/2024](ata4.md)<br>
+[Ata 5 - 09/08/2024](ata5.md)<br>
+[Ata 6 - 29/07/2024](ata6.md)<br>
 <!-- - [Ata - DD/MM/AAAA](atas/atax.md) -->
 
 ## Histórico de Versão
