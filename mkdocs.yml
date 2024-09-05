@@ -40,6 +40,7 @@ nav:
           - Referências: pre_rastreabilidade/referencias.md
     - Pós-Rastreabilidade:
           - Backward-From: pos_rastreabilidade/backward.md
+          - Foward-From: pos_rastreabilidade/foward.md
     - Elicitação:
           - Sobre: elicitacao/index.md
           - Brainstorming: elicitacao/brainstorming.md
