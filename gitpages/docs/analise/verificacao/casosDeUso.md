@@ -12,7 +12,7 @@
 
 <br />
 
-### Checklist
+### Critérios do Checklist
 
 1. **Descrição:** A descrição do caso de uso é clara e explica de forma objetiva o propósito e o contexto?
 2. **Ator Principal:** O ator principal está identificado corretamente e é o responsável pelas interações descritas no caso de uso?
@@ -25,17 +25,19 @@
 
 <br />
 
-### Modelo de verificação
-
-| Checklist             | Atende (Sim/Não) | Observação                          |
-|:---------------------:|:----------------:|:-----------------------------------:|
-| 1                     | Sim/Não          | [Comentário opcional sobre a descrição]      |
-| 2                     | Sim/Não          | [Comentário opcional sobre o ator principal] |
-| 3                     | Sim/Não          | [Comentário opcional sobre as pré-condições] |
-| 4                     | Sim/Não          | [Comentário opcional sobre o fluxo principal]|
-| 5                     | Sim/Não          | [Comentário opcional sobre os fluxos alternativos] |
-| 6                     | Sim/Não          | [Comentário opcional sobre os fluxos de exceção]   |
-| 7                     | Sim/Não          | [Comentário opcional sobre as restrições]          |
-| 8                     | Sim/Não          | [Comentário opcional sobre as pós-condições]       |
+### Modelo de Verificação
 
 #### UCXX - [Título do Caso de Uso]
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1                     | Sim/Não          | [Comentário opcional sobre a descrição]               |
+| 2                     | Sim/Não          | [Comentário opcional sobre o ator principal]          |
+| 3                     | Sim/Não          | [Comentário opcional sobre as pré-condições]          |
+| 4                     | Sim/Não          | [Comentário opcional sobre o fluxo principal]         |
+| 5                     | Sim/Não          | [Comentário opcional sobre os fluxos alternativos]    |
+| 6                     | Sim/Não          | [Comentário opcional sobre os fluxos de exceção]      |
+| 7                     | Sim/Não          | [Comentário opcional sobre as restrições]             |
+| 8                     | Sim/Não          | [Comentário opcional sobre as pós-condições]          |
+
+### Verificação
