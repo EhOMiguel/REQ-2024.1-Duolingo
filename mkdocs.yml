@@ -116,8 +116,9 @@ theme:
             - Referências: modelagem/referencias.md
 
       - Análise:
-            - Sobre:
-            - Verificação: 
+            - Sobre: analise/index.md
+            - Verificação:
+                  - Verficação dos NFRs: analise/verificacao/nfrFramework.md
             - Validação: analise/validacao.md
 
       - Atas de reunião: ata_reuniao/atas.md
