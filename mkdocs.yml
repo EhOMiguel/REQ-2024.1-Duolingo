@@ -15,17 +15,17 @@ theme:
       palette:
             # Paleta para o modo claro
             - scheme: default
-            primary: green
-            accent: yellow
-            toggle:
+              primary: green
+              accent: yellow
+              toggle:
                   icon: material/brightness-7
                   name: Modo Claro
 
             # Paleta para o modo escuro
             - scheme: slate
-            primary: grey
-            accent: light-green
-            toggle:
+              primary: grey
+              accent: light-green
+              toggle:
                   icon: material/brightness-3
                   name: Modo Escuro
 
