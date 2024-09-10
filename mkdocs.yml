@@ -6,120 +6,126 @@ repo_url: 'https://github.com/EhOMiguel/REQ-2024.1-Duolingo'
 docs_dir: gitpages/docs
 
 theme:
-    name: material
-    language: pt-BR
-    font:
-        text: Roboto
-    logo: assets/icons/logo_light.svg
-    favicon: assets/icons/favicon.svg
-    palette:
-        # Paleta para o modo claro
-        - scheme: default
-          primary: green
-          accent: yellow
-          toggle:
-              icon: material/brightness-7
-              name: Modo Claro
+      name: material
+      language: pt-BR
+      font:
+            text: Roboto
+      logo: assets/icons/logo_light.svg
+      favicon: assets/icons/favicon.svg
+      palette:
+            # Paleta para o modo claro
+            - scheme: default
+            primary: green
+            accent: yellow
+            toggle:
+                  icon: material/brightness-7
+                  name: Modo Claro
 
-        # Paleta para o modo escuro
-        - scheme: slate
-          primary: grey
-          accent: light-green
-          toggle:
-              icon: material/brightness-3
-              name: Modo Escuro
+            # Paleta para o modo escuro
+            - scheme: slate
+            primary: grey
+            accent: light-green
+            toggle:
+                  icon: material/brightness-3
+                  name: Modo Escuro
 
-nav:
-    - Início: index.md
-    - Visão Geral: visao_geral.md
-    - Pré-Rastreabilidade:
-          - Sobre: pre_rastreabilidade/index.md
-          - Mapa mental: pre_rastreabilidade/mapaMental.md
-          - Rich Pictures: pre_rastreabilidade/richPictures.md
-          - Argumentações: pre_rastreabilidade/argumentacoes.md
-          - Referências: pre_rastreabilidade/referencias.md
-    - Pós-Rastreabilidade:
-          - Backward-From: pos_rastreabilidade/backward.md
-          - Foward-From: pos_rastreabilidade/foward.md
-    - Elicitação:
-          - Sobre: elicitacao/index.md
-          - Brainstorming: elicitacao/brainstorming.md
-          - Introspecção:
-                - Geral: elicitacao/introspeccao.md
-                - Individual:
-                      - Arthur: elicitacao/introspeccaoIndividual/introspeccao_arthur.md
-                      - Bruno: elicitacao/introspeccaoIndividual/introspeccao_bruno.md
-                      - Felipe: elicitacao/introspeccaoIndividual/introspeccao_felipe.md
-                      - Gabriela: elicitacao/introspeccaoIndividual/introspeccao_gabriela.md
-                      - Miguel: elicitacao/introspeccaoIndividual/introspeccao_miguel.md
-                      - Vinícius: elicitacao/introspeccaoIndividual/introspeccao_Vinicius.md
-                      - Resultado: elicitacao/introspeccaoIndividual/introspeccao_resultado.md
-          - MoSCoW: elicitacao/moscow.md
-          - StoryTelling: elicitacao/storytelling.md
-          - Resultado das técnicas de elicitação: elicitacao/result.md
-          - Referências: elicitacao/referencias.md
-    - Modelagem:
-          - Sobre: modelagem/index.md
-          - Cenários:
-                - Acessar Novidades: modelagem/cenarios/acessar-novidades.md
-                - Adicionar Amigo Pelo Contato: modelagem/cenarios/adicionar-amigo-contato.md
-                - Adicionar Amigo Link de Compartilhamento: modelagem/cenarios/adicionar-amigo-link.md
-                - Adicionar Amigo Pesquisando-o: modelagem/cenarios/adicionar-amigo-pesquisar.md
-                - Compartilhar Conquista: modelagem/cenarios/compartilhar_conquista.md
-                - Compartilhar Convite de Amizade: modelagem/cenarios/compartilhar-convite-amizade.md
-                - Compartilhar Exercício: modelagem/cenarios/compartilhar_exercicio.md
-                - Compartilhar Perfil: modelagem/cenarios/compartilhar_perfil.md
-                - Completar Unidade: modelagem/cenarios/completar-unidade.md
-                - Configuração Cursos: modelagem/cenarios/configuracao_cursos.md
-                - Configuração Notificações: modelagem/cenarios/configuracao_notificacoes.md
-                - Configuração Perfil: modelagem/cenarios/configuracao_perfil.md
-                - Configuração Preferências: modelagem/cenarios/configuracao_preferencias.md
-                - Configuração Duolingo for school: modelagem/cenarios/configiuracao_duoForSchools.md
-                - Configuração Central de Ajuda: modelagem/cenarios/configuracao_CentralAjuda.md
-                - Configuração Privacidade: modelagem/cenarios/configuracao_privacidade.md
-                - Configurações: modelagem/cenarios/configuracoes.md
-                - Criar Avatar: modelagem/cenarios/criar-avatar.md
-                - Desconectar Conta: modelagem/cenarios/desconectarConta.md
-                - Editar Avatar: modelagem/cenarios/editar-avatar.md
-                - Primeiro Acesso: modelagem/cenarios/primeiro_acesso.md
-                - Progresso Semanal: modelagem/cenarios/progresso_semanal.md
-                - Realizar Lição: modelagem/cenarios/realizar-licao.md
-                - Realizar Missão Diária: modelagem/cenarios/realizar-missao-diaria.md
-                - Reportar Problema: modelagem/cenarios/reportar_problema.md
-                - Revisão de Unidade: modelagem/cenarios/revisao-unidade.md
-                - Trocar Curso: modelagem/cenarios/trocar_curso.md
-          - Léxicos: modelagem/lexicos.md
-          - Casos de uso:
-                - Sobre: modelagem/casosdeuso/index.md
-                - Diagrama casos de uso: modelagem/casosdeuso/diagrama.md
-                - Casos de uso:
-                        - UC01 - Primeiro acesso: modelagem/casosdeuso/casodeuso/primeiroAcesso.md
-                        - UC02 - Login: modelagem/casosdeuso/casodeuso/login.md
-                        - UC03 - Aquisição do Super Duolingo: modelagem/casosdeuso/casodeuso/superDuolingo.md
-                        - UC04 - Loja: modelagem/casosdeuso/casodeuso/loja.md
-                        - UC05 - Realização de exercícios: modelagem/casosdeuso/casodeuso/realizarExercicio.md
-                        - UC06 - Troca de idioma: modelagem/casosdeuso/casodeuso/trocaIdioma.md
-                        - UC07 - Configuração do Duolingo: modelagem/casosdeuso/casodeuso/configuracao_web.md
-                        - UC08 - Desconectar conta: modelagem/casosdeuso/casodeuso/desconectarConta.md
-                        - UC09 - Modificar avatar: modelagem/casosdeuso/casodeuso/modificarAvatar.md
-                        - UC10 - Compartilhar conquista: modelagem/casosdeuso/casodeuso/compartilharConq.md
-                        - UC11 - Reportar problema: modelagem/casosdeuso/casodeuso/reportarProblema.md
-                        - UC12 - Revisão de lição: modelagem/casosdeuso/casodeuso/revisaoLicao.md
-                        - UC13 - Adicionar amigos: modelagem/casosdeuso/casodeuso/adicionarAmigos.md
-                        - UC14 - Cadastrar usuário: modelagem/casosdeuso/casodeuso/cadastrarUsuario.md 
-                        - UC15 - Perfil: modelagem/casosdeuso/casodeuso/perfil.md 
-                        - UC16 - Compartilhar ofensiva: modelagem/casosdeuso/casodeuso/compartilharOfensiva.md
-          - Especificação Suplementar: modelagem/especificacaoSuplementar.md
-          - Backlog do produto: modelagem/backlog.md
-          - Sprint Backlog: modelagem/sprintBacklog.md
-          - NFR: modelagem/nfr.md
-          - Referências: modelagem/referencias.md
-    - Atas de reunião: ata_reuniao/atas.md
-    - Entregas: entregas.md
+      nav:
+      - Início: index.md
+      - Visão Geral: visao_geral.md
+      - Pré-Rastreabilidade:
+            - Sobre: pre_rastreabilidade/index.md
+            - Mapa mental: pre_rastreabilidade/mapaMental.md
+            - Rich Pictures: pre_rastreabilidade/richPictures.md
+            - Argumentações: pre_rastreabilidade/argumentacoes.md
+            - Referências: pre_rastreabilidade/referencias.md
+      - Pós-Rastreabilidade:
+            - Backward-From: pos_rastreabilidade/backward.md
+            - Foward-From: pos_rastreabilidade/foward.md
+      - Elicitação:
+            - Sobre: elicitacao/index.md
+            - Brainstorming: elicitacao/brainstorming.md
+            - Introspecção:
+                  - Geral: elicitacao/introspeccao.md
+                  - Individual:
+                        - Arthur: elicitacao/introspeccaoIndividual/introspeccao_arthur.md
+                        - Bruno: elicitacao/introspeccaoIndividual/introspeccao_bruno.md
+                        - Felipe: elicitacao/introspeccaoIndividual/introspeccao_felipe.md
+                        - Gabriela: elicitacao/introspeccaoIndividual/introspeccao_gabriela.md
+                        - Miguel: elicitacao/introspeccaoIndividual/introspeccao_miguel.md
+                        - Vinícius: elicitacao/introspeccaoIndividual/introspeccao_Vinicius.md
+                        - Resultado: elicitacao/introspeccaoIndividual/introspeccao_resultado.md
+            - MoSCoW: elicitacao/moscow.md
+            - StoryTelling: elicitacao/storytelling.md
+            - Resultado das técnicas de elicitação: elicitacao/result.md
+            - Referências: elicitacao/referencias.md
+      - Modelagem:
+            - Sobre: modelagem/index.md
+            - Cenários:
+                  - Acessar Novidades: modelagem/cenarios/acessar-novidades.md
+                  - Adicionar Amigo Pelo Contato: modelagem/cenarios/adicionar-amigo-contato.md
+                  - Adicionar Amigo Link de Compartilhamento: modelagem/cenarios/adicionar-amigo-link.md
+                  - Adicionar Amigo Pesquisando-o: modelagem/cenarios/adicionar-amigo-pesquisar.md
+                  - Compartilhar Conquista: modelagem/cenarios/compartilhar_conquista.md
+                  - Compartilhar Convite de Amizade: modelagem/cenarios/compartilhar-convite-amizade.md
+                  - Compartilhar Exercício: modelagem/cenarios/compartilhar_exercicio.md
+                  - Compartilhar Perfil: modelagem/cenarios/compartilhar_perfil.md
+                  - Completar Unidade: modelagem/cenarios/completar-unidade.md
+                  - Configuração Cursos: modelagem/cenarios/configuracao_cursos.md
+                  - Configuração Notificações: modelagem/cenarios/configuracao_notificacoes.md
+                  - Configuração Perfil: modelagem/cenarios/configuracao_perfil.md
+                  - Configuração Preferências: modelagem/cenarios/configuracao_preferencias.md
+                  - Configuração Duolingo for school: modelagem/cenarios/configiuracao_duoForSchools.md
+                  - Configuração Central de Ajuda: modelagem/cenarios/configuracao_CentralAjuda.md
+                  - Configuração Privacidade: modelagem/cenarios/configuracao_privacidade.md
+                  - Configurações: modelagem/cenarios/configuracoes.md
+                  - Criar Avatar: modelagem/cenarios/criar-avatar.md
+                  - Desconectar Conta: modelagem/cenarios/desconectarConta.md
+                  - Editar Avatar: modelagem/cenarios/editar-avatar.md
+                  - Primeiro Acesso: modelagem/cenarios/primeiro_acesso.md
+                  - Progresso Semanal: modelagem/cenarios/progresso_semanal.md
+                  - Realizar Lição: modelagem/cenarios/realizar-licao.md
+                  - Realizar Missão Diária: modelagem/cenarios/realizar-missao-diaria.md
+                  - Reportar Problema: modelagem/cenarios/reportar_problema.md
+                  - Revisão de Unidade: modelagem/cenarios/revisao-unidade.md
+                  - Trocar Curso: modelagem/cenarios/trocar_curso.md
+            - Léxicos: modelagem/lexicos.md
+            - Casos de uso:
+                  - Sobre: modelagem/casosdeuso/index.md
+                  - Diagrama casos de uso: modelagem/casosdeuso/diagrama.md
+                  - Casos de uso:
+                              - UC01 - Primeiro acesso: modelagem/casosdeuso/casodeuso/primeiroAcesso.md
+                              - UC02 - Login: modelagem/casosdeuso/casodeuso/login.md
+                              - UC03 - Aquisição do Super Duolingo: modelagem/casosdeuso/casodeuso/superDuolingo.md
+                              - UC04 - Loja: modelagem/casosdeuso/casodeuso/loja.md
+                              - UC05 - Realização de exercícios: modelagem/casosdeuso/casodeuso/realizarExercicio.md
+                              - UC06 - Troca de idioma: modelagem/casosdeuso/casodeuso/trocaIdioma.md
+                              - UC07 - Configuração do Duolingo: modelagem/casosdeuso/casodeuso/configuracao_web.md
+                              - UC08 - Desconectar conta: modelagem/casosdeuso/casodeuso/desconectarConta.md
+                              - UC09 - Modificar avatar: modelagem/casosdeuso/casodeuso/modificarAvatar.md
+                              - UC10 - Compartilhar conquista: modelagem/casosdeuso/casodeuso/compartilharConq.md
+                              - UC11 - Reportar problema: modelagem/casosdeuso/casodeuso/reportarProblema.md
+                              - UC12 - Revisão de lição: modelagem/casosdeuso/casodeuso/revisaoLicao.md
+                              - UC13 - Adicionar amigos: modelagem/casosdeuso/casodeuso/adicionarAmigos.md
+                              - UC14 - Cadastrar usuário: modelagem/casosdeuso/casodeuso/cadastrarUsuario.md 
+                              - UC15 - Perfil: modelagem/casosdeuso/casodeuso/perfil.md 
+                              - UC16 - Compartilhar ofensiva: modelagem/casosdeuso/casodeuso/compartilharOfensiva.md
+            - Especificação Suplementar: modelagem/especificacaoSuplementar.md
+            - Backlog do produto: modelagem/backlog.md
+            - Sprint Backlog: modelagem/sprintBacklog.md
+            - NFR: modelagem/nfr.md
+            - Referências: modelagem/referencias.md
+
+      - Análise:
+            - Sobre:
+            - Verificação: 
+            - Validação: analise/validacao.md
+
+      - Atas de reunião: ata_reuniao/atas.md
+      - Entregas: entregas.md
       
 
 # extra_javascript:
 #   - js/custom.js
 
 extra_css:
-    - css/custom.css
+      - css/custom.css
