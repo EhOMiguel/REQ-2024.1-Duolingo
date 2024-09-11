@@ -4,8 +4,8 @@
 
 ### Contexto
 
-- **Descrição da Verificação:** Este documento visa inspecionar os casos de uso desenvolvidos.
-- **Técnica utilizada:** Leitura Check-List
+- **Descrição da Verificação:** Este documento visa inspecionar os casos de uso desenvolvidos
+- **Técnica utilizada:** Inspeção
 - **Documento inspecionado:** Casos de Uso
 - **Autores do documento:** Bruno Ricardo
 - **Inspetor:** [Nome do inspetor]
