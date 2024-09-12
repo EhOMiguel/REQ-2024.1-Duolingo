@@ -16,4 +16,4 @@
 |------------|--------|-----------------------------|------------------|
 | 01/08/2024 | 1.0    | Adicionando a primeira Entrega | Arthur Trindade  |
 | 22/08/2024 | 2.0    | Adicionando a segunda Entrega | Vinicius Oliveira  |
-| 12/09/2024 | 3.0    | Adicionando a segunda Entrega | Bruno Ricardo |
+| 12/09/2024 | 3.0    | Adicionando a terceira Entrega | Bruno Ricardo |
