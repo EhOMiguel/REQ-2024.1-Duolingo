@@ -26,7 +26,7 @@
 
 ## Resposta
 
-| Questão | Desempenho | Usabilidade | Acessibilidade | 
+| Questão | Persona Universitário | Persona Doméstica | Persona Adolescente | 
 :--------:|:---:|:---:|:---:|
 | 1 | X | X | X |
 | 2 | X | X | X |

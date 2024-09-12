@@ -26,7 +26,7 @@
 
 ## Resposta
 
-| Questão | Desempenho | Usabilidade | Acessibilidade | 
+| Questão | NFR - Desempenho | NFR - Usabilidade | NFR - Acessibilidade | 
 :--------:|:---:|:---:|:---:|
 | 1 | X | X | X |
 | 2 | X | X | X |
