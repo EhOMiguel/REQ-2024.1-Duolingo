@@ -1,4 +1,4 @@
-# UC07 - Gerenciamento de Perfil no Duolingo
+# UC08 - Gerenciamento de Perfil no Duolingo
 
 **Descrição:** Este caso de uso descreve o processo de visualização, edição e atualização do perfil de usuário no Duolingo.
 

@@ -1,4 +1,4 @@
-# UC09: Modificar avatar do Duolingo
+# UC12: Modificar avatar do Duolingo
 
 **Descrição**: Este caso de uso detalha o processo de modificar o avatar no Duolingo.
 
