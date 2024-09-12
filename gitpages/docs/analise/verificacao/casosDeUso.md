@@ -147,7 +147,7 @@
 
 ---
 
-### UC07 - Gerenciamento de Perfil no Duolingo
+### UC08 - Gerenciamento de Perfil no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -162,7 +162,7 @@
 
 ---
 
-### UC08 - Compartilhar Ofensiva no Duolingo
+### UC09 - Compartilhar Ofensiva no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -177,7 +177,7 @@
 
 ---
 
-### UC08 - Desconectar Conta no Duolingo
+### UC10 - Desconectar Conta no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -192,7 +192,7 @@
 
 ---
 
-### UC09 - Cadastrar Usuário no Duolingo
+### UC11 - Cadastrar Usuário no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -207,7 +207,7 @@
 
 ---
 
-### UC09 - Modificar Avatar no Duolingo
+### UC12 - Modificar Avatar no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -222,7 +222,7 @@
 
 ---
 
-### UC10 - Adicionar Amigos no Duolingo
+### UC13 - Adicionar Amigos no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -237,7 +237,7 @@
 
 ---
 
-### UC10 - Compartilhar Conquista no Duolingo
+### UC14 - Compartilhar Conquista no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -252,7 +252,7 @@
 
 ---
 
-### UC11 - Reportar Problema no Duolingo
+### UC15 - Reportar Problema no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -267,7 +267,7 @@
 
 ---
 
-### UC12 - Uso do Menu de Revisão no Duolingo
+### UC16 - Uso do Menu de Revisão no Duolingo
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
