@@ -1,4 +1,4 @@
-# UC08: Desconectar conta do Duolingo
+# UC10: Desconectar conta do Duolingo
 
 **Descrição**: Este caso de uso detalha o processo de desconectar a conta do Duolingo.
 

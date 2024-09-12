@@ -1,4 +1,4 @@
-# UC09 - Cadastrar Usuário no Duolingo
+# UC11 - Cadastrar Usuário no Duolingo
 
 **Descrição:** Este caso de uso descreve o processo pelo qual um novo usuário pode se cadastrar no Duolingo para começar a utilizar a plataforma.
 

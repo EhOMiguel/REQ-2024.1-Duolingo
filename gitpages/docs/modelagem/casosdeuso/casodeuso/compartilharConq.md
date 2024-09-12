@@ -1,4 +1,4 @@
-# UC10: Compartilhar conquista do Duolingo
+# UC14: Compartilhar conquista do Duolingo
 
 **Descrição**: Este caso de uso detalha o processo de compartilhar uma conquista do Duolingo.
 
