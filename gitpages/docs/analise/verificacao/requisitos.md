@@ -85,7 +85,7 @@
 
 ## Respostas
 
-[Link para as respostas do checklist de Requisitos Funcionais e Não Funcionais](../respostas/requisitos.md)
+[Link para as respostas do checklist de Requisitos Funcionais e Não Funcionais](../resultados/requisitos.md)
 
 
 
