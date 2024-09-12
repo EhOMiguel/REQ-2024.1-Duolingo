@@ -1,8 +1,8 @@
-# **Verificação dos Casos de Uso**
+# Verificação dos Casos de Uso
 
-<br />
+---
 
-### Contexto
+## Contexto
 
 - **Descrição da Verificação:** Este documento visa inspecionar os casos de uso desenvolvidos
 - **Técnica utilizada:** Inspeção
@@ -10,9 +10,9 @@
 - **Autores do documento:** Bruno Ricardo
 - **Inspetor:** [Nome do inspetor]
 
-<br />
+---
 
-### Critérios do Checklist
+## Critérios do Checklist
 
 1. **Descrição:** A descrição do caso de uso é clara e explica de forma objetiva o propósito e o contexto?
 2. **Ator Principal:** O ator principal está identificado corretamente e é o responsável pelas interações descritas no caso de uso?
@@ -25,9 +25,9 @@
 
 <br />
 
-### Modelo de Verificação
+## Modelo de Verificação
 
-#### UCXX - [Título do Caso de Uso]
+### UCXX - [Título do Caso de Uso]
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -40,4 +40,4 @@
 | 7                     | Sim/Não          | [Comentário opcional sobre as restrições]             |
 | 8                     | Sim/Não          | [Comentário opcional sobre as pós-condições]          |
 
-### Verificação
+## Verificação

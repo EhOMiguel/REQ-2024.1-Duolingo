@@ -1,8 +1,8 @@
-# **Verificação dos Cenários**
+# Verificação dos Cenários
 
-<br />
+---
 
-### Contexto
+## Contexto
 
 - **Descrição da Verificação:** Este documento visa inspecionar os cenários desenvolvidos
 - **Técnica utilizada:** Inspeção
@@ -10,9 +10,9 @@
 - **Autores do documento:** Bruno Ricardo
 - **Inspetor:** [Nome do inspetor]
 
-<br />
+---
 
-### Critérios do Checklist
+## Critérios do Checklist
 
 1. **Título:** O título do cenário reflete adequadamente o conteúdo e o objetivo?
 2. **Objetivo:** O objetivo do cenário está claro e descreve corretamente a intenção?
@@ -25,9 +25,9 @@
 
 <br />
 
-### Modelo de Verificação
+## Modelo de Verificação
 
-#### Cenário: [Título do Cenário]
+### CXX: [Título do Cenário]
 
 | Critérios             | Atende           | Observação                                            |
 |:---------------------:|:----------------:|:-----------------------------------------------------:|
@@ -40,4 +40,4 @@
 | 7. Restrições         | Sim/Não          | [Comentário opcional sobre as restrições]             |
 | 8. Exceções           | Sim/Não          | [Comentário opcional sobre as exceções]               |
 
-### Verificação
+## Verificação

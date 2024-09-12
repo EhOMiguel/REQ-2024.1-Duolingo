@@ -1,19 +1,19 @@
-# **Verificação do Storytelling**
+# Verificação do Storytelling
 
-<br />
+---
 
-### Contexto
+## Contexto
 
 
-- Descrição da Verificação: Este documento visa inspecionar a Storytelling e as personas desenvolvidas
-- Técnica utilizada: Leitura Check-List
-- Documento inspecionado: Storytelling
-- Autores do documento: Felipe Motta
-- Inspetor: 
+- **Descrição da Verificação:** Este documento visa inspecionar a Storytelling e as personas desenvolvidas
+- **Técnica utilizada:** Leitura Check-List
+- **Documento inspecionado:** Storytelling
+- **Autores do documento:** Felipe Motta
+- **Inspetor:** 
 
-<br />
+---
 
-### Checklist
+## Checklist
 
 1. A história é clara e objetiva?
 2. A história é relevante para o contexto do usuário?

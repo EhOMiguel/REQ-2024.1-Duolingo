@@ -34,7 +34,7 @@ theme:
       - Visão Geral: visao_geral.md
       - Pré-Rastreabilidade:
             - Sobre: pre_rastreabilidade/index.md
-            - Mapa mental: pre_rastreabilidade/mapaMental.md
+            - Mapa Mental: pre_rastreabilidade/mapaMental.md
             - Rich Pictures: pre_rastreabilidade/richPictures.md
             - Argumentações: pre_rastreabilidade/argumentacoes.md
             - Referências: pre_rastreabilidade/referencias.md

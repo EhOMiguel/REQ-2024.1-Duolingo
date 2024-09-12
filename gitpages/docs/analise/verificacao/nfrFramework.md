@@ -1,19 +1,19 @@
-# **Verificação dos NFRs**
+# Verificação dos NFRs
 
-<br />
+---
 
-### Contexto
+## Contexto
 
 
-- Descrição da Verificação: Este documento visa inspecionar todos os modelos de NFRs desenvolvidos
-- Técnica utilizada: Leitura Check-List
-- Documento inspecionado: NFRs
-- Autores do documento: Felipe Motta
-- Inspetor: 
+- **Descrição da Verificação:** Este documento visa inspecionar todos os modelos de NFRs desenvolvidos
+- **Técnica utilizada:** Leitura Check-List
+- **Documento inspecionado:** NFRs
+- **Autores do documento:** Felipe Motta
+- **Inspetor:** 
 
-<br />
+---
 
-### Checklist
+## Checklist
 
 1. Existem Softgoals suficientes para representar o contexo?
 2. A maioria dos Softgoals estão bem definidos?
