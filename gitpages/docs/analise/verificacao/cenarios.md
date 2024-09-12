@@ -8,7 +8,7 @@
 - **Técnica utilizada:** Inspeção
 - **Documento inspecionado:** Cenários
 - **Autores do documento:** Bruno Ricardo
-- **Inspetor:** [Nome do inspetor]
+- **Inspetor:** Arthur Trindade
 
 ---
 
@@ -41,3 +41,408 @@
 | 8. Exceções           | Sim/Não          | [Comentário opcional sobre as exceções]               |
 
 ## Verificação
+
+## Modelo de Verificação
+
+### C01: Acessar as novidades
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C02: Adicionar amigo a partir da lista de contatos do usuário
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C03: Adicionar amigo pelo link personalizado
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C04: Adicionar um amigo procurando pelo nome ou nome de usuário
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C05: Compartilhar conquista
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C06: Compartilhar um exercício
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C07: Compartilhar perfil
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C08: Compartilhar link de convite para adicionar um novo amigo
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C09: Completar Unidade
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C10: Configuração de conta - Duolingo for Schools
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              | O fluxo de digitação de códigos de escola poderia ser descrito com mais detalhes para evitar ambiguidades. |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C11: Configuração - Central de Ajuda
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C12: Configuração - Cursos
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              | A navegação de curso poderia incluir mais detalhes sobre a personalização do curso, se aplicável. |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C13: Configuração - Notificações
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C14: Configuração - Perfil
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C15: Configuração - Preferências
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C16: Configuração - Privacidade
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C17: Configurações
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              | O fluxo entre web e mobile poderia ser melhor detalhado, especialmente as diferenças de UX entre as plataformas. |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C18: Criar Avatar do Perfil
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              | O processo de criação de avatar poderia incluir exemplos visuais para ajudar a guiar o usuário. |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C19: Desconectar conta
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C20: Editar Avatar do Perfil
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C21: Primeiro acesso
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              | O fluxo poderia ser mais detalhado nas escolhas de idioma e nível de proficiência. |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C22: Progresso Semanal
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C23: Realizar lição do curso selecionado
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C24: Realizar missão diária
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C25: Reportar um problema
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C26: Realizar revisão da unidade
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |
+
+---
+
+### C27: Trocar o curso
+
+| Critérios             | Atende           | Observação                                            |
+|:---------------------:|:----------------:|:-----------------------------------------------------:|
+| 1. Título             | Sim              |                                                      |
+| 2. Objetivo           | Sim              |                                                      |
+| 3. Contexto           | Sim              |                                                      |
+| 4. Atores             | Sim              |                                                      |
+| 5. Recursos           | Sim              |                                                      |
+| 6. Episódios          | Sim              |                                                      |
+| 7. Restrições         | Sim              |                                                      |
+| 8. Exceções           | Sim              |                                                      |

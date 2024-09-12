@@ -8,7 +8,7 @@
 - **Técnica utilizada:** Inspeção
 - **Documento inspecionado:** Casos de Uso
 - **Autores do documento:** Bruno Ricardo
-- **Inspetor:** Bruno Ricardo
+- **Inspetor:** Miguel Moreira
 
 ---
 
