@@ -7,8 +7,8 @@
 - **Descrição da Verificação**: Este documento visa inspecionar os requisitos funcionais e não funcionais definidos na fase de elicitação.  
 - **Técnica Utilizada:** Técnica de Leitura Check-List  
 - **Documento Inspecionado**: [Requisitos Funcionais e Não Funcionais](../../elicitacao/result.md)
-- **Autores do Documento**: Arthur Trindade, Bruno Ricardo, Felipe Motta, Gabriela Tiago, Miguel Moreira e Vinicius Oliveira.  
-- **Inspetor**: Arthur Trindade
+- **Autores do Documento**: Arthur Trindade
+- **Inspetor**: Arthur Trindade, Bruno Ricardo, Felipe Motta, Gabriela Tiago, Miguel Moreira e Vinicius Oliveira
 
 ## Verificações Gerais (Para Requisitos Funcionais e Não Funcionais)
 
