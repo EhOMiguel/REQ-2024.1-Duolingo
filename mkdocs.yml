@@ -122,6 +122,7 @@ nav:
                   - Verficação dos NFRs: analise/verificacao/nfrFramework.md
                   - Verficação dos Casos de Uso: analise/verificacao/casosDeUso.md
                   - Verficação dos Cenários: analise/verificacao/cenarios.md
+                  - Verficação dos Léxicos: analise/verificacao/lexicos.md
                   - Verficação das Personas: analise/verificacao/personas.md
                   - Verficação dos Requisitos: analise/verificacao/requisitos.md
             - Validação: analise/validacao.md
