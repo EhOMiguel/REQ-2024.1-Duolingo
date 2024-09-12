@@ -9,7 +9,7 @@
 - **Técnica utilizada:** Leitura Check-List
 - **Documento inspecionado:** NFRs
 - **Autores do documento:** Felipe Motta
-- **Inspetor:** 
+- **Inspetor:** Gabriel Tiago
 
 ---
 
@@ -28,11 +28,11 @@
 
 | Questão | NFR - Desempenho | NFR - Usabilidade | NFR - Acessibilidade | 
 :--------:|:---:|:---:|:---:|
-| 1 | X | X | X |
-| 2 | X | X | X |
-| 3 | X | X | X |
-| 4 | X | X | X |
-| 5 | X | X | X |
-| 6 | X | X | X |
-| 7 | X | X | X |
-| 8 | X | X | X |
+| 1 | sim | sim | sim |
+| 2 | sim | sim | sim |
+| 3 | sim | sim | sim |
+| 4 | sim | sim | sim |
+| 5 | X | sim | sim |
+| 6 | sim | sim | sim |
+| 7 | sim | sim | sim |
+| 8 | sim | sim | sim |

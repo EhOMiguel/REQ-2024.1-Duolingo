@@ -9,7 +9,7 @@
 - **Técnica utilizada:** Leitura Check-List
 - **Documento inspecionado:** Storytelling
 - **Autores do documento:** Felipe Motta
-- **Inspetor:** 
+- **Inspetor:** Miguel Moreira
 
 ---
 
@@ -28,10 +28,10 @@
 
 | Questão | Persona Universitário | Persona Doméstica | Persona Adolescente | 
 :--------:|:---:|:---:|:---:|
-| 1 | X | X | X |
-| 2 | X | X | X |
-| 3 | X | X | X |
-| 4 | X | X | X |
-| 5 | X | X | X |
-| 6 | X | X | X |
-| 7 | X | X | X |
+| 1 | sim | sim | sim |
+| 2 | sim | sim | sim |
+| 3 | sim | sim | sim |
+| 4 | sim | sim | sim |
+| 5 | sim | sim | sim |
+| 6 | sim | sim | sim |
+| 7 | sim | sim | sim |
