@@ -69,4 +69,4 @@
 
 | Data       | Versão | Descrição                                           | Autor(es)            |
 | ---------- | :----: | --------------------------------------------------- | -------------------- |
-| 05/09/2024 |  1.0   | Adicionando foward-from para requisitos funcionais | Vinícius de Oliveira |
+| 05/09/2024 |  1.0   | Adicionando forward-from para requisitos funcionais | Vinícius de Oliveira |
