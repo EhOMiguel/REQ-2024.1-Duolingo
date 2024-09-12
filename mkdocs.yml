@@ -120,7 +120,12 @@ nav:
             - Sobre: analise/index.md
             - Verificação:
                   - Verficação dos NFRs: analise/verificacao/nfrFramework.md
+                  - Verficação dos Casos de Uso: analise/verificacao/casosDeUso.md
+                  - Verficação dos Cenários: analise/verificacao/cenarios.md
+                  - Verficação das Personas: analise/verificacao/personas.md
+                  - Verficação dos Requisitos: analise/verificacao/requisitos.md
             - Validação: analise/validacao.md
+            - Resultados: analise/resultados/requisitos.md
 
       - Atas de reunião: ata_reuniao/atas.md
       - Entregas: entregas.md
