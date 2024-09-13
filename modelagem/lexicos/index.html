@@ -1,0 +1,8567 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../cenarios/trocar_curso/">
+      
+      
+        <link rel="next" href="../casosdeuso/">
+      
+      
+      <link rel="icon" href="../../assets/icons/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Léxicos - REQ-2024.1-Duolingo</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="yellow">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lexico-duolingo" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="REQ-2024.1-Duolingo" class="md-header__button md-logo" aria-label="REQ-2024.1-Duolingo" data-md-component="logo">
+      
+  <img src="../../assets/icons/logo_light.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            REQ-2024.1-Duolingo
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Léxicos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="yellow"  aria-label="Modo Claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo Claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="light-green"  aria-label="Modo Escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo Escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54s-2.94 8.27-7 9.54c.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/EhOMiguel/REQ-2024.1-Duolingo" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    REQ-2024.1-Duolingo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="REQ-2024.1-Duolingo" class="md-nav__button md-logo" aria-label="REQ-2024.1-Duolingo" data-md-component="logo">
+      
+  <img src="../../assets/icons/logo_light.svg" alt="logo">
+
+    </a>
+    REQ-2024.1-Duolingo
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/EhOMiguel/REQ-2024.1-Duolingo" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    REQ-2024.1-Duolingo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao_geral/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/mapaMental/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mapa Mental
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/richPictures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Pictures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/argumentacoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Argumentações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/referencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Referências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Pós-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/backward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos_rastreabilidade/forward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/brainstorming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introspecção
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Introspecção
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_2" id="__nav_5_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Individual
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Individual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccaoIndividual/introspeccao_arthur/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccaoIndividual/introspeccao_bruno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bruno
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccaoIndividual/introspeccao_felipe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Felipe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccaoIndividual/introspeccao_gabriela/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gabriela
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccaoIndividual/introspeccao_miguel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Miguel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccaoIndividual/introspeccao_Vinicius/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vinícius
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/introspeccaoIndividual/introspeccao_resultado/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultado
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/moscow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MoSCoW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/storytelling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    StoryTelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/result/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultado das técnicas de elicitação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/referencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Referências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Cenários
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/acessar-novidades/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acessar Novidades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/adicionar-amigo-contato/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adicionar Amigo Pelo Contato
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/adicionar-amigo-link/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adicionar Amigo Link de Compartilhamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/adicionar-amigo-pesquisar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adicionar Amigo Pesquisando-o
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/compartilhar_conquista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Conquista
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/compartilhar-convite-amizade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Convite de Amizade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/compartilhar_exercicio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Exercício
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/compartilhar_perfil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Perfil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/completar-unidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Completar Unidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configuracao_cursos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Cursos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configuracao_notificacoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Notificações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configuracao_perfil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Perfil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configuracao_preferencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Preferências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configiuracao_duoForSchools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Duolingo for school
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configuracao_CentralAjuda/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Central de Ajuda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configuracao_privacidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Privacidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/configuracoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configurações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/criar-avatar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Criar Avatar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/desconectarConta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Desconectar Conta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/editar-avatar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editar Avatar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/primeiro_acesso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primeiro Acesso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/progresso_semanal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Progresso Semanal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/realizar-licao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Realizar Lição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/realizar-missao-diaria/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Realizar Missão Diária
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/reportar_problema/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reportar Problema
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/revisao-unidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Revisão de Unidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/trocar_curso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trocar Curso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Léxicos
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Léxicos
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lexico-duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Léxico Duolingo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Léxico Duolingo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajuda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ajuda
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ajuda">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aplicação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avatar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Avatar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comentarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comentários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comentários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compartilhar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compartilhar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compartilhar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conquistas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conquistas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conquistas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurações
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configurações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cristais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cristais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cristais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cursos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divisão
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Divisão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duolingo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Duolingo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Falar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Falar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-da-unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guia da Unidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Guia da Unidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inscricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inscrição
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inscrição">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lição
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lição">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    <span class="md-ellipsis">
+      Login
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Login">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medalha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medalha
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Medalha">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Meta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Missão
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Missão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nivel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nível
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nível">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notificações
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Notificações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ofensiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ofensiva
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ofensiva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ouvir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ouvir
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ouvir">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pódio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pódio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontuacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontuação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pontuação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#posicoes-da-divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Posições da Divisão
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Posições da Divisão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preferencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preferências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Preferências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privacidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Privacidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ranking
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ranking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recompensa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensa
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recompensa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisar-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisar (Lição)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Revisar (Lição)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seção
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguindo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguindo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seguindo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguidores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguidores
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seguidores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suporte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Suporte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#super" class="md-nav__link">
+    <span class="md-ellipsis">
+      Super
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Super">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titas-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Titãs (Lição)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Titãs (Lição)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traduzir-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traduzir (Lição)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Traduzir (Lição)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vidas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#widget-do-duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Widget do Duolingo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Widget do Duolingo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      XP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="XP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#congelar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Congelar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Congelar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nickname" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nickname
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nickname">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Casos de uso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/diagrama/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama casos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4_3" id="__nav_6_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Casos de uso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/primeiroAcesso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC01 - Primeiro acesso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/login/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC02 - Login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/superDuolingo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC03 - Aquisição do Super Duolingo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/loja/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC04 - Loja
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/realizarExercicio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC05 - Realização de exercícios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/trocaIdioma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC06 - Troca de idioma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/configuracao_web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC07 - Configuração do Duolingo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/desconectarConta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC08 - Desconectar conta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/modificarAvatar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC09 - Modificar avatar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/compartilharConq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC10 - Compartilhar conquista
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/reportarProblema/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC11 - Reportar problema
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/revisaoLicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC12 - Revisão de lição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/adicionarAmigos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC13 - Adicionar amigos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/cadastrarUsuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC14 - Cadastrar usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/perfil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC15 - Perfil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosdeuso/casodeuso/compartilharOfensiva/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC16 - Compartilhar ofensiva
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacaoSuplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprintBacklog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IStar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IStar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../referencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Referências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Análise
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verificação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/nfrFramework/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos NFRs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/casosDeUso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Casos de Uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/lexicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Léxicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação das Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Requisitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/validacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/resultados/requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ata_reuniao/atas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atas de reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lexico-duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Léxico Duolingo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Léxico Duolingo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajuda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ajuda
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ajuda">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aplicação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avatar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Avatar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comentarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comentários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comentários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compartilhar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compartilhar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compartilhar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conquistas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conquistas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conquistas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurações
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configurações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cristais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cristais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cristais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cursos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divisão
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Divisão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duolingo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Duolingo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Falar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Falar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-da-unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guia da Unidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Guia da Unidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inscricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inscrição
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inscrição">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lição
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lição">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    <span class="md-ellipsis">
+      Login
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Login">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medalha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medalha
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Medalha">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Meta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Missão
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Missão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nivel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nível
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nível">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notificações
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Notificações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ofensiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ofensiva
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ofensiva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ouvir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ouvir
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ouvir">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pódio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pódio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontuacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontuação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pontuação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#posicoes-da-divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Posições da Divisão
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Posições da Divisão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preferencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preferências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Preferências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privacidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Privacidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ranking
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ranking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recompensa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensa
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recompensa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisar-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisar (Lição)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Revisar (Lição)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seção
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguindo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguindo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seguindo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguidores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguidores
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seguidores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suporte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Suporte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#super" class="md-nav__link">
+    <span class="md-ellipsis">
+      Super
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Super">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titas-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Titãs (Lição)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Titãs (Lição)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traduzir-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traduzir (Lição)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Traduzir (Lição)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vidas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#widget-do-duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Widget do Duolingo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Widget do Duolingo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      XP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="XP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#congelar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Congelar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Congelar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nickname" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nickname
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nickname">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipo_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocao_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impacto_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impacto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sinonimos_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sinônimos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Léxicos</h1>
+
+<h2 id="lexico-duolingo">Léxico Duolingo</h2>
+<h3 id="ajuda">Ajuda</h3>
+<h4 id="tipo">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao">Noção</h4>
+<ul>
+<li>Seção do aplicativo onde os <a href="#usuário">usuários</a> podem encontrar respostas para perguntas frequentes e instruções.</li>
+<li>Suporte e orientação fornecidos aos usuários para resolver problemas e dúvidas.</li>
+</ul>
+<h4 id="impacto">Impacto</h4>
+<ul>
+<li>Facilita a autossuficiência e a resolução de dúvidas, melhorando a experiência do usuário.</li>
+<li>Reduz a carga no suporte ao cliente, permitindo que a equipe foque em questões mais complexas.</li>
+<li>Aumenta a satisfação do usuário ao fornecer respostas rápidas e eficazes.</li>
+</ul>
+<h4 id="sinonimos">Sinônimos</h4>
+<ul>
+<li>FAQ, suporte</li>
+</ul>
+<hr />
+<h3 id="aplicacao">Aplicação</h3>
+<h4 id="tipo_1">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_1">Noção</h4>
+<ul>
+<li>Software do Duolingo disponível em plataformas móveis e web.</li>
+</ul>
+<h4 id="impacto_1">Impacto</h4>
+<ul>
+<li>Facilita o acesso ao aprendizado de idiomas em qualquer lugar e a qualquer momento.</li>
+<li>Centraliza todas as funcionalidades de aprendizado em um único lugar, oferecendo uma experiência integrada e consistente.</li>
+<li>Formenta a acessibilidade e a inclusão, permitindo que usuários de diferentes dispositivos e sistemas operacionais utilizem a plataforma.</li>
+</ul>
+<h4 id="sinonimos_1">Sinônimos</h4>
+<ul>
+<li>App, programa, software, plataforma, site, aplicativo</li>
+</ul>
+<hr />
+<h3 id="avatar">Avatar</h3>
+<h4 id="tipo_2">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_2">Noção</h4>
+<ul>
+<li>Imagem ou ícone que representa um <a href="#usuário">usuário</a> no Duolingo.</li>
+<li>O avatar é exibido em perfis, <a href="#comentários">comentários</a>, <a href="#ranking">ranking</a> e outras áreas da plataforma.</li>
+</ul>
+<h4 id="impacto_2">Impacto</h4>
+<ul>
+<li>Personaliza a experiência do usuário, dando-lhe uma identidade visual na plataforma.</li>
+<li>Facilita a identificação e interação entre os usuários dentro da comunidade Duolingo.</li>
+</ul>
+<h4 id="sinonimos_2">Sinônimos</h4>
+<ul>
+<li>Ícone, foto de perfil</li>
+</ul>
+<hr />
+<h3 id="comentarios">Comentários</h3>
+<h4 id="tipo_3">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_3">Noção</h4>
+<ul>
+<li>Feedback dado pelos <a href="#usuário">usuários</a> sobre <a href="#lição">lições</a>, funcionalidades ou outros aspectos do Duolingo.</li>
+</ul>
+<h4 id="impacto_3">Impacto</h4>
+<ul>
+<li>Ajuda na melhoria contínua da plataforma, adaptando-a melhor às necessidades dos usuários.</li>
+<li>Incentiva a participação ativa da comunidade, criando um ambiente colaborativo para o aprendizado.</li>
+<li>Fornece suporte e orientação entre os usuários, promovendo a interação e a troca de conhecimento.</li>
+</ul>
+<h4 id="sinonimos_3">Sinônimos</h4>
+<ul>
+<li>Feedback, opiniões, avaliações</li>
+</ul>
+<hr />
+<h3 id="compartilhar">Compartilhar</h3>
+<h4 id="tipo_4">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_4">Noção</h4>
+<ul>
+<li>Ato de tornar públicas as conquistas ou os avanços no aprendizado, seja por meio de redes sociais ou diretamente com amigos.</li>
+</ul>
+<h4 id="impacto_4">Impacto</h4>
+<ul>
+<li>Promove o engajamento social e motiva outros usuários a participar do aprendizado.</li>
+<li>Aumenta a visibilidade e o alcance do Duolingo, atraindo novos usuários para a plataforma.</li>
+<li>Impulsiona a interação e a colaboração entre os usuários, criando uma comunidade ativa e engajada.</li>
+</ul>
+<h4 id="sinonimos_4">Sinônimos</h4>
+<ul>
+<li>Divulgar, publicar, partilhar</li>
+</ul>
+<hr />
+<h3 id="conquistas">Conquistas</h3>
+<h4 id="tipo_5">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_5">Noção</h4>
+<ul>
+<li>Reconhecimentos especiais que um usuário pode ganhar ao completar certos objetivos no Duolingo.</li>
+<li>Marcas de progresso e realizações que são exibidas no perfil do usuário.</li>
+</ul>
+<h4 id="impacto_5">Impacto</h4>
+<ul>
+<li>Servem como motivação e feedback positivo, encorajando a continuidade no aprendizado.</li>
+<li>Proporcionam um senso de progresso tangível, reforçando o comprometimento do usuário com o aprendizado.</li>
+<li>Aumentam o engajamento e a retenção de usuários, criando um ciclo de recompensa e progresso dentro da <a href="#aplicação">aplicação</a>.</li>
+</ul>
+<h4 id="sinonimos_5">Sinônimos</h4>
+<ul>
+<li>Troféus, prêmios, condecorações</li>
+</ul>
+<hr />
+<h3 id="conta">Conta</h3>
+<h4 id="tipo_6">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_6">Noção</h4>
+<ul>
+<li>Perfil individual criado por um <a href="#usuário">usuário</a> para acessar e usar o Duolingo.</li>
+</ul>
+<h4 id="impacto_6">Impacto</h4>
+<ul>
+<li>Armazena o progresso e as preferências do usuário, permitindo uma experiência de aprendizado personalizada.</li>
+<li>Permite o acesso a funcionalidades premium, como Duolingo Plus, oferecendo uma experiência mais completa.</li>
+<li>Contribui para a segurança e a privacidade dos dados do usuário, protegendo suas informações pessoais.</li>
+</ul>
+<h4 id="sinonimos_6">Sinônimos</h4>
+<ul>
+<li>Perfil, registro</li>
+</ul>
+<hr />
+<h3 id="configuracoes">Configurações</h3>
+<h4 id="tipo_7">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_7">Noção</h4>
+<ul>
+<li>Opções de personalização disponíveis para ajustar como o aplicativo funciona para o <a href="#usuário">usuário</a>.</li>
+</ul>
+<h4 id="impacto_7">Impacto</h4>
+<ul>
+<li>Permite ao usuário adaptar a experiência de aprendizado às suas preferências e necessidades.</li>
+<li>Contribui para a acessibilidade do aplicativo, permitindo ajustes que atendem a diferentes necessidades e preferências.</li>
+</ul>
+<h4 id="sinonimos_7">Sinônimos</h4>
+<ul>
+<li>Preferências, ajustes, opções</li>
+</ul>
+<hr />
+<h3 id="cristais">Cristais</h3>
+<h4 id="tipo_8">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_8">Noção</h4>
+<ul>
+<li>Moeda virtual do Duolingo que pode ser usada para comprar itens na loja do aplicativo.</li>
+<li>Item de <a href="#recompensa">recompensa</a> que pode ser ganho ao completar <a href="#missão">missões</a>.</li>
+</ul>
+<h4 id="impacto_8">Impacto</h4>
+<ul>
+<li>Permitem a compra de recursos adicionais, como power-ups, personalizações, e testes de progresso.</li>
+<li>Incentivam o engajamento contínuo dos usuários, criando um ciclo de recompensa e progresso dentro do aplicativo.</li>
+</ul>
+<h4 id="sinonimos_8">Sinônimos</h4>
+<ul>
+<li>Gemas, moedas virtuais, créditos</li>
+</ul>
+<hr />
+<h3 id="cursos">Cursos</h3>
+<h4 id="tipo_9">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_9">Noção</h4>
+<ul>
+<li>Programas de estudo oferecidos pelo Duolingo em diferentes idiomas.</li>
+<li>Conjunto de <a href="#unidade">unidades</a> e <a href="#lição">lições</a> que cobrem aspectos específicos de um idioma.</li>
+</ul>
+<h4 id="impacto_9">Impacto</h4>
+<ul>
+<li>Proporciona uma estrutura de aprendizado contínuo e organizado para diversos idiomas.</li>
+<li>Diversifica as opções de aprendizado, permitindo que os usuários explorem e dominem vários idiomas.</li>
+<li>Oferece uma experiência educacional completa e abrangente, cobrindo diferentes aspectos da língua.</li>
+</ul>
+<h4 id="sinonimos_9">Sinônimos</h4>
+<ul>
+<li>Programas, treinamentos, disciplinas, matérias</li>
+</ul>
+<hr />
+<h3 id="divisao">Divisão</h3>
+<h4 id="tipo_10">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_10">Noção</h4>
+<ul>
+<li>Categorias de competição no <a href="#ranking">ranking</a> do Duolingo onde usuários competem entre si.</li>
+</ul>
+<h4 id="impacto_10">Impacto</h4>
+<ul>
+<li>Incentiva o engajamento e a competição saudável, motivando os usuários a estudar mais.</li>
+<li>Fomenta uma comunidade ativa e envolvida, promovendo interações entre usuários com objetivos semelhantes.</li>
+<li>Aumenta a retenção de usuários ao criar um senso de pertencimento e propósito dentro da plataforma.</li>
+</ul>
+<h4 id="sinonimos_10">Sinônimos</h4>
+<ul>
+<li>Liga, classe, categoria</li>
+</ul>
+<hr />
+<h3 id="duolingo">Duolingo</h3>
+<h4 id="tipo_11">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_11">Noção</h4>
+<ul>
+<li>Plataforma de aprendizado de idiomas disponível em várias plataformas digitais.</li>
+</ul>
+<h4 id="impacto_11">Impacto</h4>
+<ul>
+<li>Oferece recursos acessíveis e gamificados para o aprendizado de idiomas, ampliando o acesso à educação.</li>
+<li>Contribui para a democratização do ensino de idiomas, proporcionando uma ferramenta de aprendizado gratuita e de qualidade.</li>
+<li>Cria uma comunidade global de aprendizado, conectando usuários de diferentes partes do mundo.</li>
+</ul>
+<h4 id="sinonimos_11">Sinônimos</h4>
+<ul>
+<li>Aplicativo de idiomas, plataforma de aprendizado, ferramenta educacional</li>
+</ul>
+<hr />
+<h3 id="falar">Falar</h3>
+<h4 id="tipo_12">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_12">Noção</h4>
+<ul>
+<li>Habilidade de produzir sons e palavras no idioma que está sendo aprendido.</li>
+</ul>
+<h4 id="impacto_12">Impacto</h4>
+<ul>
+<li>Essencial para a comunicação e interação prática no idioma aprendido.</li>
+<li>Aumenta a confiança do usuário em situações de fala, facilitando a imersão em contextos reais.</li>
+<li>A prática de fala ajuda a melhorar a pronúncia e a fluência no idioma.</li>
+</ul>
+<h4 id="sinonimos_12">Sinônimos</h4>
+<ul>
+<li>Pronunciar, comunicar, expressar, verbalizar</li>
+</ul>
+<hr />
+<h3 id="guia-da-unidade">Guia da Unidade</h3>
+<h4 id="tipo_13">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_13">Noção</h4>
+<ul>
+<li>Recurso que fornece uma visão geral dos tópicos e objetivos de uma <a href="#unidade">unidade</a>.</li>
+</ul>
+<h4 id="impacto_13">Impacto</h4>
+<ul>
+<li>Ajuda os usuários a entenderem o que esperar e como se preparar para as lições.</li>
+<li>Facilita o planejamento e a organização do estudo, permitindo uma abordagem mais estruturada ao aprendizado.</li>
+<li>Axilia na compreensão do conteúdo e na preparação para as lições.</li>
+</ul>
+<h4 id="sinonimos_13">Sinônimos</h4>
+<ul>
+<li>Resumo da unidade, mapa de estudo, visão geral</li>
+</ul>
+<hr />
+<h3 id="inscricao">Inscrição</h3>
+<h4 id="tipo_14">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_14">Noção</h4>
+<ul>
+<li>Processo de cadastro de um novo <a href="#usuário">usuário</a> no Duolingo.</li>
+<li>Criação de uma <a href="#conta">conta</a> na <a href="#aplicação">aplicação</a> para acessar os recursos de aprendizado.</li>
+</ul>
+<h4 id="impacto_14">Impacto</h4>
+<ul>
+<li>Permite o acesso à plataforma e o início do aprendizado de idiomas.</li>
+<li>Coleta informações iniciais que ajudam a personalizar a experiência do usuário desde o começo.</li>
+<li>Torna o <a href="#usuário">usuário</a> parte da comunidade de aprendizado do Duolingo.</li>
+<li>Permite o acompanhamento do progresso e a retenção de informações do usuário.</li>
+</ul>
+<h4 id="sinonimos_14">Sinônimos</h4>
+<ul>
+<li>Cadastro, registro, adesão</li>
+</ul>
+<hr />
+<h3 id="licao">Lição</h3>
+<h4 id="tipo_15">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_15">Noção</h4>
+<ul>
+<li>Atividade interativa que ensina e testa conhecimentos em um idioma específico.</li>
+<li>Módulo de aprendizado que aborda um tópico ou habilidade específica.</li>
+</ul>
+<h4 id="impacto_15">Impacto</h4>
+<ul>
+<li>Central no processo de aprendizado, sendo a principal forma de prática e avaliação.</li>
+<li>Permite a avaliação progressiva do conhecimento, adaptando a dificuldade conforme o progresso do usuário.</li>
+<li>Fornece feedback imediato e reforço positivo, incentivando a continuidade e o aprimoramento do aprendizado.</li>
+<li>Estrutura o aprendizado em unidades menores e mais gerenciáveis, facilitando a absorção e retenção de informações.</li>
+</ul>
+<h4 id="sinonimos_15">Sinônimos</h4>
+<ul>
+<li>Exercício, módulo de estudo, atividade, tarefa, aula, prática, teste</li>
+</ul>
+<hr />
+<h3 id="login">Login</h3>
+<h4 id="tipo_16">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_16">Noção</h4>
+<ul>
+<li>Ação de acessar uma <a href="#conta">conta</a> existente no Duolingo.</li>
+<li>Autenticação do <a href="#usuário">usuário</a> para acessar seus dados e progresso.</li>
+</ul>
+<h4 id="impacto_16">Impacto</h4>
+<ul>
+<li>Permite ao <a href="#usuário">usuário</a> acessar suas informações, progresso e continuar o aprendizado de onde parou.</li>
+<li>Aumenta a segurança dos dados pessoais ao proteger o acesso com credenciais individuais.</li>
+</ul>
+<h4 id="sinonimos_16">Sinônimos</h4>
+<ul>
+<li>Acesso, entrada, autenticação, logon</li>
+</ul>
+<hr />
+<h3 id="medalha">Medalha</h3>
+<h4 id="tipo_17">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_17">Noção</h4>
+<ul>
+<li>Símbolo de reconhecimento ganho ao completar certas <a href="#missão">missões</a> ou atingir certos marcos.</li>
+<li>Prêmio tangível que é exibido no perfil do usuário.</li>
+</ul>
+<h4 id="impacto_17">Impacto</h4>
+<ul>
+<li>Serve como motivação e reconhecimento do progresso e das conquistas do usuário.</li>
+<li>Aumenta o engajamento ao oferecer recompensas tangíveis para o esforço contínuo.</li>
+<li>Fomenta a competição saudável e a busca por novos desafios.</li>
+</ul>
+<h4 id="sinonimos_17">Sinônimos</h4>
+<ul>
+<li>Distintivo, emblema</li>
+</ul>
+<hr />
+<h3 id="meta">Meta</h3>
+<h4 id="tipo_18">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_18">Noção</h4>
+<ul>
+<li>Objetivo diário, semanal, mensal que um <a href="#usuário">usuário</a> se compromete a alcançar.</li>
+<li>O que o usuário deseja alcançar em termos de progresso e prática.</li>
+<li>Pode incluir <a href="#missão">missões</a>, <a href="#lição">lições</a> ou pontuações específicas.</li>
+</ul>
+<h4 id="impacto_18">Impacto</h4>
+<ul>
+<li>Ajuda a manter a consistência no aprendizado e proporciona uma sensação de realização.</li>
+<li>Facilita o estabelecimento de rotinas de estudo, contribuindo para o progresso contínuo.</li>
+<li>Proporciona um senso de direção e propósito, motivando o usuário a atingir seus objetivos.</li>
+</ul>
+<h4 id="sinonimos_18">Sinônimos</h4>
+<ul>
+<li>Objetivo, alvo, propósito, desafio</li>
+</ul>
+<hr />
+<h3 id="missao">Missão</h3>
+<h4 id="tipo_19">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_19">Noção</h4>
+<ul>
+<li>Tarefas ou objetivos específicos que um <a href="#usuário">usuário</a> pode completar para ganhar <a href="#recompensa">recompensas</a>.</li>
+<li>Atividades que incentivam o engajamento e a prática contínua.</li>
+</ul>
+<h4 id="impacto_19">Impacto</h4>
+<ul>
+<li>Motiva os <a href="#usuário">usuários</a> a se engajarem com diferentes aspectos do aprendizado e da <a href="#aplicação">plataforma</a>.</li>
+<li>Estimula a exploração de novos conteúdos e funcionalidades dentro do aplicativo.</li>
+<li>Proporciona um senso de progresso e realização, incentivando a continuidade do aprendizado.</li>
+</ul>
+<h4 id="sinonimos_19">Sinônimos</h4>
+<ul>
+<li>Desafio, tarefa, objetivo, atividade</li>
+</ul>
+<hr />
+<h3 id="nivel">Nível</h3>
+<h4 id="tipo_20">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_20">Noção</h4>
+<ul>
+<li>Indicador do progresso de um <a href="#usuário">usuário</a> em um idioma específico no Duolingo.</li>
+<li>Medida do conhecimento e habilidades adquiridas pelo <a href="#usuário">usuário</a>.</li>
+</ul>
+<h4 id="impacto_20">Impacto</h4>
+<ul>
+<li>Mostra o avanço no aprendizado e incentiva a continuar progredindo.</li>
+<li>Permite a comparação de desempenho com outros <a href="#usuário">usuários</a>, criando um senso de competitividade saudável.</li>
+</ul>
+<h4 id="sinonimos_20">Sinônimos</h4>
+<ul>
+<li>Grau, estágio, patamar, progresso</li>
+</ul>
+<hr />
+<h3 id="notificacoes">Notificações</h3>
+<h4 id="tipo_21">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_21">Noção</h4>
+<ul>
+<li>Alertas enviados ao <a href="#usuário">usuário</a> para lembrar sobre lições, metas e outras atividades.</li>
+<li>Mensagens que informam sobre eventos ou atividades relevantes na plataforma.</li>
+</ul>
+<h4 id="impacto_21">Impacto</h4>
+<ul>
+<li>Ajuda a manter o usuário engajado e regular no aprendizado.</li>
+<li>Fornece lembretes oportunos que ajudam a evitar a procrastinação no estudo.</li>
+<li>Facilita a comunicação e a interação entre o aplicativo e o usuário.</li>
+</ul>
+<h4 id="sinonimos_21">Sinônimos</h4>
+<ul>
+<li>Alertas, avisos, mensagens</li>
+</ul>
+<hr />
+<h3 id="ofensiva">Ofensiva</h3>
+<h4 id="tipo_22">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_22">Noção</h4>
+<ul>
+<li>Sequência de dias consecutivos que um <a href="#usuário">usuário</a> completa suas <a href="#lição">lições</a> no Duolingo.</li>
+</ul>
+<h4 id="impacto_22">Impacto</h4>
+<ul>
+<li>Incentiva a consistência e a disciplina no estudo diário de idiomas.</li>
+<li>Aumenta a motivação para manter o hábito de estudar, evitando quebras na sequência de aprendizado.</li>
+<li>Reforça a sensação de progresso e realização, criando um ciclo de recompensa e progresso.</li>
+</ul>
+<h4 id="sinonimos_22">Sinônimos</h4>
+<ul>
+<li>Sequência, série, streak</li>
+</ul>
+<hr />
+<h3 id="ouvir">Ouvir</h3>
+<h4 id="tipo_23">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_23">Noção</h4>
+<ul>
+<li>Habilidade de entender palavras e frases faladas no idioma que está sendo aprendido.</li>
+<li>Atividade de prática que envolve a compreensão auditiva.</li>
+</ul>
+<h4 id="impacto_23">Impacto</h4>
+<ul>
+<li>Crucial para a compreensão e resposta em situações reais de comunicação.</li>
+<li>Melhora a capacidade de interação em contextos práticos, como conversas e diálogos.</li>
+<li>Promove a compreensão auditiva, habilidades essenciais no aprendizado de idiomas.</li>
+</ul>
+<h4 id="sinonimos_23">Sinônimos</h4>
+<ul>
+<li>Escutar, entender</li>
+</ul>
+<hr />
+<h3 id="podio">Pódio</h3>
+<h4 id="tipo_24">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_24">Noção</h4>
+<ul>
+<li>Posição de destaque no <a href="#ranking">ranking</a>, geralmente ocupando os três primeiros lugares.</li>
+</ul>
+<h4 id="impacto_24">Impacto</h4>
+<ul>
+<li>Representa reconhecimento e motivação, incentivando os usuários a se esforçarem mais.</li>
+<li>Aumenta a competitividade, promovendo maior dedicação e empenho dos usuários.</li>
+<li>Reflete o progresso e a dedicação dos usuários, criando um senso de realização e orgulho.</li>
+</ul>
+<h4 id="sinonimos_24">Sinônimos</h4>
+<ul>
+<li>Top 3, primeiros colocados, medalhistas</li>
+</ul>
+<hr />
+<h3 id="pontuacao">Pontuação</h3>
+<h4 id="tipo_25">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_25">Noção</h4>
+<ul>
+<li>Sistema de contagem que registra os pontos acumulados pelo usuário ao completar <a href="#lição">lições</a> e outras atividades.</li>
+</ul>
+<h4 id="impacto_25">Impacto</h4>
+<ul>
+<li>Reflete o progresso e o engajamento do <a href="#usuário">usuário</a>, servindo como motivação para continuar aprendendo.</li>
+<li>Oferece uma métrica clara para avaliar o desempenho e a dedicação ao estudo.</li>
+<li>Valida o esforço e a dedicação do <a href="#usuário">usuário</a>, proporcionando um senso de realização e progresso.</li>
+</ul>
+<h4 id="sinonimos_25">Sinônimos</h4>
+<ul>
+<li>Pontos, score, classificação</li>
+</ul>
+<hr />
+<h3 id="posicoes-da-divisao">Posições da Divisão</h3>
+<h4 id="tipo_26">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_26">Noção</h4>
+<ul>
+<li>Lugares ocupados pelos <a href="#usuário">usuários</a> dentro de uma <a href="#divisão">divisão</a>, baseados na sua <a href="#pontuação">pontuação</a>.</li>
+</ul>
+<h4 id="impacto_26">Impacto</h4>
+<ul>
+<li>Incentiva a competição saudável e o progresso contínuo dentro da <a href="#aplicação">plataforma</a>.</li>
+<li>Cria um senso de pertencimento e status entre os <a href="#usuário">usuários</a>, estimulando o avanço no <a href="#ranking">ranking</a>.</li>
+<li>Reflete o desempenho e a dedicação dos <a href="#usuário">usuários</a>, proporcionando um feedback tangível sobre sua classificação.</li>
+</ul>
+<h4 id="sinonimos_26">Sinônimos</h4>
+<ul>
+<li>Classificações, rankings</li>
+</ul>
+<hr />
+<h3 id="preferencias">Preferências</h3>
+<h4 id="tipo_27">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_27">Noção</h4>
+<ul>
+<li>Configurações escolhidas pelo <a href="#usuário">usuário</a> para personalizar sua experiência no Duolingo.</li>
+</ul>
+<h4 id="impacto_27">Impacto</h4>
+<ul>
+<li>Personaliza a interface e as notificações de acordo com os gostos e rotinas do usuário.</li>
+<li>Melhora a experiência do usuário ao adaptar o <a href="#aplicação">aplicativo</a> às suas necessidades individuais.</li>
+</ul>
+<h4 id="sinonimos_27">Sinônimos</h4>
+<ul>
+<li>Opções, escolhas, configurações</li>
+</ul>
+<hr />
+<h3 id="privacidade">Privacidade</h3>
+<h4 id="tipo_28">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_28">Noção</h4>
+<ul>
+<li>Política e práticas do Duolingo relacionadas à proteção das informações pessoais dos <a href="#usuário">usuários</a>.</li>
+</ul>
+<h4 id="impacto_28">Impacto</h4>
+<ul>
+<li>Garante a segurança dos dados pessoais dos usuários e o uso responsável das informações.</li>
+<li>Contribui para a confiança dos usuários na plataforma, garantindo o respeito à confidencialidade.</li>
+<li>Reforça a reputação do Duolingo como um ambiente seguro e confiável para o aprendizado de idiomas.</li>
+</ul>
+<h4 id="sinonimos_28">Sinônimos</h4>
+<ul>
+<li>Confidencialidade, segurança de dados, proteção de informações</li>
+</ul>
+<hr />
+<h3 id="ranking">Ranking</h3>
+<h4 id="tipo_29">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_29">Noção</h4>
+<ul>
+<li>Tabela classificatória que mostra a posição dos <a href="#usuário">usuários</a> com base na sua <a href="#pontuação">pontuação</a>.</li>
+</ul>
+<h4 id="impacto_29">Impacto</h4>
+<ul>
+<li>Cria um elemento competitivo que pode motivar os usuários a estudar mais e se engajar com a comunidade.</li>
+<li>Fornece uma visão clara do progresso em comparação com outros, incentivando a melhoria contínua.</li>
+<li>Estimula a interação social e a competição saudável entre os usuários.</li>
+</ul>
+<h4 id="sinonimos_29">Sinônimos</h4>
+<ul>
+<li>Tabela de classificação, leaderboard</li>
+</ul>
+<hr />
+<h3 id="reacao">Reação</h3>
+<h4 id="tipo_30">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_30">Noção</h4>
+<ul>
+<li>Resposta ou comentário dado a atividades ou conquistas de outros <a href="#usuário">usuários</a>.</li>
+<li>Ação de expressar opiniões sobre o conteúdo compartilhado na plataforma.</li>
+</ul>
+<h4 id="impacto_30">Impacto</h4>
+<ul>
+<li>Estimula a interação social e o apoio entre usuários, criando uma comunidade mais unida.</li>
+<li>Reforça as relações sociais dentro da plataforma, promovendo um ambiente colaborativo.</li>
+</ul>
+<h4 id="sinonimos_30">Sinônimos</h4>
+<ul>
+<li>Comentário, resposta, interação</li>
+</ul>
+<hr />
+<h3 id="recompensa">Recompensa</h3>
+<h4 id="tipo_31">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_31">Noção</h4>
+<ul>
+<li>Prêmios dados ao <a href="#usuário">usuário</a> por completar <a href="#missão">missões</a>.</li>
+<li>Motivações tangíveis que incentivam o engajamento e a prática contínua.</li>
+</ul>
+<h4 id="impacto_31">Impacto</h4>
+<ul>
+<li>Incentiva a conclusão de atividades e o engajamento contínuo com a plataforma.</li>
+<li>Proporciona um senso de satisfação e realização ao completar desafios.</li>
+<li>Reforça o progresso e a dedicação do usuário, criando um ciclo de recompensa e progresso.</li>
+</ul>
+<h4 id="sinonimos_31">Sinônimos</h4>
+<ul>
+<li>Prêmio, bonificação, reconhecimento</li>
+</ul>
+<hr />
+<h3 id="revisar-licao">Revisar (Lição)</h3>
+<h4 id="tipo_32">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_32">Noção</h4>
+<ul>
+<li>Atividade focada em revisar conteúdos já aprendidos para reforçar o conhecimento.</li>
+<li>Retorno a <a href="#lição">lições</a> anteriores para consolidar o aprendizado.</li>
+</ul>
+<h4 id="impacto_32">Impacto</h4>
+<ul>
+<li>Importante para a retenção de informações e consolidação do aprendizado.</li>
+<li>Ajuda a evitar o esquecimento e fortalece a memória de longo prazo.</li>
+</ul>
+<h4 id="sinonimos_32">Sinônimos</h4>
+<ul>
+<li>Revisão, prática, consolidar, reforçar</li>
+</ul>
+<hr />
+<h3 id="schools">Schools</h3>
+<h4 id="tipo_33">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_33">Noção</h4>
+<ul>
+<li>Versão do Duolingo destinada ao uso em ambientes escolares, permitindo que professores monitorem o progresso dos alunos.</li>
+</ul>
+<h4 id="impacto_33">Impacto</h4>
+<ul>
+<li>Integra o aprendizado de idiomas no currículo escolar, facilitando a supervisão e o apoio aos alunos.</li>
+<li>Permite um acompanhamento mais personalizado e eficiente do progresso dos alunos.</li>
+</ul>
+<h4 id="sinonimos_33">Sinônimos</h4>
+<ul>
+<li>Duolingo para Escolas, plataforma educacional</li>
+</ul>
+<hr />
+<h3 id="secao">Seção</h3>
+<h4 id="tipo_34">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_34">Noção</h4>
+<ul>
+<li>Conjunto de <a href="#unidade">unidades</a> que formam uma parte maior do curso de idiomas.</li>
+</ul>
+<h4 id="impacto_34">Impacto</h4>
+<ul>
+<li>Estrutura o curso de forma organizada, ajudando o <a href="#usuário">usuário</a> a focar em áreas específicas de aprendizado.</li>
+<li>Facilita a progressão ordenada e lógica pelo conteúdo do curso.</li>
+<li>Permite a segmentação do aprendizado em partes menores e mais gerenciáveis.</li>
+</ul>
+<h4 id="sinonimos_34">Sinônimos</h4>
+<ul>
+<li>Capítulo, módulo, parte, segmento</li>
+</ul>
+<hr />
+<h3 id="seguindo">Seguindo</h3>
+<h4 id="tipo_35">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_35">Noção</h4>
+<ul>
+<li><a href="#usuário">Usuários</a> que um <a href="#usuário">usuário</a> escolheu acompanhar no Duolingo.</li>
+<li>Conexões estabelecidas entre <a href="#usuário">usuário</a> para acompanhar o progresso e interagir.</li>
+</ul>
+<h4 id="impacto_35">Impacto</h4>
+<ul>
+<li>Permite interações sociais, comparações de progresso e motivação mútua entre os <a href="#usuário">usuários</a>.</li>
+<li>Fomenta o senso de comunidade e apoio mútuo entre os <a href="#usuário">usuários</a>.</li>
+</ul>
+<h4 id="sinonimos_35">Sinônimos</h4>
+<ul>
+<li>Acompanhando, monitorando</li>
+</ul>
+<hr />
+<h3 id="seguidores">Seguidores</h3>
+<h4 id="tipo_36">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_36">Noção</h4>
+<ul>
+<li><a href="#usuário">Usuários</a> que acompanham as atividades de um outro <a href="#usuário">usuário</a> no Duolingo.</li>
+</ul>
+<h4 id="impacto_36">Impacto</h4>
+<ul>
+<li>Facilita a construção de uma rede de apoio e competição saudável dentro da plataforma.</li>
+<li>Promove interações sociais e a criação de uma rede de aprendizado colaborativo.</li>
+</ul>
+<h4 id="sinonimos_36">Sinônimos</h4>
+<ul>
+<li>Amigos</li>
+</ul>
+<hr />
+<h3 id="suporte">Suporte</h3>
+<h4 id="tipo_37">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_37">Noção</h4>
+<ul>
+<li>Ajuda disponível para os <a href="#usuário">usuários</a> em caso de dúvidas ou problemas com o aplicativo.</li>
+</ul>
+<h4 id="impacto_37">Impacto</h4>
+<ul>
+<li>Facilita a resolução de problemas e a continuidade no uso da <a href="#aplicação">plataforma</a>.</li>
+<li>Melhora a satisfação do <a href="#usuário">usuário</a> ao oferecer soluções rápidas e eficazes.</li>
+</ul>
+<h4 id="sinonimos_37">Sinônimos</h4>
+<ul>
+<li>Assistência, ajuda</li>
+</ul>
+<hr />
+<h3 id="super">Super</h3>
+<h4 id="tipo_38">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_38">Noção</h4>
+<ul>
+<li>Versão premium</li>
+</ul>
+<p>do Duolingo que oferece benefícios adicionais aos <a href="#usuário">usuários</a>.</p>
+<h4 id="impacto_38">Impacto</h4>
+<ul>
+<li>Proporciona vantagens como acesso offline, sem anúncios e funcionalidades exclusivas, aprimorando a experiência de aprendizado.</li>
+<li>Incentiva a adesão ao serviço premium, aumentando a receita para a plataforma.</li>
+</ul>
+<h4 id="sinonimos_38">Sinônimos</h4>
+<ul>
+<li>Versão premium, Duolingo Plus</li>
+</ul>
+<hr />
+<h3 id="titas-licao">Titãs (Lição)</h3>
+<h4 id="tipo_39">Tipo</h4>
+<ul>
+<li>Objeto</li>
+</ul>
+<h4 id="nocao_39">Noção</h4>
+<ul>
+<li>Usuários de alto nível que são desafiados em <a href="#lição">lições</a> avançadas.</li>
+</ul>
+<h4 id="impacto_39">Impacto</h4>
+<ul>
+<li>Representa um desafio adicional e um objetivo a ser alcançado por outros usuários.</li>
+<li>Incentiva a competitividade e o desejo de alcançar níveis avançados.</li>
+<li>Reforça a sensação de progresso e realização ao superar desafios mais difíceis.</li>
+</ul>
+<h4 id="sinonimos_39">Sinônimos</h4>
+<ul>
+<li>Especialistas, avançados</li>
+</ul>
+<hr />
+<h3 id="traduzir-licao">Traduzir (Lição)</h3>
+<h4 id="tipo_40">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_40">Noção</h4>
+<ul>
+<li>Atividade onde o <a href="#usuário">usuário</a> pratica traduzir frases ou palavras entre idiomas.</li>
+</ul>
+<h4 id="impacto_40">Impacto</h4>
+<ul>
+<li>Desenvolve habilidades de tradução e compreensão intercultural, fundamentais no aprendizado de idiomas.</li>
+<li>Melhora a fluência e a compreensão das nuances linguísticas.</li>
+<li>Auxilia na prática de vocabulário e gramática, reforçando o aprendizado.</li>
+</ul>
+<h4 id="sinonimos_40">Sinônimos</h4>
+<ul>
+<li>Transcrever, interpretar, converter</li>
+</ul>
+<hr />
+<h3 id="unidade">Unidade</h3>
+<h4 id="tipo_41">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_41">Noção</h4>
+<ul>
+<li>Grupo de <a href="#lição">lições</a> que cobrem um tema ou tópico específico do idioma.</li>
+</ul>
+<h4 id="impacto_41">Impacto</h4>
+<ul>
+<li>Facilita a aprendizagem segmentada e progressiva de aspectos do idioma.</li>
+<li>Organiza o conteúdo de forma que o aprendizado seja mais eficiente e direcionado.</li>
+<li>Ajuda a estruturar o aprendizado em partes menores e mais gerenciáveis.</li>
+</ul>
+<h4 id="sinonimos_41">Sinônimos</h4>
+<ul>
+<li>Módulo, bloco de conteúdo</li>
+</ul>
+<hr />
+<h3 id="usuario">Usuário</h3>
+<h4 id="tipo_42">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_42">Noção</h4>
+<ul>
+<li>Pessoa que tem uma <a href="#conta">conta</a> no Duolingo e utiliza o <a href="#aplicação">aplicativo</a> para aprender idiomas.</li>
+<li>Indivíduo que interage com a plataforma para estudar e praticar idiomas.</li>
+</ul>
+<h4 id="impacto_42">Impacto</h4>
+<ul>
+<li>Beneficia-se dos recursos educacionais e da comunidade do Duolingo para aprender novos idiomas.</li>
+<li>Contribui para a diversidade e riqueza da comunidade de aprendizado no Duolingo.</li>
+</ul>
+<h4 id="sinonimos_42">Sinônimos</h4>
+<ul>
+<li>Estudante, aprendiz</li>
+</ul>
+<hr />
+<h3 id="vidas">Vidas</h3>
+<h4 id="tipo_43">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_43">Noção</h4>
+<ul>
+<li>Quantidade de tentativas que um usuário tem para completar uma <a href="#lição">lição</a>.</li>
+</ul>
+<h4 id="impacto_43">Impacto</h4>
+<ul>
+<li>Quando um erro é cometido, uma vida é perdida.</li>
+<li>Aumenta a tensão e o foco durante as lições, incentivando o aprendizado concentrado.</li>
+<li>Cria um desafio adicional.</li>
+</ul>
+<h4 id="sinonimos_43">Sinônimos</h4>
+<ul>
+<li>Chances, tentativas</li>
+</ul>
+<hr />
+<h3 id="widget-do-duolingo">Widget do Duolingo</h3>
+<h4 id="tipo_44">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_44">Noção</h4>
+<ul>
+<li>Ferramenta que pode ser adicionada à tela inicial de dispositivos móveis para acesso rápido ao Duolingo.</li>
+</ul>
+<h4 id="impacto_44">Impacto</h4>
+<ul>
+<li>Facilita o acesso rápido às funcionalidades do Duolingo, incentivando o uso frequente.</li>
+<li>Melhora a conveniência e o engajamento do usuário ao oferecer uma maneira rápida de iniciar o estudo.</li>
+</ul>
+<h4 id="sinonimos_44">Sinônimos</h4>
+<ul>
+<li>Mini-aplicativo, atalho, ícone</li>
+</ul>
+<hr />
+<h3 id="xp">XP</h3>
+<h4 id="tipo_45">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_45">Noção</h4>
+<ul>
+<li>Pontos de experiência acumulados ao completar <a href="#lição">lições</a> e outras atividades.</li>
+</ul>
+<h4 id="impacto_45">Impacto</h4>
+<ul>
+<li>Reflete o progresso do <a href="#usuário">usuário</a> e é usado para determinar posições no <a href="#ranking">ranking</a> e níveis.</li>
+<li>Motiva a continuidade do estudo e o alcance de novos marcos no aprendizado.</li>
+<li>Proporciona um feedback tangível sobre o esforço e a dedicação do <a href="#usuário">usuário</a>.</li>
+</ul>
+<h4 id="sinonimos_45">Sinônimos</h4>
+<ul>
+<li>Experiência, pontos</li>
+</ul>
+<hr />
+<h3 id="congelar">Congelar</h3>
+<h4 id="tipo_46">Tipo</h4>
+<ul>
+<li>Verbo</li>
+</ul>
+<h4 id="nocao_46">Noção</h4>
+<ul>
+<li>Ato de proteger a <a href="#ofensiva">ofensiva</a> diária.</li>
+</ul>
+<h4 id="impacto_46">Impacto</h4>
+<ul>
+<li>Permite aos <a href="#usuário">usuários</a> manterem sua sequência de estudo intacta, mesmo quando não podem praticar diariamente.</li>
+<li>Ajuda a manter a motivação e o engajamento com o aprendizado de idiomas.</li>
+<li>Reduz a pressão e a ansiedade relacionadas à manutenção da sequência de estudo.</li>
+</ul>
+<h4 id="sinonimos_46">Sinônimos</h4>
+<ul>
+<li>Pausar, bloquear, proteger</li>
+</ul>
+<hr />
+<h3 id="nickname">Nickname</h3>
+<h4 id="tipo_47">Tipo</h4>
+<ul>
+<li>Estado</li>
+</ul>
+<h4 id="nocao_47">Noção</h4>
+<ul>
+<li>Nome ou pseudônimo escolhido por um <a href="#usuário">usuário</a> para se identificar dentro da <a href="#aplicação">plataforma</a>.</li>
+</ul>
+<h4 id="impacto_47">Impacto</h4>
+<ul>
+<li>Proporciona uma camada adicional de privacidade e personalização.</li>
+<li>Permite que os <a href="#usuário">usuários</a> se expressem de forma única e reconhecível dentro da comunidade do aplicativo.</li>
+</ul>
+<h4 id="sinonimos_47">Sinônimos</h4>
+<ul>
+<li>Apelido, pseudônimo, username (nome de <a href="#usuário">usuário</a>)</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

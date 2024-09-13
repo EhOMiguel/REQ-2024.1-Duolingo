@@ -1,0 +1,5517 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../cenarios/">
+      
+      
+        <link rel="next" href="../personas/">
+      
+      
+      <link rel="icon" href="../../../assets/icons/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Verficação dos Léxicos - REQ-2024.1-Duolingo</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="yellow">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#verificacao-dos-lexicos" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="REQ-2024.1-Duolingo" class="md-header__button md-logo" aria-label="REQ-2024.1-Duolingo" data-md-component="logo">
+      
+  <img src="../../../assets/icons/logo_light.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            REQ-2024.1-Duolingo
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Verficação dos Léxicos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="yellow"  aria-label="Modo Claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo Claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="light-green"  aria-label="Modo Escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo Escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54s-2.94 8.27-7 9.54c.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/EhOMiguel/REQ-2024.1-Duolingo" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    REQ-2024.1-Duolingo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="REQ-2024.1-Duolingo" class="md-nav__button md-logo" aria-label="REQ-2024.1-Duolingo" data-md-component="logo">
+      
+  <img src="../../../assets/icons/logo_light.svg" alt="logo">
+
+    </a>
+    REQ-2024.1-Duolingo
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/EhOMiguel/REQ-2024.1-Duolingo" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    REQ-2024.1-Duolingo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../visao_geral/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre_rastreabilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre_rastreabilidade/mapaMental/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mapa Mental
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre_rastreabilidade/richPictures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Pictures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre_rastreabilidade/argumentacoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Argumentações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre_rastreabilidade/referencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Referências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Pós-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos_rastreabilidade/backward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos_rastreabilidade/forward/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/brainstorming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introspecção
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Introspecção
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_2" id="__nav_5_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Individual
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Individual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccaoIndividual/introspeccao_arthur/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccaoIndividual/introspeccao_bruno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bruno
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccaoIndividual/introspeccao_felipe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Felipe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccaoIndividual/introspeccao_gabriela/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gabriela
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccaoIndividual/introspeccao_miguel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Miguel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccaoIndividual/introspeccao_Vinicius/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vinícius
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/introspeccaoIndividual/introspeccao_resultado/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultado
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/moscow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MoSCoW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/storytelling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    StoryTelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/result/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultado das técnicas de elicitação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/referencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Referências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Cenários
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/acessar-novidades/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acessar Novidades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/adicionar-amigo-contato/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adicionar Amigo Pelo Contato
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/adicionar-amigo-link/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adicionar Amigo Link de Compartilhamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/adicionar-amigo-pesquisar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adicionar Amigo Pesquisando-o
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/compartilhar_conquista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Conquista
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/compartilhar-convite-amizade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Convite de Amizade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/compartilhar_exercicio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Exercício
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/compartilhar_perfil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compartilhar Perfil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/completar-unidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Completar Unidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configuracao_cursos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Cursos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configuracao_notificacoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Notificações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configuracao_perfil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Perfil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configuracao_preferencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Preferências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configiuracao_duoForSchools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Duolingo for school
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configuracao_CentralAjuda/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Central de Ajuda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configuracao_privacidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuração Privacidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/configuracoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configurações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/criar-avatar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Criar Avatar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/desconectarConta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Desconectar Conta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/editar-avatar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editar Avatar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/primeiro_acesso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primeiro Acesso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/progresso_semanal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Progresso Semanal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/realizar-licao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Realizar Lição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/realizar-missao-diaria/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Realizar Missão Diária
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/reportar_problema/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reportar Problema
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/revisao-unidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Revisão de Unidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/trocar_curso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trocar Curso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/lexicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Léxicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Casos de uso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/diagrama/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama casos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4_3" id="__nav_6_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Casos de uso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/primeiroAcesso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC01 - Primeiro acesso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/login/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC02 - Login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/superDuolingo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC03 - Aquisição do Super Duolingo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/loja/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC04 - Loja
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/realizarExercicio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC05 - Realização de exercícios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/trocaIdioma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC06 - Troca de idioma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/configuracao_web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC07 - Configuração do Duolingo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/desconectarConta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC08 - Desconectar conta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/modificarAvatar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC09 - Modificar avatar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/compartilharConq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC10 - Compartilhar conquista
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/reportarProblema/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC11 - Reportar problema
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/revisaoLicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC12 - Revisão de lição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/adicionarAmigos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC13 - Adicionar amigos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/cadastrarUsuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC14 - Cadastrar usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/perfil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC15 - Perfil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casosdeuso/casodeuso/compartilharOfensiva/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UC16 - Compartilhar ofensiva
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/especificacaoSuplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/sprintBacklog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/nfr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/IStar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IStar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/referencias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Referências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Análise
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verificação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfrFramework/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos NFRs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosDeUso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Casos de Uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Verficação dos Léxicos
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Léxicos
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-do-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios do Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-verificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Verificação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modelo de Verificação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titulo-do-lexico" class="md-nav__link">
+    <span class="md-ellipsis">
+      [Título do Léxico]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verificação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verificação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajuda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ajuda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avatar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comentarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comentários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compartilhar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compartilhar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conquistas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conquistas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cristais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cristais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divisão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duolingo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Falar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-da-unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guia da Unidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inscricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inscrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    <span class="md-ellipsis">
+      Login
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Missão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nivel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nível
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ofensiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ofensiva
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ouvir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ouvir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pódio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontuacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontuação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#posicoes-da-divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Posições da Divisão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preferencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preferências
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privacidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ranking
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recompensa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisar-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisar (Lição)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguindo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguindo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguidores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguidores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suporte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#super" class="md-nav__link">
+    <span class="md-ellipsis">
+      Super
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titas-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Titãs (Lição)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traduzir-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traduzir (Lição)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#widget-do-duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Widget do Duolingo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      XP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#congelar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Congelar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nickname" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nickname
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação das Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verficação dos Requisitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultados/requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ata_reuniao/atas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atas de reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-do-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios do Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-verificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Verificação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modelo de Verificação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titulo-do-lexico" class="md-nav__link">
+    <span class="md-ellipsis">
+      [Título do Léxico]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verificação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verificação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajuda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ajuda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avatar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comentarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comentários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compartilhar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compartilhar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conquistas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conquistas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cristais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cristais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Divisão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duolingo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Falar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-da-unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guia da Unidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inscricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inscrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    <span class="md-ellipsis">
+      Login
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Missão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nivel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nível
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ofensiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ofensiva
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ouvir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ouvir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pódio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontuacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontuação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#posicoes-da-divisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Posições da Divisão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preferencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preferências
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privacidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ranking
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recompensa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recompensa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisar-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisar (Lição)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguindo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguindo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguidores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seguidores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suporte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#super" class="md-nav__link">
+    <span class="md-ellipsis">
+      Super
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titas-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Titãs (Lição)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traduzir-licao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traduzir (Lição)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#widget-do-duolingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Widget do Duolingo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      XP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#congelar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Congelar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nickname" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nickname
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="verificacao-dos-lexicos">Verificação dos Léxicos</h1>
+<hr />
+<h2 id="contexto">Contexto</h2>
+<ul>
+<li><strong>Descrição da Verificação:</strong> Este documento visa inspecionar os léxicos desenvolvidos</li>
+<li><strong>Técnica utilizada:</strong> Inspeção</li>
+<li><strong>Documento inspecionado:</strong> Léxicos</li>
+<li><strong>Autores do documento:</strong> Bruno Ricardo, Miguel Moreira, Vinícius de Oliveira Santos</li>
+<li><strong>Inspetor:</strong> Gabriela Tiago</li>
+</ul>
+<hr />
+<h2 id="criterios-do-checklist">Critérios do Checklist</h2>
+<ol>
+<li>
+<p><strong>Completude:</strong></p>
+<ul>
+<li>Todos os termos necessários foram identificados e descritos?</li>
+<li>Os relacionamentos entre os léxicos estão claros e bem definidos?</li>
+<li>As definições estão claras e sem ambiguidades?</li>
+</ul>
+</li>
+<li>
+<p><strong>Consistência:</strong></p>
+<ul>
+<li>Os termos seguem um padrão de descrição (nome, definição, sinônimos, etc.)?</li>
+<li>Os termos estão sendo utilizados de forma consistente ao longo do documento?</li>
+</ul>
+</li>
+<li>
+<p><strong>Linguagem:</strong></p>
+<ul>
+<li>As definições são claras e objetivas, acessíveis a todos os stakeholders?</li>
+<li>A linguagem está apropriada ao nível de formalidade exigido?</li>
+<li>Não há termos duplicados ou ambiguidade no documento?</li>
+</ul>
+</li>
+<li>
+<p><strong>Usabilidade:</strong></p>
+<ul>
+<li>O documento é organizado e facilita a consulta e o entendimento dos léxicos?</li>
+<li>Há exemplos que ajudam a entender termos mais complexos?</li>
+</ul>
+</li>
+<li>
+<p><strong>Aprovação dos Stakeholders:</strong></p>
+<ul>
+<li>O documento reflete as necessidades e expectativas dos stakeholders?</li>
+<li>O documento foi revisado e aprovado pelos stakeholders antes da validação final?</li>
+</ul>
+</li>
+</ol>
+<p><br /></p>
+<h2 id="modelo-de-verificacao">Modelo de Verificação</h2>
+<h3 id="titulo-do-lexico">[Título do Léxico]</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim/Não</td>
+<td>[Comentário opcional sobre o título]</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim/Não</td>
+<td>[Comentário opcional sobre o objetivo]</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim/Não</td>
+<td>[Comentário opcional sobre o contexto]</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim/Não</td>
+<td>[Comentário opcional sobre os atores]</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim/Não</td>
+<td>[Comentário opcional sobre os recursos]</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h2 id="verificacao">Verificação</h2>
+<h3 id="ajuda">Ajuda</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Ajuda" está bem definido, cobrindo a seção e a função no aplicativo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Ajuda" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas ao contexto do aplicativo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para ajudar na compreensão.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="aplicacao">Aplicação</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Aplicação" está bem definido, abrangendo o software disponível em diferentes plataformas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Aplicação" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto do software.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para ajudar na compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="avatar">Avatar</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Avatar" está bem definido, cobrindo a imagem ou ícone representativo do usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Avatar" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto da plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="comentarios">Comentários</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Comentários" está bem definido, cobrindo o feedback dos usuários sobre diversos aspectos da plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Comentários" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto da plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="compartilhar">Compartilhar</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Compartilhar" está bem definido, abrangendo o ato de tornar conquistas públicas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Compartilhar" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de redes sociais e interação.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="conquistas">Conquistas</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Conquistas" está bem definido, abrangendo reconhecimentos especiais e marcas de progresso.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Conquistas" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de motivação e feedback positivo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="conta">Conta</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Conta" está bem definido, abrangendo o perfil individual criado para acesso ao Duolingo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Conta" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de acesso e personalização.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="configuracoes">Configurações</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Configurações" está bem definido, abrangendo opções de personalização do aplicativo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Configurações" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de personalização do aplicativo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="cristais">Cristais</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Cristais" está bem definido, abrangendo a moeda virtual usada para compras e recompensas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Cristais" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de moedas virtuais e recompensas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="cursos">Cursos</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Cursos" está bem definido, abrangendo programas de estudo em diferentes idiomas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Cursos" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto educacional e de aprendizado de idiomas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="divisao">Divisão</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Divisão" está bem definido, abrangendo categorias de competição no ranking.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Divisão" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de competição e engajamento.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="duolingo">Duolingo</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Duolingo" está bem definido, abrangendo a plataforma de aprendizado de idiomas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Duolingo" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de plataformas digitais e aprendizado.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="falar">Falar</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Falar" está bem definido, abrangendo a habilidade de produzir sons e palavras.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Falar" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de habilidades linguísticas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="guia-da-unidade">Guia da Unidade</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Guia da Unidade" está bem definido, abrangendo uma visão geral dos tópicos e objetivos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Guia da Unidade" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de planejamento e organização de estudo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="inscricao">Inscrição</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Inscrição" está bem definido, abrangendo o processo de cadastro e criação de conta.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Inscrição" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de cadastro e personalização.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="licao">Lição</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Lição" está bem definido, abrangendo atividades interativas e módulos de aprendizado.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Lição" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de ensino e avaliação.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="login">Login</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Login" está bem definido, abrangendo a ação de acessar uma conta e autenticar o usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Login" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de acesso e autenticação.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="meta">Meta</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Meta" está bem definido, abrangendo objetivos de diferentes períodos e práticas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Meta" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de objetivos e progresso.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="missao">Missão</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Missão" está bem definido, abrangendo tarefas e objetivos específicos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Missão" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para o contexto de tarefas e objetivos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e inclui exemplos relevantes para a compreensão do termo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="nivel">Nível</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Nível" está bem definido, abrangendo o progresso e habilidades adquiridas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Nível" segue um padrão consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e apropriadas para medir o progresso e habilidades.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e a definição do termo é de fácil compreensão.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="notificacoes">Notificações</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Notificações" abrange alertas e lembretes enviados ao usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo é consistente em suas definições e sinônimos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>As definições são claras e relevantes para a funcionalidade de alertas e mensagens.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O documento é organizado e as definições são facilmente compreensíveis.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="ofensiva">Ofensiva</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo "Ofensiva" se refere a uma sequência de dias consecutivos de estudo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo é consistente com o conceito de manter uma sequência de atividades.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição é clara e relevante para o contexto do Duolingo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>A tabela está organizada e as definições são compreensíveis.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O termo foi revisado e aprovado conforme as necessidades dos stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="ouvir">Ouvir</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Ouvir" está completo e abrange todos os aspectos necessários para a compreensão auditiva.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a habilidade de ouvir no contexto de aprendizado de idiomas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é apropriada e clara para descrever a habilidade de ouvir.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil e aplicável para atividades que envolvem a prática de compreensão auditiva.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a habilidade de ouvir.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<hr />
+<h3 id="podio">Pódio</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Pódio" está completo e aborda claramente a posição de destaque no ranking.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de estar entre os três primeiros lugares.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a posição de destaque no ranking.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a posição de destaque e é aplicável ao contexto de rankings e competitividade.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a ideia de reconhecimento e motivação.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="pontuacao">Pontuação</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Pontuação" está completo e descreve claramente o sistema de contagem de pontos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de registrar e refletir o progresso.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a contagem e registro de pontos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a métrica de pontos e sua aplicação no contexto de aprendizado.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de pontos acumulados.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="posicoes-da-divisao">Posições da Divisão</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Posições da Divisão" está completo e descreve claramente os lugares ocupados na divisão.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de posições baseadas na pontuação.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever as posições dentro de uma divisão.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever o status dos usuários e seu feedback dentro da divisão.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de posições e classificações.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="preferencias">Preferências</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Preferências" está completo e descreve claramente as configurações de personalização.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de personalizar a experiência do usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever as configurações do usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a personalização da interface e notificações do aplicativo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de opções de personalização.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="privacidade">Privacidade</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Privacidade" está completo e descreve claramente as práticas de proteção de dados.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de proteger informações pessoais.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever as políticas de privacidade.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a segurança e a confiança relacionadas ao uso da plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a proteção de dados dos usuários.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="ranking">Ranking</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Ranking" está completo e descreve claramente a tabela classificatória.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de classificação com base na pontuação.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a tabela de classificação.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever o sistema de ranking e a motivação para os usuários.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a tabela classificatória.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="reacao">Reação</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Reação" está completo e descreve claramente a resposta ou comentário dado a atividades.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de expressar opiniões e interagir.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a resposta ou comentário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a interação social e o apoio na plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a ação de comentar e interagir.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="recompensa">Recompensa</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Recompensa" está completo e descreve claramente os prêmios dados ao usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de premiar por completar missões.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever as recompensas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever as motivações e incentivos para os usuários.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de recompensas.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="revisar-licao">Revisar (Lição)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Revisar (Lição)" está completo e descreve claramente a atividade de revisar conteúdos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de reforçar o conhecimento.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a revisão de lições.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a importância da revisão para a retenção de informações.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de revisão.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="schools">Schools</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Schools" está completo e descreve claramente a versão do Duolingo para ambientes escolares.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de monitorar o progresso dos alunos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a plataforma educacional.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a integração do aprendizado no currículo escolar.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o uso do Duolingo em escolas.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="secao">Seção</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Seção" está completo e descreve claramente as partes do curso de idiomas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de segmentar o aprendizado em partes.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a estrutura do curso.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a organização e progressão do conteúdo do curso.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a estrutura do curso.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="seguindo">Seguindo</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Seguindo" está completo e descreve claramente os usuários que um usuário escolheu acompanhar.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de interações e acompanhamento entre usuários.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever as conexões entre usuários.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever as interações sociais e comparações de progresso.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente as conexões entre usuários.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="seguidores">Seguidores</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Seguidores" está completo e descreve claramente os usuários que acompanham outro usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de construção de uma rede de apoio e competição.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever os usuários que seguem outro usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a rede de apoio e interação social.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a rede de seguidores.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="suporte">Suporte</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Suporte" está completo e descreve claramente a ajuda disponível para os usuários.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de assistência para resolver problemas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever o suporte oferecido.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a assistência e suporte para os usuários.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a ajuda disponível</td>
+</tr>
+</tbody>
+</table>
+<h3 id="super">Super</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Super" está completo e descreve claramente a versão premium do Duolingo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de benefícios adicionais e adesão ao serviço premium.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever o serviço premium.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever as vantagens e incentivos associados ao Duolingo Plus.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a versão premium do aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="titas-licao">Titãs (Lição)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Titãs (Lição)" está completo e descreve claramente os usuários de alto nível.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de desafios e objetivos avançados.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever usuários desafiadores.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever o nível de dificuldade e o desafio adicional.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de usuários avançados.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="traduzir-licao">Traduzir (Lição)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Traduzir (Lição)" está completo e descreve claramente a atividade de tradução.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de praticar tradução entre idiomas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a atividade de tradução.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever o desenvolvimento de habilidades de tradução e compreensão.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a prática de tradução.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="unidade">Unidade</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Unidade" está completo e descreve claramente os grupos de lições.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de segmentar o aprendizado.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever os grupos de lições.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a estrutura do curso e a progressão do aprendizado.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a estrutura do curso.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="usuario">Usuário</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Usuário" está completo e descreve claramente a pessoa com conta no Duolingo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de um indivíduo que usa a plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever um indivíduo na plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a interação do usuário com a plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de usuário.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="vidas">Vidas</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Vidas" está completo e descreve claramente a quantidade de tentativas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de limitar tentativas e criar um desafio.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever as tentativas permitidas.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever o sistema de tentativas e a experiência do usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de tentativas.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="widget-do-duolingo">Widget do Duolingo</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Widget do Duolingo" está completo e descreve claramente a ferramenta para acesso rápido.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de facilitar o acesso ao Duolingo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever o mini-aplicativo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a conveniência e engajamento proporcionado pelo widget.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente a função do widget.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="xp">XP</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "XP" está completo e descreve claramente os pontos de experiência acumulados.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de refletir progresso e motivação.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever pontos de experiência.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever o sistema de pontos e progresso do usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de pontos de experiência.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="congelar">Congelar</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Congelar" está completo e descreve claramente a ação de proteger a ofensiva diária.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de manter a sequência de estudo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever a proteção da sequência de estudo.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a manutenção da motivação e engajamento.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de congelar a ofensiva diária.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="nickname">Nickname</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Critérios</th>
+<th style="text-align: center;">Atende</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1. Completude</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico "Nickname" está completo e descreve claramente o nome ou pseudônimo escolhido.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2. Consistência</td>
+<td style="text-align: center;">Sim</td>
+<td>A definição e o impacto são consistentes com a ideia de personalização e privacidade.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3. Linguagem</td>
+<td style="text-align: center;">Sim</td>
+<td>A linguagem utilizada é clara e apropriada para descrever o nome escolhido.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4. Usabilidade</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é útil para descrever a personalização e expressão do usuário na plataforma.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5. Aprovação dos Stakeholders</td>
+<td style="text-align: center;">Sim</td>
+<td>O léxico é aprovado pelos stakeholders, refletindo adequadamente o conceito de nickname.</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
